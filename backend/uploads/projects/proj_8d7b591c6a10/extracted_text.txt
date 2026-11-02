@@ -1,0 +1,153 @@
+
+
+=== mirofish_seed_portugal_students.md ===
+# Seed Data: Educational Tool Needs of Portugal-Based Students
+
+**Purpose:** Seed document for a Mirofish simulation of 10,000 Portugal-based students. Goal: find out which educational tools and features students need, what they would use and pay for, and what Magic Book Technologies should build.
+
+**Language / market note:** All agents are in Portugal and use European Portuguese (PT-PT), not Brazilian Portuguese. Use Portuguese school terms (ano, ciclo, exames nacionais, explicações, explicador, média, acesso ao ensino superior).
+
+---
+
+## 1. Verified market context (grounded in public sources)
+
+**Private tutoring (explicações) is a large, exam-driven market**
+- About 20% of students aged 6–18 in Portugal attend explicações outside school, roughly 200,000 students. The market moves over €30M per month. Source: Fundação "la Caixa" Observatório Social study, "O mercado das explicações na Península Ibérica".
+- Incidence peaks in secondary school: about 1 in 3 students (33%). Exam preparation is a main motivation. Weaker students and students who have failed a year are more likely to take explicações. Same study.
+- Wealthier families spend about 28% more on explicações than financially struggling families, so access is unequal. Same study.
+- A platform called Fixando reports a 65% rise in demand for national-exam tutoring in 2024/25, with over 53% of those students attending more than once a week (reported by Empreendedor.com). Treat as a single-platform indicator, not a national statistic.
+
+**National exams drive student behaviour**
+- Three national exams remain mandatory for higher-education access. Exams now weigh 25% of the final subject grade (previously 30%). Source: RTP News.
+- Digital national exams are in a pilot phase; students are being given practice platforms ahead of them. Source: DNoticias.
+
+**AI is already part of how students study**
+- PISA 2025 (OECD) indicates almost half of Portuguese students already use AI to study, and most say they check the answers AI gives them. Source: RFM, reporting PISA 2025 data.
+
+**Digital equipment is widespread but learning impact is unproven**
+- The Digital School programme distributed 362,867 kits to students and 83,662 to teachers. An evaluation (Portugal 2020) found that using digital tools in class does not by itself significantly improve student success, and that changing teaching methods remains uncommon.
+- A survey of 2,041 Portuguese primary and secondary students (Cid, Coppi, Fialho, Monteiro, Leite) found the main perceived advantage of digital platforms is easy access to educational information. The main difficulties are platform malfunction and internet access. Younger students mostly use platforms to access content; older students use them to communicate and create content.
+
+**Teachers' digital skills are intermediate**
+- A DigCompEdu study of 170,000+ teachers in Spain and Portugal (RIED, 2026) found most at intermediate level (B1–B2). Their weakest area is developing students' own digital competence (critical literacy, online safety).
+
+---
+
+## 2. Population design for 10,000 agents
+
+> The percentages below are **design assumptions** for the simulation, not official statistics. Adjust to match INE / DGEEC / PORDATA figures if you want closer realism.
+
+**Education level**
+| Segment | Share |
+|---|---|
+| 2.º ciclo (5.º–6.º ano) | 12% |
+| 3.º ciclo (7.º–9.º ano) | 25% |
+| Secundário, científico-humanístico (10.º–12.º) | 28% |
+| Secundário, cursos profissionais | 8% |
+| Ensino superior, licenciatura | 20% |
+| Ensino superior, mestrado | 7% |
+
+For 2.º/3.º ciclo agents, include a parent/guardian voice (encarregado de educação) on purchase decisions.
+
+**Other variables to vary across agents**
+- Region: Lisboa/AML, Norte (Porto), Centro, Alentejo, Algarve, Açores, Madeira; urban vs. rural/interior
+- Household income: low / middle / high (affects ability to pay for explicações and tools)
+- Device and connectivity: shared device vs. own laptop/tablet; reliable vs. patchy internet
+- Academic profile: struggling / average / high achiever / exam-anxious
+- Explicações: currently attends / used to / never; weekly spend
+- AI attitude: heavy user / occasional / sceptical / avoids it (school rules, cheating worries)
+- Special needs: dyslexia, ADHD, other learning support; Portuguese as second language (migrant students, including Brazilian, Ukrainian, PALOP, Chinese)
+- Habits: paper notebooks vs. fully digital; phone-first vs. laptop-first
+- Willingness to pay: free only / small one-off / monthly subscription / family-paid
+
+**Include sceptics deliberately.** Current feedback on our products is only positive, so at least 25–30% of agents should be neutral, critical or unwilling to pay.
+
+---
+
+## 3. Candidate tool concepts to test (hypotheses, not findings)
+
+Agents should react to, rank, and suggest changes to these, and propose their own.
+
+1. **National exam prep studio.** Past-exam practice, step-by-step solutions, exam-style marking, mock digital exams in the pilot format.
+2. **AI tutor in PT-PT.** Explains concepts at the student's level, grounded in the Portuguese curriculum, shows reasoning, cites the source for its answers.
+3. **Affordable explicações alternative.** AI tutoring plus optional human explicador marketplace, priced below typical private tutoring.
+4. **Notebook scan to study content** (MagicBook-style). Photograph handwritten or printed notes, get summaries, flashcards, quizzes.
+5. **Homework helper.** Guides the student through steps instead of giving answers.
+6. **Adaptive practice and weak-spot finder.** Diagnoses gaps by subject and topic, builds a practice plan.
+7. **Spaced-repetition flashcards and memorisation tools.**
+8. **Study planner and exam-countdown coach.** Includes focus timers and workload balancing.
+9. **Média and university-access calculator.** Simulates internal grade + exam weights, shows achievable courses and entry grades.
+10. **Exam-anxiety and wellbeing support.** Calm-down routines, study-stress check-ins.
+11. **Accessibility pack.** Dyslexia-friendly text, read-aloud, speech-to-text, simplified explanations.
+12. **Lecture/class summariser** (for higher education). Audio-to-notes, slide summaries.
+13. **Writing and thesis assistant** (for higher education). Structure, referencing, plagiarism-safe feedback.
+14. **Peer study rooms.** Group sessions, shared notes, study streaks.
+15. **Parent/guardian dashboard.** Progress view, with privacy limits for older students.
+16. **Portuguese-language support** for students who are new to the language.
+
+---
+
+## 4. Questions every agent must answer
+
+1. What are your top 3 study struggles right now (by subject and by task type)?
+2. Which tools do you use today (school platforms, YouTube, ChatGPT or other AI, explicações, apps, textbooks) and what do you like or dislike about each?
+3. Rate each candidate concept (Section 3): need (1–5), would you use it weekly (yes/no), and what is missing.
+4. Which single tool would you adopt first, and why?
+5. What would make you stop using it or distrust it (wrong answers, cheating risk, privacy, ads, cost, school disapproval)?
+6. How much would you or your family pay per month: €0, up to €5, €5–10, €10–20, over €20? Compared with what you currently spend on explicações?
+7. Which features must be free?
+8. What device and connectivity constraints would affect use?
+9. How do you want AI to behave (give answers vs. coach; strictness about honesty; tone)?
+10. What would you want the tool to do that nothing today does?
+
+---
+
+## 5. Required output report
+
+Ask Mirofish to produce:
+
+**Quantitative**
+- Ranked list of the 16 concepts by need score and weekly-use intent, overall and by segment (level, region, income, AI attitude)
+- Willingness-to-pay distribution and price-sensitivity curve by segment
+- Adoption blockers ranked by frequency
+- Top 10 requested features outside our list
+
+**Qualitative**
+- Student personas (5–8) with needs, objections and trigger moments (exam season, failed test, etc.)
+- Concept-by-concept feedback: what to build, what to change, what to drop
+- Recommended MVP (3–5 features) and a phased roadmap
+- Positioning and messaging that resonates in Portugal (including school and parent trust)
+- Risks: cheating perception, GDPR and minors' data, school-policy conflicts, AI answer quality
+- Differences between segments that change the product (e.g. 9.º ano vs. 12.º ano vs. university)
+
+---
+
+## 6. Simulation guardrails
+
+- Agents speak and think as realistic Portuguese students; not all are tech-enthusiastic and not all are positive.
+- Keep agent responses consistent with their profile (income, region, grades, devices).
+- Do not assume students will pay just because they like a tool; separate "nice to have" from "would pay for it."
+- Where agents disagree, preserve the disagreement in the report rather than averaging it away.
+- Flag results as simulated opinion, to be validated with a real student survey or interviews (suggest 30–50 interviews in Lisboa, Porto, one interior region).
+
+---
+
+## 7. Known gaps (fill before or after the run)
+
+- Official student counts per level and region (INE / DGEEC / PORDATA) to calibrate agent shares
+- Actual tutoring prices per hour by subject and level
+- Competing products' pricing in Portugal (school-linked platforms, tutoring marketplaces, general AI chat apps)
+- School and ministry policy on AI use in homework and exams (changes quickly)
+- Real student interview data to validate simulated outputs
+
+---
+
+## Sources
+- Fundação "la Caixa" Observatório Social, "O mercado das explicações na Península Ibérica" (press release)
+- Empreendedor.com, report on Fixando data: demand for exam tutoring 2024/25
+- RFM, "Quase metade dos alunos portugueses já usa IA para estudar" (PISA 2025)
+- RTP Notícias, mandatory national exams and exam weight changes
+- DNoticias, digital national exam pilot
+- Portugal 2020, evaluation of contribution to digitalisation of education
+- Cid, Coppi, Fialho, Monteiro, Leite, "Usos de plataformas e tecnologias digitais por estudantes portugueses" (MAGIS, 2024)
+- RIED 28(1), DigCompEdu study of Spanish and Portuguese teachers (2026)

@@ -1,0 +1,463 @@
+{
+  "project_id": "proj_37ca119a0eb8",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-10-15T10:05:25.049244",
+  "updated_at": "2026-10-15T10:06:57.921461",
+  "files": [
+    {
+      "filename": "Magicboard Mirofish.pdf",
+      "size": 9294401
+    }
+  ],
+  "total_text_length": 8119,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "SchoolTeacher",
+        "description": "A classroom educator in Brazil testing, evaluating, and adopting classroom tools.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name or professional moniker of the teacher"
+          },
+          {
+            "name": "teaching_subject",
+            "type": "text",
+            "description": "Subject taught, such as Portuguese, Math, History, or Sciences"
+          },
+          {
+            "name": "school_network_type",
+            "type": "text",
+            "description": "Type of school network, such as municipal public, state public, private, or federal"
+          }
+        ],
+        "examples": [
+          "Professora Maria Silva",
+          "Prof. João Santos"
+        ]
+      },
+      {
+        "name": "SchoolLeader",
+        "description": "A pedagogical coordinator, school principal, or director managing academic operations.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the coordinator or school director"
+          },
+          {
+            "name": "leadership_role",
+            "type": "text",
+            "description": "Administrative position, such as Coordenador Pedagógico or Diretor Escolar"
+          },
+          {
+            "name": "institution_affiliation",
+            "type": "text",
+            "description": "School or educational unit where the leader works"
+          }
+        ],
+        "examples": [
+          "Coordenadora Ana Paula",
+          "Diretor Carlos Eduardo"
+        ]
+      },
+      {
+        "name": "SpecialEducationExpert",
+        "description": "An AEE specialist, psycho-pedagogue, or inclusion professional managing PEI and accessibility.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the specialized educator or accessibility consultant"
+          },
+          {
+            "name": "specialization_area",
+            "type": "text",
+            "description": "Domain of expertise, such as autism (TEA), ADHD (TDAH), dyslexia, or assistive tech"
+          },
+          {
+            "name": "professional_credential",
+            "type": "text",
+            "description": "Professional title or certification, such as AEE Specialist or Neuropsychopedagogue"
+          }
+        ],
+        "examples": [
+          "Especialista Juliana Ramos (AEE)",
+          "Psicopedagoga Renata Mello"
+        ]
+      },
+      {
+        "name": "EducationInfluencer",
+        "description": "A content creator, pedagogical blogger, or digital educator sharing tips on social media.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Name or online handle of the educational content creator"
+          },
+          {
+            "name": "platform_channel",
+            "type": "text",
+            "description": "Primary social media channel, such as Instagram, YouTube, or TikTok"
+          },
+          {
+            "name": "content_focus",
+            "type": "text",
+            "description": "Primary pedagogical focus, such as EdTech tips, BNCC lesson planning, or literacy"
+          }
+        ],
+        "examples": [
+          "Professor Criativo Online",
+          "Canal Pedagogia na Prática"
+        ]
+      },
+      {
+        "name": "School",
+        "description": "A basic education institution, including municipal, state, federal, or private schools.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Official name of the school institution"
+          },
+          {
+            "name": "jurisdiction_type",
+            "type": "text",
+            "description": "Governance type, such as Public Municipal, Public State, Federal IF, or Private"
+          },
+          {
+            "name": "geographic_region",
+            "type": "text",
+            "description": "Geographical region in Brazil, such as Northeast, Southeast, North, South, or Central-West"
+          }
+        ],
+        "examples": [
+          "E.E. Professora Maria da Glória",
+          "Colégio Santo Agostinho"
+        ]
+      },
+      {
+        "name": "EducationSecretariat",
+        "description": "A municipal or state education agency overseeing curricula compliance, procurement, and policy.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Official name of the secretariat, such as SEDUC or SEMED"
+          },
+          {
+            "name": "administrative_level",
+            "type": "text",
+            "description": "Administrative authority level, either Municipal or State"
+          },
+          {
+            "name": "state_code",
+            "type": "text",
+            "description": "Federation unit abbreviation, such as SP, BA, CE, or AM"
+          }
+        ],
+        "examples": [
+          "SEDUC-SP",
+          "SEMED Manaus"
+        ]
+      },
+      {
+        "name": "EdTechCompany",
+        "description": "A commercial technology company providing software, AI platforms, or digital tools for schools.",
+        "attributes": [
+          {
+            "name": "company_name",
+            "type": "text",
+            "description": "Commercial name of the technology vendor"
+          },
+          {
+            "name": "flagship_product",
+            "type": "text",
+            "description": "Primary application or service offered, such as MagicBoard or Canva for Education"
+          },
+          {
+            "name": "business_tier",
+            "type": "text",
+            "description": "Primary monetization model, such as Freemium, Direct-to-Teacher SaaS, or B2G Contract"
+          }
+        ],
+        "examples": [
+          "MagicBoard EdTech",
+          "Canva Educação"
+        ]
+      },
+      {
+        "name": "TeacherUnion",
+        "description": "A labor union or collective association advocating for educators' labor rights and conditions.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Official acronym or name of the union"
+          },
+          {
+            "name": "labor_jurisdiction",
+            "type": "text",
+            "description": "Territorial or institutional coverage, such as state-wide, municipal, or federal"
+          },
+          {
+            "name": "advocacy_scope",
+            "type": "text",
+            "description": "Primary agenda, such as workload reduction, salary floor, or tech surveillance"
+          }
+        ],
+        "examples": [
+          "APEOESP",
+          "CNTE"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Fallback entity for any natural person not classified into specialized teacher or leader roles.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the individual"
+          },
+          {
+            "name": "occupation",
+            "type": "text",
+            "description": "General profession or social role, such as Student, Parent, or Software Developer"
+          },
+          {
+            "name": "public_bio",
+            "type": "text",
+            "description": "Brief description or background of the person"
+          }
+        ],
+        "examples": [
+          "Lucas Lima (Estudante)",
+          "Clara Fontes (Mãe de Aluno)"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Fallback entity for any organizational body not classified into specialized education bodies.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Official registered or common name of the entity"
+          },
+          {
+            "name": "organization_category",
+            "type": "text",
+            "description": "Category of entity, such as Non-Profit Foundation, Parent Association, or Media Outlet"
+          },
+          {
+            "name": "location_city",
+            "type": "text",
+            "description": "City where headquarters or operations are based"
+          }
+        ],
+        "examples": [
+          "Associação de Pais e Mestres",
+          "Fundação Lemann"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "EVALUATES",
+        "description": "A teacher or specialist tests, reviews, or rates a software tool or edtech provider.",
+        "source_targets": [
+          {
+            "source": "SchoolTeacher",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "SpecialEducationExpert",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "SchoolLeader",
+            "target": "EdTechCompany"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "EMPLOYED_BY",
+        "description": "An educational professional holds an employment or contractual tie with a school or board.",
+        "source_targets": [
+          {
+            "source": "SchoolTeacher",
+            "target": "School"
+          },
+          {
+            "source": "SchoolLeader",
+            "target": "School"
+          },
+          {
+            "source": "SpecialEducationExpert",
+            "target": "School"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "REGULATES",
+        "description": "An education secretariat enforces compliance, curriculum alignment, or approval policies.",
+        "source_targets": [
+          {
+            "source": "EducationSecretariat",
+            "target": "School"
+          },
+          {
+            "source": "EducationSecretariat",
+            "target": "EdTechCompany"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "RECOMMENDS",
+        "description": "An actor positively endorses a tool, methodology, or colleague to peers.",
+        "source_targets": [
+          {
+            "source": "SchoolTeacher",
+            "target": "SchoolTeacher"
+          },
+          {
+            "source": "SchoolLeader",
+            "target": "SchoolTeacher"
+          },
+          {
+            "source": "EducationInfluencer",
+            "target": "EdTechCompany"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "CRITIQUES",
+        "description": "An actor voices concerns, skepticism, or opposition regarding usability, cost, or ethics.",
+        "source_targets": [
+          {
+            "source": "SchoolTeacher",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "TeacherUnion",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "SpecialEducationExpert",
+            "target": "EdTechCompany"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "COLLABORATES_WITH",
+        "description": "Educators or organizations share materials, discuss lesson plans, or coordinate workflows.",
+        "source_targets": [
+          {
+            "source": "SchoolTeacher",
+            "target": "SchoolTeacher"
+          },
+          {
+            "source": "SchoolLeader",
+            "target": "SchoolTeacher"
+          },
+          {
+            "source": "School",
+            "target": "EducationSecretariat"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "ADVISES",
+        "description": "A pedagogical leader or inclusion expert provides guidance to teachers regarding teaching practices.",
+        "source_targets": [
+          {
+            "source": "SchoolLeader",
+            "target": "SchoolTeacher"
+          },
+          {
+            "source": "SpecialEducationExpert",
+            "target": "SchoolTeacher"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "REPRESENTS_INTERESTS_OF",
+        "description": "A union or collective association advocates for the labor and legal rights of teachers.",
+        "source_targets": [
+          {
+            "source": "TeacherUnion",
+            "target": "SchoolTeacher"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      }
+    ]
+  },
+  "analysis_summary": "The ontology is designed to simulate a realistic social debate across 1,000+ Brazilian educators evaluating MagicBoard. It captures classroom practitioners across diverse public and private realities, pedagogical leaders who guide school adoptions, AEE specialists assessing neurodiversity features, education secretariats enforcing BNCC compliance, teacher unions guarding working conditions, edtech vendors, and influencers who drive online discourse. Two mandatory fallback entities ensure comprehensive entity resolution.",
+  "graph_id": "mirofish_a69a577284214194",
+  "graph_build_task_id": "39496f25-336a-42ce-8724-4a9e076fceb9",
+  "zep_batch_id": "67a29b6f-3511-42d0-80b1-f973d4d6ff9b",
+  "zep_batch_operation_id": "060c057168a5c164adcd495eafbc8666685e08f27df77094d7f46bc194554d65",
+  "simulation_requirement": "SIMULATION GOAL\r\nSimulate a panel of 1,000+ Brazilian teachers evaluating MagicBoard, an AI platform for teachers (described in the seed document). Produce an evidence-based report on what teachers need, what to change, and what to add or remove.\r\n\r\nPRODUCT UNDER REVIEW (from seed)\r\nLições Mágicas (AI lesson plans with slides and step-by-step plan), Aula ao Vivo (live-class mode with timed stages and an AI assistant), Geração de Slides (editable, shareable with students), Sala de Aula (virtual classroom, quick assessments, grades, class average), Geração de Avaliações (true/false, open, multiple choice, fill-in-the-blank, scoring), Correção de Provas (upload rubric + exam + one answer sheet per student; AI grades), Digitalização (OCR of handwritten notebooks), Assistente de IA do Professor (chat, mind maps, exercises, rubrics), Perfis de Acessibilidade (autism, ADHD, dyslexia, dyscalculia, intellectual disability, giftedness, speech/language, visual, auditory).\r\n\r\nAGENT POPULATION (1,000+ teachers across Brazil)\r\nVary realistically on:\r\n- Region: all 5 (North, Northeast, Central-West, Southeast, South), capital vs interior vs rural.\r\n- School type: public municipal/state, private, bilingual, technical/IF, EJA, special-education (AEE) rooms.\r\n- Level: Educação Infantil, Fundamental I, Fundamental II, Ensino Médio.\r\n- Subject: Portuguese, Math, Sciences, History, Geography, English/Spanish, Arts, PE, others.\r\n- Age/experience: under 25 to 60+, and digital comfort (low/medium/high).\r\n- Workload: 20 to 60+ hours/week, multiple schools, large classes (30-45 students).\r\n- Infrastructure: reliable internet vs unstable, device (phone only vs laptop), school projector/lab availability.\r\n- AI attitude: enthusiast, curious, skeptical, resistant (job fear, cheating fear, trust).\r\n- Pay situation: pays out of pocket vs school-provided tools vs only free tools.\r\nInclude a meaningful share of public-school teachers with limited connectivity and phone-first usage; do not skew toward tech-savvy private-school teachers.\r\n\r\nCONTEXT TO MODEL\r\n- Alignment with BNCC and state/municipal curricula is critical for adoption.\r\n- The product serves both Portugal and Brazil. The seed's demo content is European Portuguese; Brazilian teachers reportedly don't mind. Do not treat this as a problem. Mention it only if agents raise it unprompted.\r\n- Daily tools and habits: WhatsApp (parent and class groups), Google Classroom, Google Slides/Docs, Canva, ChatGPT/Gemini, Khan Academy, Mentimeter, school diaries/portals, Prova Brasil/SAEB preparation, ENEM preparation, bimestral assessments, conselho de classe, planos de aula and planejamento anual reporting.\r\n- Rules and concerns: LGPD and student data, school or secretariat approval for tools, cheating and academic integrity, AI errors/hallucinations, inclusion law (LBI) and AEE/PEI (individualized education plan) requirements.\r\n- Competing alternatives: free general chatbots, Canva Magic, MagicSchool-type tools, local EdTech, publisher platforms.\r\n\r\nSIMULATION STAGES\r\n1. First impression: each teacher explores the product walkthrough and reacts (clarity, trust, \"would I try this on Monday?\").\r\n2. Scenario testing: each teacher attempts tasks from their real week:\r\n   - Prepare a 50-minute lesson on a BNCC-aligned topic.\r\n   - Create and grade a bimestral exam for 35-40 students.\r\n   - Adapt a lesson for a student with dyslexia, ADHD or autism.\r\n   - Digitize handwritten student notebooks.\r\n   - Teach live with unstable internet.\r\n   - Share materials with students and parents.\r\n3. Peer interaction: teachers discuss in WhatsApp-style groups, school staff rooms and online teacher communities. Model word-of-mouth, skepticism and influence of coordinators/principals.\r\n4. Decision: adopt, trial, or reject. Model free vs paid, school vs personal purchase, and what would flip each decision.\r\n\r\nWHAT EACH TEACHER MUST PRODUCE\r\n- Overall rating (1-10) and reasons.\r\n- Per-feature rating (1-10) for each of the 9 features: usefulness, ease, trust.\r\n- Top 3 pains this solves and top 3 frustrations/blockers.\r\n- Missing features and integrations they want.\r\n- Features they would not use or find unnecessary.\r\n- Willingness to pay and acceptable price (monthly/annual, per teacher vs per school).\r\n- Likelihood to recommend (0-10).\r\n\r\nFINAL REPORT FORMAT\r\n1. Executive summary (5-8 lines).\r\n2. Teacher requirements: ranked list of needs, segmented by region, school type, level and digital comfort, with how many agents voiced each need.\r\n3. Product assessment: table of the 9 features with average score, spread, top praise, top complaint, keep/improve/remove recommendation.\r\n4. Changes needed to existing features: specific, prioritized (must-fix, should-fix, nice-to-have), with expected impact.\r\n5. New features and integrations to add: ranked by demand, effort-vs-impact, with example user quotes.\r\n6. Features to remove or de-emphasize and why.\r\n7. Brazil localization checklist: language (pt-BR vs pt-PT), BNCC, content examples, regional relevance.\r\n8. Adoption analysis: segments most likely to adopt first, barriers (connectivity, trust, school approval, price), and what messaging works per segment.\r\n9. Pricing and channel signals: who pays, acceptable price ranges, school/secretariat vs direct-to-teacher.\r\n10. Risks: data privacy, cheating/integrity, AI accuracy, inclusion misuse, job-displacement fears.\r\n11. Quantitative summary: score distributions, adoption %, willingness to pay by segment, NPS-style figure.\r\n12. Confidence and limits: flag which findings are well supported across many agents and which are speculative.\r\n\r\nPRICING DISCOVERY\r\nPricing is not set; the product is launching and there is no real teacher feedback yet. Cost-to-serve is driven mainly by AI usage. Each teacher must state:\r\n- Whether they would pay at all, and what they would pay (monthly/annual, per teacher vs per school).\r\n- Free vs paid tier preferences, and which features justify paying.\r\n- Usage limits they would accept (e.g. generations per month).\r\n- What would make them switch from free tools like ChatGPT, Gemini or Canva.\r\nThe report must give price bands by segment (region, school type, level), the share of teachers willing to pay at each price point, and whether schools or teachers are the more realistic payer.\r\n\r\nRULES\r\n- Do not make all teachers positive. Reflect realistic skepticism, resistance, and indifference.\r\n- Ground opinions in the seed document and realistic Brazilian classroom constraints; do not invent product features that aren't in the seed.\r\n- Where the seed lacks data (pricing, curriculum coverage, offline support, parent features), treat it as unknown and report it as a gap rather than assuming.\r\n- Include dissenting minority views, not just the majority.",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

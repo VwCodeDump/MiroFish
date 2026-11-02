@@ -1,0 +1,710 @@
+
+
+=== mirofish_seed_portugal_students.md ===
+# Seed Data: Educational Tool Needs of Portugal-Based Students
+
+**Purpose:** Seed document for a Mirofish simulation of 10,000 Portugal-based students. Goal: find out which educational tools and features students need, what they would use and pay for, and what Magic Book Technologies should build.
+
+**Language / market note:** All agents are in Portugal and use European Portuguese (PT-PT), not Brazilian Portuguese. Use Portuguese school terms (ano, ciclo, exames nacionais, explicações, explicador, média, acesso ao ensino superior).
+
+---
+
+## 1. Verified market context (grounded in public sources)
+
+**Private tutoring (explicações) is a large, exam-driven market**
+- About 20% of students aged 6–18 in Portugal attend explicações outside school, roughly 200,000 students. The market moves over €30M per month. Source: Fundação "la Caixa" Observatório Social study, "O mercado das explicações na Península Ibérica".
+- Incidence peaks in secondary school: about 1 in 3 students (33%). Exam preparation is a main motivation. Weaker students and students who have failed a year are more likely to take explicações. Same study.
+- Wealthier families spend about 28% more on explicações than financially struggling families, so access is unequal. Same study.
+- A platform called Fixando reports a 65% rise in demand for national-exam tutoring in 2024/25, with over 53% of those students attending more than once a week (reported by Empreendedor.com). Treat as a single-platform indicator, not a national statistic.
+
+**National exams drive student behaviour**
+- Three national exams remain mandatory for higher-education access. Exams now weigh 25% of the final subject grade (previously 30%). Source: RTP News.
+- Digital national exams are in a pilot phase; students are being given practice platforms ahead of them. Source: DNoticias.
+
+**AI is already part of how students study**
+- PISA 2025 (OECD) indicates almost half of Portuguese students already use AI to study, and most say they check the answers AI gives them. Source: RFM, reporting PISA 2025 data.
+
+**Digital equipment is widespread but learning impact is unproven**
+- The Digital School programme distributed 362,867 kits to students and 83,662 to teachers. An evaluation (Portugal 2020) found that using digital tools in class does not by itself significantly improve student success, and that changing teaching methods remains uncommon.
+- A survey of 2,041 Portuguese primary and secondary students (Cid, Coppi, Fialho, Monteiro, Leite) found the main perceived advantage of digital platforms is easy access to educational information. The main difficulties are platform malfunction and internet access. Younger students mostly use platforms to access content; older students use them to communicate and create content.
+
+**Teachers' digital skills are intermediate**
+- A DigCompEdu study of 170,000+ teachers in Spain and Portugal (RIED, 2026) found most at intermediate level (B1–B2). Their weakest area is developing students' own digital competence (critical literacy, online safety).
+
+---
+
+## 2. Population design for 10,000 agents
+
+> The percentages below are **design assumptions** for the simulation, not official statistics. Adjust to match INE / DGEEC / PORDATA figures if you want closer realism.
+
+**Education level**
+| Segment | Share |
+|---|---|
+| 2.º ciclo (5.º–6.º ano) | 12% |
+| 3.º ciclo (7.º–9.º ano) | 25% |
+| Secundário, científico-humanístico (10.º–12.º) | 28% |
+| Secundário, cursos profissionais | 8% |
+| Ensino superior, licenciatura | 20% |
+| Ensino superior, mestrado | 7% |
+
+For 2.º/3.º ciclo agents, include a parent/guardian voice (encarregado de educação) on purchase decisions.
+
+**Other variables to vary across agents**
+- Region: Lisboa/AML, Norte (Porto), Centro, Alentejo, Algarve, Açores, Madeira; urban vs. rural/interior
+- Household income: low / middle / high (affects ability to pay for explicações and tools)
+- Device and connectivity: shared device vs. own laptop/tablet; reliable vs. patchy internet
+- Academic profile: struggling / average / high achiever / exam-anxious
+- Explicações: currently attends / used to / never; weekly spend
+- AI attitude: heavy user / occasional / sceptical / avoids it (school rules, cheating worries)
+- Special needs: dyslexia, ADHD, other learning support; Portuguese as second language (migrant students, including Brazilian, Ukrainian, PALOP, Chinese)
+- Habits: paper notebooks vs. fully digital; phone-first vs. laptop-first
+- Willingness to pay: free only / small one-off / monthly subscription / family-paid
+
+**Include sceptics deliberately.** Current feedback on our products is only positive, so at least 25–30% of agents should be neutral, critical or unwilling to pay.
+
+---
+
+## 3. Candidate tool concepts to test (hypotheses, not findings)
+
+Agents should react to, rank, and suggest changes to these, and propose their own.
+
+1. **National exam prep studio.** Past-exam practice, step-by-step solutions, exam-style marking, mock digital exams in the pilot format.
+2. **AI tutor in PT-PT.** Explains concepts at the student's level, grounded in the Portuguese curriculum, shows reasoning, cites the source for its answers.
+3. **Affordable explicações alternative.** AI tutoring plus optional human explicador marketplace, priced below typical private tutoring.
+4. **Notebook scan to study content** (MagicBook-style). Photograph handwritten or printed notes, get summaries, flashcards, quizzes.
+5. **Homework helper.** Guides the student through steps instead of giving answers.
+6. **Adaptive practice and weak-spot finder.** Diagnoses gaps by subject and topic, builds a practice plan.
+7. **Spaced-repetition flashcards and memorisation tools.**
+8. **Study planner and exam-countdown coach.** Includes focus timers and workload balancing.
+9. **Média and university-access calculator.** Simulates internal grade + exam weights, shows achievable courses and entry grades.
+10. **Exam-anxiety and wellbeing support.** Calm-down routines, study-stress check-ins.
+11. **Accessibility pack.** Dyslexia-friendly text, read-aloud, speech-to-text, simplified explanations.
+12. **Lecture/class summariser** (for higher education). Audio-to-notes, slide summaries.
+13. **Writing and thesis assistant** (for higher education). Structure, referencing, plagiarism-safe feedback.
+14. **Peer study rooms.** Group sessions, shared notes, study streaks.
+15. **Parent/guardian dashboard.** Progress view, with privacy limits for older students.
+16. **Portuguese-language support** for students who are new to the language.
+
+---
+
+## 4. Questions every agent must answer
+
+1. What are your top 3 study struggles right now (by subject and by task type)?
+2. Which tools do you use today (school platforms, YouTube, ChatGPT or other AI, explicações, apps, textbooks) and what do you like or dislike about each?
+3. Rate each candidate concept (Section 3): need (1–5), would you use it weekly (yes/no), and what is missing.
+4. Which single tool would you adopt first, and why?
+5. What would make you stop using it or distrust it (wrong answers, cheating risk, privacy, ads, cost, school disapproval)?
+6. How much would you or your family pay per month: €0, up to €5, €5–10, €10–20, over €20? Compared with what you currently spend on explicações?
+7. Which features must be free?
+8. What device and connectivity constraints would affect use?
+9. How do you want AI to behave (give answers vs. coach; strictness about honesty; tone)?
+10. What would you want the tool to do that nothing today does?
+
+---
+
+## 5. Required output report
+
+Ask Mirofish to produce:
+
+**Quantitative**
+- Ranked list of the 16 concepts by need score and weekly-use intent, overall and by segment (level, region, income, AI attitude)
+- Willingness-to-pay distribution and price-sensitivity curve by segment
+- Adoption blockers ranked by frequency
+- Top 10 requested features outside our list
+
+**Qualitative**
+- Student personas (5–8) with needs, objections and trigger moments (exam season, failed test, etc.)
+- Concept-by-concept feedback: what to build, what to change, what to drop
+- Recommended MVP (3–5 features) and a phased roadmap
+- Positioning and messaging that resonates in Portugal (including school and parent trust)
+- Risks: cheating perception, GDPR and minors' data, school-policy conflicts, AI answer quality
+- Differences between segments that change the product (e.g. 9.º ano vs. 12.º ano vs. university)
+
+---
+
+## 6. Simulation guardrails
+
+- Agents speak and think as realistic Portuguese students; not all are tech-enthusiastic and not all are positive.
+- Keep agent responses consistent with their profile (income, region, grades, devices).
+- Do not assume students will pay just because they like a tool; separate "nice to have" from "would pay for it."
+- Where agents disagree, preserve the disagreement in the report rather than averaging it away.
+- Flag results as simulated opinion, to be validated with a real student survey or interviews (suggest 30–50 interviews in Lisboa, Porto, one interior region).
+
+---
+
+## 7. Known gaps (fill before or after the run)
+
+- Official student counts per level and region (INE / DGEEC / PORDATA) to calibrate agent shares
+- Actual tutoring prices per hour by subject and level
+- Competing products' pricing in Portugal (school-linked platforms, tutoring marketplaces, general AI chat apps)
+- School and ministry policy on AI use in homework and exams (changes quickly)
+- Real student interview data to validate simulated outputs
+
+---
+
+## Sources
+- Fundação "la Caixa" Observatório Social, "O mercado das explicações na Península Ibérica" (press release)
+- Empreendedor.com, report on Fixando data: demand for exam tutoring 2024/25
+- RFM, "Quase metade dos alunos portugueses já usa IA para estudar" (PISA 2025)
+- RTP Notícias, mandatory national exams and exam weight changes
+- DNoticias, digital national exam pilot
+- Portugal 2020, evaluation of contribution to digitalisation of education
+- Cid, Coppi, Fialho, Monteiro, Leite, "Usos de plataformas e tecnologias digitais por estudantes portugueses" (MAGIS, 2024)
+- RIED 28(1), DigCompEdu study of Spanish and Portuguese teachers (2026)
+
+=== Magicbook_Functional_Report_Miro_Fish_EN.pdf ===
+FUNCTIONAL
+REPORT
+AI-powered educational application — student experience and teacher tools
+Recipient: Miro Fish
+Product: Magicbook / educational application
+Date: October 30, 2026
+Basis of analysis: screenshots provided by the user
+Document purpose
+To provide a structured description of the application's observable features, user journeys, data
+involved, AI interactions, inferred business rules, and the points that need clariﬁcation or validation
+during speciﬁcation and implementation.
+1. Executive summary
+The application is positioned as an AI-powered learning environment that transforms handwritten notes
+and study materials into organised digital content and learning activities. The main observed workﬂow
+is: the student scans a page, reviews the extracted text, links it to a subject and chapter, and can then
+view a digitised version, request explanations, generate study materials, or interact with the AiA
+assistant.
+The experience also includes standalone tools — ﬂashcards, quizzes, mind maps, a semantic checker,
+and an essay checker —, organisation by subjects and chapters, day-based study paths, and a class area
+with presentations and assessments. The screenshots also show an onboarding ﬂow that collects the
+student's preferences and difﬁculties to personalise the experience.
+Area
+Main capability
+Role in the product
+Onboarding
+Collection of proﬁle, country,
+preferences, and difﬁculties
+Personalise content and
+recommendations
+Scanning/OCR
+Capture, recognition, and
+review of notes
+Convert physical content into
+usable content
+Organisation
+Subjects, chapters, and pages
+Create context and a knowledge
+structure
+AI study tools
+Explain, summarise, and
+generate ﬂashcards, quizzes,
+and mind maps
+Support understanding,
+revision, and practice
+AiA
+Context-aware conversational
+assistant
+Guide learning based on the
+student's notes
+Assessment
+Quizzes with feedback and
+essay checking
+Measure performance and
+provide guidance
+Teacher/class
+Classes, presentations, and
+assessments
+Provide materials and activities
+to students
+
+Learning path
+Sequence of activities with
+statuses and locked stages
+Guide progress throughout the
+learning process
+2. Scope, assumptions and limitations of the analysis
+This report describes only what is visible in the screenshots and organises the functional workﬂows that
+can reasonably be inferred from them.
+It is not assumed that all screens or features are available in production, across all platforms, or for
+every user proﬁle.
+The teacher area is represented by a list of classes, presentations, and assessments; insufﬁcient
+screenshots were provided to specify class creation/editing, student management, publishing, or results
+analysis.
+The onboarding ﬂow and some screens are in English, while others are in Portuguese. The application
+should have a consistent localisation strategy.
+Access rules, usage limits, pricing, permissions, data retention, and external integrations cannot be
+conﬁrmed from the screenshots alone.
+Convention: when a rule is not explicitly demonstrated, it is identiﬁed as a recommendation or an item
+to be conﬁrmed, rather than as functionality that has already been implemented.
+3. User proﬁles
+3.1 Student
+The primary user, who scans notes, organises subjects, studies with AI support, completes quizzes, and
+tracks learning progress.
+3.2 Teacher
+A user who manages classes and provides presentations and assessments. The screenshots conﬁrm the
+display of classes, subjects/grade levels, presentations with slide counts, and assessments with a start
+action.
+3.3 Academic context
+The application links content to subjects and chapters and shows examples of education levels and
+curriculum contexts from Portugal and Brazil. The country and educational pathway should inﬂuence
+personalisation, although the full rule set is not visible.
+4. Student onboarding and personalisation
+The onboarding ﬂow progressively collects information, using a progress bar and questions presented
+by the AiA mascot.
+Observed step
+Data/options
+Functional purpose
+Country
+Portugal (editable)
+Select the curriculum, language,
+and educational context
+How do you learn best?
+Visual, auditory, reading and
+writing, hands-on practice
+Adapt formats and study
+suggestions
+What matters most?
+Improve grades, study faster,
+catch up
+Identify the main goal
+What is holding you back at
+school?
+Procrastination, exam stress,
+memory, understanding,
+knowing what to study
+Identify difﬁculties and
+personalise support
+Personal data
+Full name and date of birth
+Personalisation, identiﬁcation,
+and age-appropriate adaptation
+Functional requirements
+Allow users to select one or multiple preferences when the screen presents multiple options.
+Allow users to edit the selected country and validate required information before completion.
+Save the answers to the student's proﬁle and make them available to the personalisation engine.
+
+Use the date of birth to calculate the user's age without unnecessarily exposing this information in the
+interface.
+Allow users to review or change their preferences later in their proﬁle settings.
+Items to validate
+Determine whether learning preferences are treated as self-reported preferences, rather than as a
+diagnosis or ﬁxed classiﬁcation of the student.
+Deﬁne consent, parental information, and the processing of minors' data in accordance with the relevant
+market and applicable legislation.
+Ensure that country, interface language, content language, and school curriculum are treated as separate
+ﬁelds where necessary.
+5. Navigation and main structure
+The observed bottom navigation includes ﬁve entries:
+Entry
+Observed/inferred function
+Home
+Access to the home area and a summary of the
+student's work.
+Subjects
+Subject list and organisation; includes controls to
+expand/collapse and reorder.
+Central scan button
+Main action to start capturing a page.
+AiA
+Access to the conversational learning assistant.
+Menu
+Access to other areas and settings; content not
+visible in the screenshots.
+The subject list includes examples such as Geography, Psychology, Chemistry, Biology, Law,
+Literature, Mathematics, and Medicine. A “+” button is available to add subjects.
+Functional requirements
+Create, edit, add, reorder, and expand/collapse subjects.
+Each subject should allow chapters and scanned pages to be linked to it.
+Keep navigation consistent across Home, Subjects, scanning, AiA, and Menu.
+Deﬁne empty states for users who have no subjects or content.
+6. Smart scanning and OCR
+Scanning is the product's main entry point. The welcome screen offers three free scans using any page
+from any notebook so users can try the application. After this limit, the displayed message indicates
+unlimited use with compatible Jandaia notebooks.
+6.1 Observed functional workﬂow
+The student starts scanning using the central button or the “Scan now” action.
+The application opens the camera and displays visual guidance for framing the page.
+The page is captured and the system displays a processing state (“Reading your page…”).
+OCR extracts the handwritten and/or printed content.
+The user is taken to a review screen (“Review the text”), where they can check and correct the extracted
+content.
+After conﬁrming, the student links the page to a subject and a chapter.
+The page then becomes available within the subject/chapter context.
+6.2 Review of extracted text
+The review screen displays the recognised text in an editable ﬁeld and explains that the user should
+check and correct the content before proceeding.
+Allow OCR errors to be corrected before generating any derived content.
+Preserve paragraphs, headings, lists, numbering, symbols, and hierarchy where recognised.
+
+Save the corrected version as the primary source for subsequent features.
+Allow users to cancel or go back without losing the capture, requesting conﬁrmation when changes
+have been made.
+6.3 Linking to a subject and chapter
+The “Save to your notebook” screen displays the page image and two ﬁelds: Subject and Chapter. The
+user conﬁrms the association.
+Allow users to select an existing subject and chapter.
+Allow users to create a new chapter if this is part of the product workﬂow.
+Allow users to change the association later.
+Save the original image, OCR text, reviewed version, and page metadata.
+6.4 Displayed access rules
+Observed rule
+Displayed behaviour
+Trial use
+3 free scans using any page/notebook.
+After the 3 scans
+Unlimited use indicated for compatible Jandaia
+notebooks.
+Alternative action
+“Not now” allows the user to postpone scanning.
+Notebook eligibility, brand identiﬁcation, and scan counting should be validated by the backend to
+prevent discrepancies between what the interface communicates and what the service authorises.
+7. Actions available after scanning
+After the page has been processed, the “What would you like to do with this page?” screen is displayed,
+with four main options:
+Action
+Functional description
+Expected result
+View scanned content
+Opens the OCR content
+organised within the chapter.
+Searchable text linked to the
+subject.
+Explain it to me
+The tutor explains the content
+step by step.
+A pedagogical explanation
+grounded in the source page.
+Generate content
+Transforms notes into complete
+content.
+Structured study material
+generated from the notes.
+Summarise
+Creates a quick overview.
+A summary faithful to the
+notes.
+The scanned-content screen displays the subject, chapter, a “Back to original page” action, a copy
+control, and options such as “Use AI”, “Listen”, and “Voice note”, as well as navigation between pages
+in the chapter.
+Cross-functional requirements
+All generated responses must remain linked to the source page and text.
+The AI must distinguish information explicitly present in the notes from supplementary information.
+When the image or OCR output is insufﬁcient, the system must indicate uncertainty instead of
+inventing content.
+The listen option should provide text-to-speech; the voice note option should allow users to record
+spoken information, if this capability is enabled.
+Navigation between pages must follow the chapter order and indicate the current position.
+8. AiA learning assistant
+AiA is presented as a conversational assistant that understands the student's context. In the example, it
+greets the student by name, says it has read their Geography notes, and asks what they would like to
+work on.
+8.1 Quick suggestions
+
+Create a quiz about the subject or topic.
+Create ﬂashcards.
+Explain a concept.
+Summarise the subject matter.
+Suggest what might appear in the exam.
+8.2 Open-ended interaction
+The “Ask for anything” input allows users to type a question, use the microphone, and send a message.
+The “+” button suggests additional actions or attachments, although the details are not visible.
+8.3 Persistent quick actions
+Shortcuts for Quiz, Flashcards, and Mind Map are displayed, with horizontal scrolling available to
+access other tools.
+Functional and AI requirements
+Use the selected subject, chapter, and pages as the conversation context.
+Allow the student to explicitly specify another subject or ask questions without preselected context.
+Provide quick suggestions that are relevant to the available content.
+Maintain conversation history and allow users to resume a session.
+Support text and voice input, with clear recording, transcription, sending, and error states.
+Generate responses appropriate to the student's education level and language/curriculum.
+When a student asks for exam predictions, present them as revision suggestions, never as guarantees
+about what will be assessed.
+9. AI-generated study tools
+9.1 Flashcards
+Flashcards are displayed as cards containing an illustrative image, a question/concept, and an
+instruction to tap to reveal the answer. Progress is shown (e.g. “Card 1 of 10”) along with a percentage
+bar.
+Generate a set of cards from a page, chapter, subject, or topic.
+Display one question or concept at a time and reveal the answer through user interaction.
+Allow users to move forward/backward and track progress.
+Save the set and allow users to resume it.
+Validate answer accuracy and the quality of generated or selected images.
+9.2 Quiz
+The quiz displays one question at a time, answer options, numerical and percentage progress, a
+conﬁrmation button, and an option to exit/delete the session.
+Display a readable question and clearly labelled answer options (A, B, C, D).
+Allow users to select an option and submit their answer.
+Immediately display correct/incorrect feedback, the correct answer, and an explanation.
+Move to the next question and calculate the ﬁnal result.
+Save attempts and performance if activity history is part of the product.
+Critical quality observation
+In one screenshot, option A is highlighted in green and marked with a check, but the panel below
+displays “Incorrect” while also stating “Almost, the correct answer is A”. This combination is
+contradictory. It should be investigated as a possible grading-logic error, a mismatch between the
+selected answer and the answer key, or an incorrect visual feedback state. Testing the consistency
+between the selected option, correct answer, colour/icon, and explanatory text is a priority.
+9.3 Mind maps
+The application generates mind maps from the student's notes. The European Union Law example
+shows a central node with branches for the European Union in numbers, curriculum, bibliography, key
+
+legislation, and online resources.
+Generate a hierarchical structure of concepts and sub-concepts.
+Maintain coherent semantic relationships and preserve the source topics.
+Allow users to view the map in full screen, zoom in/out, and pan.
+Allow users to regenerate and save the map, and ideally export or share it.
+Avoid excessive text in nodes and use readable hierarchy levels.
+10. Writing checkers and assessment
+10.1 Essay checker
+The observed workﬂow allows the user to select a topic and submit an essay by taking a photo or
+uploading a PDF. The next screen displays a processing state (“Correcting your essay…”).
+The displayed result includes a title, word and paragraph counts, an overall score (example: 940),
+general feedback, strengths, and text analysis.
+Allow users to select or conﬁrm the essay topic.
+Accept photos and PDFs; validate format, quality, and legibility.
+Extract handwritten or digital text and allow recognition errors to be identiﬁed.
+Assess the essay using a conﬁgurable rubric appropriate to the selected exam/market.
+Display the score, general feedback, strengths, areas for improvement, and practical recommendations.
+Identify the assessment criteria and explain how each criterion contributes to the score.
+Do not present a score as ofﬁcial if it is an AI-generated estimate.
+10.2 Semantic checker
+The screen displays a text containing identiﬁed issues and highlighted passages. The user is instructed
+to tap a highlighted passage to understand why it was ﬂagged.
+Identify potentially problematic passages in study texts.
+Highlight the passage within its original context.
+When tapped, explain why the passage was ﬂagged and suggest a rewording or correction.
+Distinguish between factual errors, inaccuracies, contradictions, ambiguity, redundancy, and language
+issues.
+Allow users to accept, reject, or edit suggestions.
+Item to validate: determine whether the semantic checker is intended for notes, answers, academic
+texts, or all these content types, and deﬁne the analysis criteria for each case.
+11. Academic organisation: subjects, chapters, and pages
+The application organises information by subject and chapter. The subjects area allows users to add and
+reorder subjects. Scanned content is linked to a chapter and can be viewed as individual pages.
+Entity
+Suggested functional ﬁelds/concepts
+Subject
+Name, icon, optional colour, display order,
+education level/grade.
+Chapter
+Name, linked subject, order, content, and status.
+Page
+Original image, OCR text, reviewed text, capture
+date, chapter, source.
+Generated resource
+Type (summary, quiz, ﬂashcards, mind map),
+source, date, version.
+It is recommended that every generated resource retain references to its source material, allowing
+students to return to the notes from which the content was created.
+12. Learning path and progress
+One screenshot shows a visual day-by-day learning path associated with a topic (“Evolution and natural
+selection”). Day 2 shows completed Flashcards and a Quiz as the next activity; Day 3 shows a locked
+
+activity.
+Represent activities in a learning sequence organised by day or stage.
+Display distinct states: completed, next, available, locked, and not started.
+Visually highlight the next activity.
+Link each activity to a subject and topic.
+Deﬁne unlocking conditions, such as completion of the previous activity or an availability date.
+Allow users to resume the learning path and preserve their progress.
+Item to conﬁrm: whether the learning path is generated automatically based on the difﬁculties and goals
+identiﬁed during onboarding, created by the teacher, or conﬁgured by the student.
+13. Classes, presentations, and assessments area
+The “My Classes” area displays a list of classes with their name, subject, grade level, and the label
+“Powered by Magicboard”. A “+” button is available to add a class.
+13.1 Class content
+When a class is opened, the interface displays two sections:
+Presentations: cards with a thumbnail, title, slide count, and access to the content.
+Assessments: assessment activities with a title and a “Start” action.
+13.2 Requirements to be speciﬁed
+Deﬁne teacher and student roles and permissions.
+Specify how a class is created, how students join, and how they are linked to a subject/grade level.
+Deﬁne how presentations are published, updated, and removed.
+Deﬁne whether assessments have deadlines, attempt limits, duration limits, immediate feedback, and
+results.
+Specify whether results are individual, aggregated by class, or both.
+Documentation for this area is partial, as the screenshots mainly show the viewing of classes,
+presentations, and assessments, rather than administration workﬂows.
+14. End-to-end workﬂows
+Workﬂow A — Scan and study notes
+Open the application and select a subject (or create one).
+Tap the central scan button.
+Capture the page and wait for OCR processing.
+Review and correct the extracted text.
+Select a subject and chapter, then conﬁrm.
+Choose to view the scanned content, request an explanation, generate content, or create a summary.
+Use the content to create ﬂashcards, a quiz, or a mind map.
+Save the materials and return to them later.
+Workﬂow B — Study with guidance from AiA
+Open AiA with a subject or content item already selected.
+The assistant presents the context and quick suggestions.
+The student chooses a quiz, ﬂashcards, an explanation, a summary, or an open-ended question.
+The AI generates a response based on the available sources.
+The student interacts, receives feedback, and can generate a new activity.
+Workﬂow C — Check an essay
+Open the Essay Checker.
+Select the topic.
+Take a photo or upload a PDF.
+Submit and wait for processing.
+
+Review the score, feedback, strengths, and recommendations.
+Workﬂow D — Study through a learning path
+Open the subject/topic learning path.
+View the current activity and the next activity.
+Complete the ﬂashcards, quiz, or another activity.
+Receive a status update and unlock the next stage.
+15. Data, context, and proposed functional architecture
+The following logical structure is a proposal to guide implementation; it is not a conﬁrmed description
+of the existing technical architecture.
+Logical object
+Responsibility
+User/Proﬁle
+Identity, date of birth, country, language, and
+preferences.
+LearningProﬁle
+Goals, self-reported difﬁculties, and learning
+preferences.
+Subject
+The student's subjects.
+Chapter
+Content units within a subject.
+SourcePage
+Captured image, metadata, and extracted/
+reviewed text.
+GeneratedResource
+Summary, explanation, quiz, ﬂashcards, or mind
+map.
+Attempt/Answer
+Answers, feedback, score, and activity history.
+StudyPath/Step
+Sequence, status, unlocking, and progress.
+Class/Presentation/Assessment
+Structures for the teacher and class experience.
+Recommended technical principles
+Persist processing requests and the status of each OCR/AI stage so that processing can resume after
+failures.
+Use idempotency identiﬁers to prevent the same resource from being generated twice when requests are
+repeated.
+Store both the OCR text version and the version reviewed by the user.
+Record the model, version, prompt/template, and sources used for each generation to ensure
+traceability.
+Implement clear states: pending, processing, completed, failed, and eligible for retry.
+Enforce access control by user, class, and role.
+Deﬁne privacy, retention, and deletion policies for images, text, and minors' data.
+16. Non-functional requirements
+Dimension
+Recommendation
+Usability
+Consistent interfaces, loading states, actionable
+error messages, and accessibility.
+Performance
+Immediate feedback when OCR/AI starts;
+asynchronous processing for long-running tasks.
+Reliability
+Controlled retries, state persistence, and
+duplicate prevention.
+AI quality
+Source-grounded responses, uncertainty
+indicators, and continuous evaluation.
+Security
+Authentication, authorisation, ﬁle protection, and
+data segregation by user/class.
+
+Privacy
+Data minimisation, consent, and policies
+appropriate for minors and the markets served.
+Localisation
+Consistent translations and country-speciﬁc
+curriculum adaptation, without conﬂating
+language and curriculum.
+Observability
+Logs for processing, OCR errors, generation,
+latency, and user feedback.
+17. Key considerations and priority recommendations
+Priority
+Issue
+Recommended action
+P0
+Contradictory quiz feedback
+Test answer selection, answer
+key, visual state, and
+explanation; ﬁx the logic before
+scaling.
+P0
+OCR accuracy
+Implement quality validation
+and allow corrections before
+generating materials.
+P0
+AI response reliability
+Ground generated content in
+source material and ﬂag
+uncertainty or missing
+information.
+P1
+Inconsistent localisation
+Standardise language and
+regional variants across all
+screens.
+P1
+Scan limits
+Formalise counting rules,
+notebook eligibility, and
+backend/interface
+synchronisation.
+P1
+Progression and locked stages
+Deﬁne explicit unlocking rules
+and learning path states.
+P1
+Essay scoring
+Explain the rubric, criteria,
+estimated nature of the score,
+and limitations of automated
+assessment.
+P2
+Incomplete teacher area
+Document class, student,
+material, assessment, and
+results management.
+P2
+History and traceability
+Allow users to locate the
+original source of each
+generated resource and resume
+sessions.
+18. Cross-functional acceptance criteria
+The student can complete onboarding and later change the preferences that are editable.
+The student can create and organise subjects and link chapters to them.
+A captured page is processed, reviewed, and saved without losing the original image.
+The reviewed text is used as the source for all subsequent generations.
+All four post-scan actions work and retain a reference to the source page.
+
+Flashcards and quizzes display accurate progress and content consistent with the source.
+Quiz feedback always matches the selected answer and the answer key.
+The mind map maintains a clear and coherent hierarchy.
+AiA uses the correct context and does not mix subjects or users.
+The essay checker provides an explainable assessment, and the semantic checker explains every
+highlighted passage.
+Learning path states correctly reﬂect completion, the next activity, and locked stages.
+The classes area displays content only to authorised users.
+19. Open questions to ﬁnalise the speciﬁcation
+Is the application intended only for students, or also for teachers and parents/guardians?
+Is the learning path automatic, manual, or hybrid?
+Are the three free scans counted per account, device, time period, or installation?
+How is a compatible Jandaia notebook validated?
+Can generated materials be edited, exported, and shared?
+Does AiA retain memory across subjects and sessions? What context limits apply?
+What criteria and scoring scales does the essay checker use for each country/exam?
+Does the semantic checker analyse only notes, or also answers and free-form text?
+How are classes, presentations, and assessments created and managed?
+Which progress and performance metrics are displayed to students and teachers?
+20. Conclusion
+The screenshots reveal a product with an integrated value proposition: starting with content actually
+created by the student, digitising it, organising it, and turning it into AI-supported learning experiences.
+The differentiating element is not merely the generation of quizzes or summaries, but the connection
+between the original page, the academic context, the AiA assistant, and practice and assessment
+activities.
+To turn this experience into a development-ready speciﬁcation, the next steps are to formalise the
+business rules, states and permissions, data contracts, AI quality criteria, and the teacher-area
+workﬂows that have not yet been demonstrated. The contradictory quiz feedback issue requires
+immediate validation.
+Final note: This report is a functional analysis based on the visual evidence provided and should
+be validated with the product and engineering teams before being treated as a contractual
+speciﬁcation.

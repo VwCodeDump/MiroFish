@@ -1,0 +1,33 @@
+{
+  "report_id": "report_717d711d8f4a",
+  "simulation_id": "sim_e8d50922147e",
+  "graph_id": "mirofish_d0f31f0e122645be",
+  "simulation_requirement": "10000 portugal student \r\n\r\nWhat are there major concerns in education and how ai or any education tool can help the",
+  "status": "planning",
+  "outline": {
+    "title": "Future Forecast: The AI Shift in Portuguese Secondary Education",
+    "summary": "Pressured by high-stakes national exams and exorbitant private tutoring costs, Portuguese students will increasingly turn to AI as an affordable 24/7 study partner, fostering a culture of rigorous verification until localized, curriculum-aligned edtech emerges.",
+    "sections": [
+      {
+        "title": "The Socioeconomic Pressure Cooker: High-Stakes Exams and the Tutoring Divide",
+        "content": ""
+      },
+      {
+        "title": "The Rise of Autonomous AI Tutoring: Democratizing Late-Night Learning",
+        "content": ""
+      },
+      {
+        "title": "The 'Confia, mas Confirma' Paradigm: Coping with Generic Hallucinations",
+        "content": ""
+      },
+      {
+        "title": "The Market Shift Toward IAVE-Aligned and Textbook-Grounded EdTech",
+        "content": ""
+      }
+    ]
+  },
+  "markdown_content": "",
+  "created_at": "2026-10-31T23:17:16.761869",
+  "completed_at": "",
+  "error": null
+}

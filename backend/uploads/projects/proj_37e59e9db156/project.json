@@ -1,0 +1,431 @@
+{
+  "project_id": "proj_37e59e9db156",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-10-12T18:12:23.455312",
+  "updated_at": "2026-10-12T18:15:25.740115",
+  "files": [
+    {
+      "filename": "Magicboard_Service_Data_Indexes__A_Comprehensive_Technical_Guide_Report.txt",
+      "size": 9685
+    }
+  ],
+  "total_text_length": 9764,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "LaymanCitizen",
+        "description": "An ordinary Brazilian social media user or consumer experiencing the impacts of AI video tech.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "The individual's public name or social handle"
+          },
+          {
+            "name": "social_platform",
+            "type": "text",
+            "description": "Primary social media platform used (e.g., WhatsApp, TikTok)"
+          },
+          {
+            "name": "region_location",
+            "type": "text",
+            "description": "Geographic location or state within Brazil"
+          }
+        ],
+        "examples": [
+          "Brazilian WhatsApp User",
+          "Local Consumer from São Paulo"
+        ]
+      },
+      {
+        "name": "ContentCreator",
+        "description": "An influencer, digital artist, or video producer creating or discussing AI-generated video.",
+        "attributes": [
+          {
+            "name": "handle_name",
+            "type": "text",
+            "description": "Public channel handle or screen name"
+          },
+          {
+            "name": "subscriber_count",
+            "type": "text",
+            "description": "Audience reach scale such as micro, macro, or viral influencer"
+          },
+          {
+            "name": "content_niche",
+            "type": "text",
+            "description": "Category of creative content produced"
+          }
+        ],
+        "examples": [
+          "TikTok Short-Form Video Creator",
+          "YouTube Tech Reviewer"
+        ]
+      },
+      {
+        "name": "Journalist",
+        "description": "A news reporter or investigative fact-checker covering digital media, scams, or AI tech.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Professional byline name"
+          },
+          {
+            "name": "press_affiliation",
+            "type": "text",
+            "description": "Associated newsroom or fact-checking agency"
+          },
+          {
+            "name": "coverage_beat",
+            "type": "text",
+            "description": "Reporting focus such as misinformation or digital culture"
+          }
+        ],
+        "examples": [
+          "Fact-Checking Reporter",
+          "National Tech Columnist"
+        ]
+      },
+      {
+        "name": "RegulatoryOfficial",
+        "description": "A government policymaker, judicial official, or regulator addressing AI policy and consumer risks.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Official legal name"
+          },
+          {
+            "name": "official_title",
+            "type": "text",
+            "description": "Government or judicial title"
+          },
+          {
+            "name": "governing_body",
+            "type": "text",
+            "description": "State department, electoral court, or regulatory board"
+          }
+        ],
+        "examples": [
+          "Electoral Court (TSE) Justice",
+          "Data Protection Authority (ANPD) Officer"
+        ]
+      },
+      {
+        "name": "TechDeveloper",
+        "description": "A software engineer, AI researcher, or model benchmark analyst evaluating text-to-video systems.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Professional name of the developer or researcher"
+          },
+          {
+            "name": "technical_domain",
+            "type": "text",
+            "description": "Area of specialization such as video metrics or multimodal models"
+          },
+          {
+            "name": "workplace",
+            "type": "text",
+            "description": "Employed lab, startup, or open-source community"
+          }
+        ],
+        "examples": [
+          "Computer Vision Engineer",
+          "Magicboard Benchmark Evaluator"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "A journalism agency, television network, or digital news publisher circulating information.",
+        "attributes": [
+          {
+            "name": "channel_name",
+            "type": "text",
+            "description": "Public name of the news organization or agency"
+          },
+          {
+            "name": "broadcast_reach",
+            "type": "text",
+            "description": "Audience size or distribution tier"
+          },
+          {
+            "name": "editorial_stance",
+            "type": "text",
+            "description": "Editorial focus regarding technology impact and consumer defense"
+          }
+        ],
+        "examples": [
+          "Agência Lupa",
+          "G1 News Portal",
+          "TV Globo"
+        ]
+      },
+      {
+        "name": "TechCompany",
+        "description": "A corporate enterprise or cloud vendor developing, serving, or hosting text-to-video AI models.",
+        "attributes": [
+          {
+            "name": "company_name",
+            "type": "text",
+            "description": "Brand or corporate trading name"
+          },
+          {
+            "name": "service_portfolio",
+            "type": "text",
+            "description": "Key generative video products or API index services"
+          },
+          {
+            "name": "headquarters",
+            "type": "text",
+            "description": "Corporate headquarters jurisdiction"
+          }
+        ],
+        "examples": [
+          "Magicboard Inc.",
+          "Generative Video Model Provider"
+        ]
+      },
+      {
+        "name": "CivilSocietyGroup",
+        "description": "A consumer protection group, NGO, or digital rights association advocating for public interest.",
+        "attributes": [
+          {
+            "name": "group_title",
+            "type": "text",
+            "description": "Official organization title"
+          },
+          {
+            "name": "advocacy_focus",
+            "type": "text",
+            "description": "Target advocacy topic like consumer protection or algorithmic justice"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "text",
+            "description": "Scope of advocacy operations"
+          }
+        ],
+        "examples": [
+          "Procon Consumer Defense",
+          "Intervozes Digital Rights Alliance"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Fallback individual entity for any natural person not covered by specific professional roles.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Identified person's name or public moniker"
+          },
+          {
+            "name": "occupation_label",
+            "type": "text",
+            "description": "Identified occupation or everyday societal role"
+          },
+          {
+            "name": "bio_note",
+            "type": "text",
+            "description": "General contextual description of the person"
+          }
+        ],
+        "examples": [
+          "Local High School Teacher",
+          "Anonymous Online Commenter"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Fallback entity for any corporate, community, or educational body not fitting specific types.",
+        "attributes": [
+          {
+            "name": "entity_label",
+            "type": "text",
+            "description": "Public or registered organization title"
+          },
+          {
+            "name": "industry_sector",
+            "type": "text",
+            "description": "Domain of operations"
+          },
+          {
+            "name": "region",
+            "type": "text",
+            "description": "Primary geographical location of operations"
+          }
+        ],
+        "examples": [
+          "Local Community Association",
+          "Regional Trade Guild"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "INFLUENCES",
+        "description": "Shapes the opinions, consumption habits, or media perception of another social actor.",
+        "source_targets": [
+          {
+            "source": "ContentCreator",
+            "target": "LaymanCitizen"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "LaymanCitizen"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "WARNS_ABOUT",
+        "description": "Alerts the public or authorities regarding deepfakes, scams, or unverified AI video outputs.",
+        "source_targets": [
+          {
+            "source": "Journalist",
+            "target": "LaymanCitizen"
+          },
+          {
+            "source": "CivilSocietyGroup",
+            "target": "LaymanCitizen"
+          },
+          {
+            "source": "CivilSocietyGroup",
+            "target": "RegulatoryOfficial"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "REGULATES",
+        "description": "Applies statutory oversight, electoral monitoring, or policy enforcement upon corporate entities.",
+        "source_targets": [
+          {
+            "source": "RegulatoryOfficial",
+            "target": "TechCompany"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "CRITICIZES",
+        "description": "Publicly calls out shortcomings in safety detection, transparency, or social impact.",
+        "source_targets": [
+          {
+            "source": "LaymanCitizen",
+            "target": "TechCompany"
+          },
+          {
+            "source": "CivilSocietyGroup",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Journalist",
+            "target": "TechCompany"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "DEBUNKS_CONTENT_OF",
+        "description": "Disproves synthetic media, fabricated narratives, or deceptive videos disseminated by an entity.",
+        "source_targets": [
+          {
+            "source": "Journalist",
+            "target": "ContentCreator"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "ContentCreator"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "EMPLOYED_BY",
+        "description": "Maintains an institutional or contractual employment relationship with an organization.",
+        "source_targets": [
+          {
+            "source": "TechDeveloper",
+            "target": "TechCompany"
+          },
+          {
+            "source": "Journalist",
+            "target": "MediaOutlet"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "RESPONDS_TO",
+        "description": "Provides formal explanations, statements, or counters to public scrutiny or regulatory mandates.",
+        "source_targets": [
+          {
+            "source": "TechCompany",
+            "target": "RegulatoryOfficial"
+          },
+          {
+            "source": "TechCompany",
+            "target": "LaymanCitizen"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      }
+    ]
+  },
+  "analysis_summary": "This ontology models the public opinion ecosystem in Brazil surrounding the arrival and evaluation of text-to-video generative AI models (such as those referenced in the Magicboard documentation). The framework centers on the tension between ordinary citizens vulnerable to hyper-realistic deepfakes or scams, local content creators adopting automated tools, investigative journalists and fact-checkers, regulators enforcing safety, and tech companies developing generative systems with immature safety filters.",
+  "graph_id": "mirofish_4a3438f420134a4f",
+  "graph_build_task_id": "6e1e7616-13bd-4742-b80d-6ec357edc7ec",
+  "zep_batch_id": "0c4d5f4e-c7ee-423b-a4a1-7eec59a15714",
+  "zep_batch_operation_id": "5c16a9ad5ab6a1649410e3fb4a9ca4126054812097747ab462bb566e6338022e",
+  "simulation_requirement": "how would the normal non technical lay man public of brazil(a 3rd world nation) would be impaced by this product",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

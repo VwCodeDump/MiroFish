@@ -1,0 +1,30 @@
+{
+  "simulation_id": "sim_1b7ac2bae73b",
+  "project_id": "proj_8d7b591c6a10",
+  "graph_id": "mirofish_63207e1a7d70421d",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "stopped",
+  "entities_count": 69,
+  "profiles_count": 69,
+  "entity_types": [
+    "EducationAuthority",
+    "School",
+    "EdTechCompany",
+    "Student",
+    "Organization",
+    "ParentGuardian",
+    "PrivateTutor",
+    "MediaOutlet",
+    "Person"
+  ],
+  "profiles_generated": true,
+  "config_generated": true,
+  "config_reasoning": "Time Config: The schedule is tailored to Portuguese secondary and higher education students (WET/UTC+0). In Portugal, students typically attend classes and study centers (explicações) between 08:30 and 18:00, where classroom device restrictions reduce non-curricular online activity, though institutional and media accounts remain active. Dinner is traditionally late (around 20:00-21:30), followed by an intensive late-night revision and homework window (21:00-01:00) where students actively turn to digital platforms, AI tools, and social debate. Deep night hours (01:00-07:00) exhibit minimal activity. | Event Config: The initial posts represent core stakeholders in Portugal's education ecosystem: students facing high-stakes exam pressure and generic AI flaws, media reporting on systemic data, schools sounding the alarm on digital divide infrastructure, EdTech firms proposing curriculum-aligned scaffolding, and parents feeling the financial strain of private tutoring. | Agent Config: 69 generated | Post Assignment: 5 posts assigned",
+  "current_round": 0,
+  "twitter_status": "not_started",
+  "reddit_status": "not_started",
+  "created_at": "2026-10-30T13:27:59.778178",
+  "updated_at": "2026-11-01T00:34:41.543831",
+  "error": "模拟进程已结束"
+}

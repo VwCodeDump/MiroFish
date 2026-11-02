@@ -1,0 +1,25 @@
+{
+  "simulation_id": "sim_8cd0fe084af9",
+  "project_id": "proj_fc28f61e2923",
+  "graph_id": "mirofish_83bebdc316b84a64",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "completed",
+  "entities_count": 15,
+  "profiles_count": 15,
+  "entity_types": [
+    "Organization",
+    "Person",
+    "RegulatoryAuthority",
+    "EdTechCompany"
+  ],
+  "profiles_generated": true,
+  "config_generated": true,
+  "config_reasoning": "Time Config: The simulation evaluates market reactions to EdTech products (MagicBook and Dino) in Portugal and Brazil. Peak activity aligns with evening study and family homework review hours (18:00-22:00 local time), when parents test apps with children and students digitize daily notes. Daytime work hours (09:00-17:00) represent classroom usage, teacher evaluations, partner discussions, and regulatory compliance considerations (LGPD/GDPR), while late-night hours (00:00-05:00) experience minimal interaction. | Event Config: The event configuration reflects the multi-stakeholder dynamic in Brazil and Portugal regarding MagicBook and Dino. Posts capture the company's value proposition, founder perspective, regulatory compliance under LGPD/GDPR, and retail distribution dynamics using only the exact allowed entity types. | Agent Config: 15 generated | Post Assignment: 5 posts assigned",
+  "current_round": 0,
+  "twitter_status": "not_started",
+  "reddit_status": "not_started",
+  "created_at": "2026-10-12T19:26:06.897448",
+  "updated_at": "2026-10-15T10:07:01.259544",
+  "error": null
+}

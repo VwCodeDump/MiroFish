@@ -1,0 +1,407 @@
+{
+  "project_id": "proj_8d7b591c6a10",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-10-30T13:23:19.787719",
+  "updated_at": "2026-10-30T13:27:08.815079",
+  "files": [
+    {
+      "filename": "mirofish_seed_portugal_students.md",
+      "size": 10232
+    }
+  ],
+  "total_text_length": 10183,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Student",
+        "description": "A Portuguese student from basic, secondary, or higher education voicing study concerns and needs.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name or social profile alias of the student"
+          },
+          {
+            "name": "education_cycle",
+            "type": "text",
+            "description": "Educational stage such as 2.º ciclo, 3.º ciclo, Secundário, or Ensino Superior"
+          },
+          {
+            "name": "region",
+            "type": "text",
+            "description": "Geographic district or region in Portugal, e.g., Lisboa, Porto, Centro, Alentejo"
+          }
+        ],
+        "examples": [
+          "Secundário Exam Taker in Porto",
+          "Licenciatura Student at ULisboa"
+        ]
+      },
+      {
+        "name": "ParentGuardian",
+        "description": "A parent or legal guardian (encarregado de educação) making educational purchase decisions.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Name or display handle of the parent or guardian"
+          },
+          {
+            "name": "household_income_level",
+            "type": "text",
+            "description": "Socioeconomic bracket affecting willingness to pay for tutoring and digital tools"
+          }
+        ],
+        "examples": [
+          "Lisbon Parent of 9th Grader",
+          "Guardian of 2.º Ciclo Student"
+        ]
+      },
+      {
+        "name": "Teacher",
+        "description": "A primary, secondary, or vocational school educator who instructs students and integrates tech.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name or title of the teacher"
+          },
+          {
+            "name": "subject_specialty",
+            "type": "text",
+            "description": "Primary disciplinary focus such as Mathematics, Portuguese, or Sciences"
+          },
+          {
+            "name": "digital_readiness_level",
+            "type": "text",
+            "description": "Proficiency level in using digital classroom platforms and AI tools"
+          }
+        ],
+        "examples": [
+          "Secundário Math Teacher",
+          "Físico-Química Docent"
+        ]
+      },
+      {
+        "name": "PrivateTutor",
+        "description": "An independent private tutor (explicador) offering tailored preparation for national exams.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Name or professional handle of the private tutor"
+          },
+          {
+            "name": "hourly_rate_tier",
+            "type": "text",
+            "description": "Fee category charged for individual or group tutoring sessions"
+          }
+        ],
+        "examples": [
+          "Independent Explicador de Matemática",
+          "Private National Exam Coach"
+        ]
+      },
+      {
+        "name": "EdTechCompany",
+        "description": "A commercial technology enterprise providing AI tutors, revision tools, or tutoring marketplaces.",
+        "attributes": [
+          {
+            "name": "brand_title",
+            "type": "text",
+            "description": "Official company or platform trade title"
+          },
+          {
+            "name": "product_offering",
+            "type": "text",
+            "description": "Core software offering such as notebook scanning, exam simulators, or AI coaching"
+          }
+        ],
+        "examples": [
+          "Magic Book Technologies",
+          "Fixando Tutoring Marketplace"
+        ]
+      },
+      {
+        "name": "School",
+        "description": "A public or private educational institution or university cluster operating in Portugal.",
+        "attributes": [
+          {
+            "name": "institution_title",
+            "type": "text",
+            "description": "Formal designation of the school cluster or university"
+          },
+          {
+            "name": "school_level",
+            "type": "text",
+            "description": "Category such as Agrupamento de Escolas or Ensino Superior"
+          }
+        ],
+        "examples": [
+          "Agrupamento de Escolas de Benfica",
+          "Universidade de Coimbra"
+        ]
+      },
+      {
+        "name": "EducationAuthority",
+        "description": "A governmental or regulatory body overseeing curriculum guidelines, exams, and digital tools.",
+        "attributes": [
+          {
+            "name": "agency_title",
+            "type": "text",
+            "description": "Formal agency or regulatory title"
+          },
+          {
+            "name": "administrative_scope",
+            "type": "text",
+            "description": "Jurisdiction area such as national assessment, digital curriculum, or accreditation"
+          }
+        ],
+        "examples": [
+          "Ministério da Educação",
+          "IAVE - Instituto de Avaliação Educativa"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "A news publication, television broadcaster, or digital portal reporting on educational trends.",
+        "attributes": [
+          {
+            "name": "channel_title",
+            "type": "text",
+            "description": "Publication or broadcaster brand title"
+          },
+          {
+            "name": "coverage_focus",
+            "type": "text",
+            "description": "Dominant reporting scope like youth culture, tech trends, or national education policy"
+          }
+        ],
+        "examples": [
+          "RTP Notícias",
+          "RFM Rádio"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Any individual actor or social media user who does not fit into specific educational roles.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Name or online alias of the individual"
+          },
+          {
+            "name": "profile_bio",
+            "type": "text",
+            "description": "General description or background of the individual commentator"
+          }
+        ],
+        "examples": [
+          "General Social Media Commenter",
+          "Educational Content Creator"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Any institutional entity or association not covered by specialized institutional types.",
+        "attributes": [
+          {
+            "name": "entity_label",
+            "type": "text",
+            "description": "Official title or identification of the organization"
+          },
+          {
+            "name": "mission_description",
+            "type": "text",
+            "description": "Primary purpose or operational scope of the organization"
+          }
+        ],
+        "examples": [
+          "Fundação 'la Caixa' Observatório Social",
+          "Student Union Association"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "STUDIES_AT",
+        "description": "Indicates that a student is actively enrolled at a school or university.",
+        "source_targets": [
+          {
+            "source": "Student",
+            "target": "School"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "GUARDIAN_OF",
+        "description": "Denotes legal guardianship and financial responsibility of a parent over a student.",
+        "source_targets": [
+          {
+            "source": "ParentGuardian",
+            "target": "Student"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "TEACHES_AT",
+        "description": "Denotes the institutional employment and teaching affiliation of an educator.",
+        "source_targets": [
+          {
+            "source": "Teacher",
+            "target": "School"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "TUTORS",
+        "description": "Identifies private tutoring services delivered outside regular school instruction.",
+        "source_targets": [
+          {
+            "source": "PrivateTutor",
+            "target": "Student"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "DEVELOPS_TOOL_FOR",
+        "description": "Specifies educational software or AI features engineered to serve student or teacher needs.",
+        "source_targets": [
+          {
+            "source": "EdTechCompany",
+            "target": "Student"
+          },
+          {
+            "source": "EdTechCompany",
+            "target": "Teacher"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "REGULATES",
+        "description": "Denotes regulatory oversight, curriculum mandates, or national examination rules.",
+        "source_targets": [
+          {
+            "source": "EducationAuthority",
+            "target": "School"
+          },
+          {
+            "source": "EducationAuthority",
+            "target": "EdTechCompany"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Indicates journalistic investigation, broadcast stories, or social publication.",
+        "source_targets": [
+          {
+            "source": "MediaOutlet",
+            "target": "EducationAuthority"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "School"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "Student"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "EVALUATES_TOOL",
+        "description": "Captures user feedback, criticism, or advocacy regarding educational software products.",
+        "source_targets": [
+          {
+            "source": "Student",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "ParentGuardian",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Teacher",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Person",
+            "target": "EdTechCompany"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      }
+    ]
+  },
+  "analysis_summary": "The ontology is designed to simulate social media discourse and market reactions among 10,000 Portuguese students, parents, educators, and institutions. It captures the tension between high-stakes national exams, the booming private tutoring (explicações) market, and emerging European Portuguese AI educational tools. Eight distinct operational roles reflect key stakeholders (students across cycles, parents holding purchasing power, teachers, tutors, edtech developers, schools, exam regulators, and media), grounded by Person and Organization fallback types.",
+  "graph_id": "mirofish_63207e1a7d70421d",
+  "graph_build_task_id": "7a062ae8-a34f-4ca7-b543-14c668b21327",
+  "zep_batch_id": "c5be7a3b-7685-4af7-99a3-d2233ab103ee",
+  "zep_batch_operation_id": "a003f6fbb0e4517dd73bf090827a9a8a20a2a95e750a050e68eed51e792fbfea",
+  "simulation_requirement": "10000 portugal student \r\n\r\nWhat are there major concerns in education and how ai or any education tool can help the",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

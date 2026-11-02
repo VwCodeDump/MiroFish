@@ -1,0 +1,23 @@
+{
+  "simulation_id": "sim_67ec22a01927",
+  "project_id": "proj_a2f07ebb8ec2",
+  "graph_id": "mirofish_de33983909f248db",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "completed",
+  "entities_count": 3,
+  "profiles_count": 3,
+  "entity_types": [
+    "Person",
+    "EdTechCompany"
+  ],
+  "profiles_generated": true,
+  "config_generated": true,
+  "config_reasoning": "Time Config: The 168-hour (7-day) timeline accurately reflects a full instructional and planning cycle for Brazilian educators across public and private systems. Brazilian teachers typically work split shifts (turnos da manhã e tarde) from 07:00 to 17:30 with limited personal screen time while managing crowded classrooms. Peak activity occurs during evening planning hours (19:00–22:00) when teachers grade exams, create lesson plans, and discuss tools in WhatsApp teacher groups, with off-peak rest periods between 00:00 and 05:00. | Event Config: This configuration sets up the core tensions outlined in the simulation brief: Magicboard promotes its complete EdTech toolset, while realistic teacher agents surface practical barriers including BNCC compliance, public school infrastructural limits, LGPD compliance for student data, and resistance to paying out-of-pocket. | Agent Config: 3 generated | Post Assignment: 4 posts assigned",
+  "current_round": 0,
+  "twitter_status": "not_started",
+  "reddit_status": "not_started",
+  "created_at": "2026-10-15T14:14:41.173998",
+  "updated_at": "2026-10-15T14:27:48.363723",
+  "error": null
+}

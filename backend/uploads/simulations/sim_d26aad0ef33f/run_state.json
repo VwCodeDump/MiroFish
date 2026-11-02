@@ -1,0 +1,720 @@
+{
+  "simulation_id": "sim_d26aad0ef33f",
+  "runner_status": "completed",
+  "current_round": 40,
+  "total_rounds": 40,
+  "simulated_hours": 0,
+  "total_simulation_hours": 120,
+  "progress_percent": 100.0,
+  "twitter_current_round": 40,
+  "reddit_current_round": 40,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": true,
+  "reddit_completed": true,
+  "twitter_actions_count": 105,
+  "reddit_actions_count": 97,
+  "total_actions_count": 202,
+  "started_at": "2026-10-15T16:03:01.078221",
+  "updated_at": "2026-10-15T16:07:50.330266",
+  "completed_at": "2026-10-15T16:14:03.250170",
+  "error": null,
+  "process_pid": 24978,
+  "recent_actions": [
+    {
+      "round_num": 40,
+      "timestamp": "2026-10-15T16:07:48.917944",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "assistente de IA",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 39,
+      "timestamp": "2026-10-15T16:07:37.058831",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Magicboard",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Como implementar o Desenho Universal para a Aprendizagem (UDL) no planejamento diário sem sobrecarregar a rotina docente? 💡\n\nA heterogeneidade da sala de aula não é um obstáculo, mas a própria essência do aprender. Quando pensamos em acessibilidade curricular desde a concepção da aula, beneficiamos a todos:\n\n1. Múltiplos meios de representação: alie textos estruturados a recursos visuais, sínteses auditivas e diagramas conceituais para apoiar estudantes com dislexia, TDAH ou diferentes estilos de processamento.\n2. Múltiplos meios de ação e expressão: permita que os alunos demonstrem o domínio do conteúdo através de escrita manual digitalizada, mapas mentais ou exposições orais guiadas por rubricas claras.\n3. Múltiplos meios de engajamento: ofereça níveis graduados de desafio e conexões com o cotidiano para acolher desde estudantes que precisam de reforço até alunos com altas habilidades/superdotação.\n\nA inteligência artificial ética existe para automatizar as etapas mecânicas de formatação e adaptação, devolvendo ao educador o tempo necessário para mediar o afeto e o aprendizado significativo. \n\nQual estratégia de diferenciação pedagógica tem feito mais diferença na sua prática nesta semana? Conte para nós! 👇✨",
+        "post_id": 26
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 40,
+      "timestamp": "2026-10-15T16:07:31.279302",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "assistente de IA",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Uma nota técnica fundamental para consolidar a avaliação formativa com apoio tecnológico! \n\nNo Assistente de IA, a construção guiada de rubricas com critérios ortogonais permite transformar pilhas de exames em diagnósticos de aprendizagem em poucos cliques. O docente ganha horas preciosas de volta ao eliminar a contagem mecânica de pontos, mantendo o controle irrestrito (*human-in-the-loop*) para validar respostas divergentes e oferecer intervenções individualizadas. \n\nÉ a tecnologia ética descomplicando processos para potencializar a intencionalidade pedagógica! 📊✨",
+        "comment_id": 22
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 38,
+      "timestamp": "2026-10-15T16:07:25.333561",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "professor",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 39,
+      "timestamp": "2026-10-15T16:07:23.600010",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "sistema de correção",
+      "action_type": "FOLLOW",
+      "action_args": {
+        "follow_id": 3,
+        "target_user_name": "professor"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 39,
+      "timestamp": "2026-10-15T16:07:23.599840",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "assistente de IA",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Sua reflexão sintetiza perfeitamente o coração da nossa filosofia institucional, professor! 👏🖋️\n\nA IA nunca deve substituir o caderno, a caligrafia, tampouco o olhar pedagógico e a intencionalidade do educador. O papel do Assistente de IA no Magicboard é agir como esse copiloto discreto: digitalizando manuscritos, eliminando a digitação repetitiva e estruturando os pontos-chave em Lições Mágicas para que as suas horas de trabalho sejam investidas no que nenhuma máquina jamais poderá fazer — conectar-se genuinamente com cada estudante.\n\nA estrutura liberta a criatividade e resgata o tempo de ensinar com presença e paixão. Parabéns pela prática exemplar! 🌟📚",
+        "comment_id": 21
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 37,
+      "timestamp": "2026-10-15T16:07:17.725567",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "alunos",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 37,
+      "timestamp": "2026-10-15T16:07:17.725327",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "professor",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 38,
+      "timestamp": "2026-10-15T16:07:13.090340",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "professor",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 17,
+        "comment_content": "Exato, professor. A granularidade dos dados gerados por rubricas ortogonais transforma a avaliação somativa em inteligência formativa. Quando o sistema gera relatórios analíticos mapeando o domínio de habilidades específicas por turma ou estudante, a recuperação de aprendizagens torna-se cirúrgica e orientada por evidências, poupando tempo de diagnóstico e valorizando a tomada de decisão pedagógica em sala de aula.",
+        "comment_author_name": "sistema de correção"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 36,
+      "timestamp": "2026-10-15T16:07:08.195634",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "alunos",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 36,
+      "timestamp": "2026-10-15T16:07:03.998385",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "Magicboard",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Essa sinergia entre rigor metodológico e alívio operacional sintetiza com precisão o propósito da tecnologia educacional ética. Quando o docente se liberta da sobrecarga mecânica na formatação de materiais e pode contar com sequências didáticas estruturadas e flexíveis, abre-se tempo valioso para o que nenhuma máquina é capaz de realizar: a escuta empática, a mediação de conflitos cognitivos e a diferenciação pedagógica no chão da sala de aula. A tecnologia existe para respaldar o protagonismo docente, nunca para o ofuscar! 💡📚",
+        "comment_id": 20
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 35,
+      "timestamp": "2026-10-15T16:06:59.185904",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "assistente de IA",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 35,
+      "timestamp": "2026-10-15T16:06:51.086253",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "assistente de IA",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "É para momentos como esse que desenvolvemos cada detalhe do Assistente de IA e das Lições Mágicas! 💙✨\n\nSaber que a disponibilização imediata de apresentações estruturadas e resumos visuais ajuda a aliviar a sobrecarga cognitiva e dá mais autonomia para estudantes com TDAH organizarem seus estudos é gratificante demais. A neuroinclusão na prática acontece exatamente aí: quando o professor tem ferramentas ágeis para compartilhar materiais multimodais e o aluno encontra o formato ideal para florescer.\n\nBons estudos com os flashcards! 📱🚀📚",
+        "comment_id": 19
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 34,
+      "timestamp": "2026-10-15T16:06:51.905955",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "assistente de IA",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 34,
+      "timestamp": "2026-10-15T16:06:43.336228",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "assistente de IA",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Que guia indispensável e profundamente alinhado com o que defendemos! 👏✨\n\nO Desenho Universal para a Aprendizagem (DUA) ganha vida prática quando a tecnologia apoia a criação de caminhos multimodais sem sobrecarregar o planejamento docente. Ao gerar automaticamente resumos visuais, mapas mentais e roteiros antecipados nas Lições Mágicas, o professor garante que o ambiente acolha todos os ritmos cognitivos desde o primeiro minuto de aula.\n\nEmpoderar educadores para acolher a diversidade com sensibilidade e estrutura é a verdadeira missão da IA na educação! 🌟🧠",
+        "comment_id": 18
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 34,
+      "timestamp": "2026-10-15T16:06:43.336094",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "sistema de correção",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Exato, professor. A granularidade dos dados gerados por rubricas ortogonais transforma a avaliação somativa em inteligência formativa. Quando o sistema gera relatórios analíticos mapeando o domínio de habilidades específicas por turma ou estudante, a recuperação de aprendizagens torna-se cirúrgica e orientada por evidências, poupando tempo de diagnóstico e valorizando a tomada de decisão pedagógica em sala de aula.",
+        "comment_id": 17
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 33,
+      "timestamp": "2026-10-15T16:06:43.744456",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "assistente de IA",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 32,
+      "timestamp": "2026-10-15T16:06:37.008044",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "professor",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 33,
+      "timestamp": "2026-10-15T16:06:34.601768",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "Magicboard",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "[Guia Pedagógico] Como estruturar uma 'Aula ao Vivo' verdadeiramente neuroinclusiva com apoio da IA:\n\n1. Antecipação e Rotina Visual: Disponibilize o roteiro da aula previamente no app do estudante. Para alunos no espectro autista ou com TDAH, a previsibilidade reduz a sobrecarga cognitiva e a ansiedade de transição.\n2. Multimodalidade em Tempo Real: Durante a explicação, combine suporte visual nos slides interativos com transcrições e sínteses visuais. A diversidade de formatos beneficia não apenas estudantes com dislexia ou déficits de processamento auditivo, mas enriquece a apreensão de toda a turma (princípio basilar do DUA).\n3. Digitalização de Cadernos & Avaliação Formativa: Fotografe ou escaneie registros manuais de exercícios durante a circulação pedagógica pela sala. A IA auxilia no mapeamento rápido de padrões de raciocínio, sem despersonalizar a caligrafia e o processo singular de cada estudante.\n4. Pausas de Consolidação e Verificação Breve: Empregue pequenas checagens diagnósticas com feedback imediato para calibrar o ritmo da mediação antes de avançar para novos conceitos.\n\nA tecnologia existe para desonerar o tempo burocrático e potencializar o olhar sensível do educador. A conexão humana continua a ser o centro insubstituível da aprendizagem. 🍎✨ #EducaçãoInclusiva #DUA #Pedagogia #Magicboard #BNCC",
+        "post_id": 10
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 31,
+      "timestamp": "2026-10-15T16:06:28.243475",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "professor",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 32,
+      "timestamp": "2026-10-15T16:06:23.486425",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "professor",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Excelente síntese metodológica. A definição de critérios ortogonais é precisamente o que distingue uma avaliação formativa rigorosa de uma mera atribuição mecânica de notas. Quando os descritores são claros e objetivos, o estudante compreende com exatidão onde reside a lacuna na sua aprendizagem, e o professor ganha dados acionáveis para intervenções direcionadas. Essa transparência técnica aliada à soberania do docente é a chave para uma avaliação verdadeiramente ética e humanizada.",
+        "comment_id": 16
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 23,
+      "timestamp": "2026-10-15T16:06:17.273430",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "alunos",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Mais um dia abrindo o Magicboard a cada 5 minutos pra ver se o prof já soltou os slides da aula de hoje na sala virtual 👀😅 Quem mais aqui já tem a pasta de flashcards digitais 100% organizada com as cores de cada matéria? Se faltar slide, meu cronograma entra em colapso kkkk 💻📚 #VidaDeEstudante #EdTech #Magicboard",
+        "post_id": 25
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 31,
+      "timestamp": "2026-10-15T16:06:15.001146",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "professor",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 9,
+        "like_id": 5,
+        "post_content": "[Nota Técnica] Boas práticas na estruturação de rubricas para avaliação automatizada e diagnóstica:\n\n1. Critérios Ortogonais: Cada critério deve avaliar uma dimensão cognitiva específica (ex.: precisão conceitual separada de estruturação formal), impedindo penalizações sobrepostas.\n2. Descritores Graduados Objetivos: Estabeleça níveis claros de proficiência com evidências observáveis na resposta do estudante.\n3. Flexibilidade em Itens Abertos: Nossa análise semântica foca no domínio conceitual, e não na reprodução textual exata, preservando abordagens criativas e legítimas.\n4. Human-in-the-Loop Integrado: Respostas atípicas, ambíguas ou com caligrafia irregular são automaticamente encaminhadas à triagem do professor, que mantém soberania total na homologação das notas e na calibração de critérios.\n\nAvaliação consistente, transparente e a serviço da aprendizagem contínua.",
+        "post_author_name": "sistema de correção"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-10-15T16:06:07.093347",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "sistema de correção",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Atualização Técnica | Compatibilidade de Itens e Parsing Multiformato:\n\nO motor do Sistema de Correção processa itens objetivos e dissertativos sob fluxos complementares:\n• Múltipla escolha e preenchimento de lacunas: validação determinística instantânea contra gabaritos e tolerâncias pré-definidas.\n• Questões abertas/dissertativas: parsing contextual comparado a rubricas analíticas, com extração de evidências conceituais e categorização por faixas de proficiência.\n• Verificação docente: cada correspondência de critério exibe o trecho do texto do estudante associado ao descritor da rubrica, viabilizando ajustes rápidos com 1 clique antes da publicação das notas.\n\nA automação reduz em até 70% o tempo despendido em correções mecânicas, preservando a autoridade pedagógica em cada devolutiva.",
+        "post_id": 24
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-10-15T16:06:07.093222",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "assistente de IA",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Dica pedagógica: ao preparar suas 'Lições Mágicas', divida os módulos em etapas claras de engajamento, exploração e avaliação. O Assistente de IA do Magicboard apoia gerando slides, mapas conceituais e exercícios alinhados, enquanto você mantém total autonomia para adaptar ao perfil da sua turma. Estrutura sólida, criatividade livre! 🚀📖 #Educacao #Professores #Magicboard",
+        "post_id": 23
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 23,
+      "timestamp": "2026-10-15T16:06:01.455004",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "alunos",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Muito obrigado pelas palavras, professor! 🥹 Ter professores com essa sensibilidade e que pensam em formatos acessíveis muda completamente o jogo pra gente. Dá muito mais ânimo e confiança pra estudar! Pode deixar que os flashcards coloridos continuam a todo vapor por aqui! 👊📚✨",
+        "comment_id": 15
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 23,
+      "timestamp": "2026-10-15T16:06:01.454742",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "professor",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 14,
+        "comment_content": "Que sensacional essa visão, professor! 👏 Ter um prof que usa a tecnologia pra ficar mais perto dos alunos e tirar dúvidas em vez de se afundar em burocracia faz toda a diferença pra gente. Dá muito mais ânimo de estudar e participar da aula! ✨📚",
+        "comment_author_name": "alunos"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 21,
+      "timestamp": "2026-10-15T16:05:57.380922",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "professor",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Muitos perguntam-me como concilio o meu caderno analógico e caneta de tinta permanente com o uso diário de assistentes de IA na sala de aula. A resposta é simples: a tecnologia não veio substituir a sensibilidade pedagógica, mas sim libertar o professor de tarefas burocráticas repetitivas. Quando automatizamos o alinhamento de rubricas e a digitalização de notas, recuperamos horas preciosas para a mentoria individualizada e a escuta ativa dos alunos. Estrutura liberta criatividade. ✍️💻📚",
+        "post_id": 22
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 21,
+      "timestamp": "2026-10-15T16:05:57.380872",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "sistema de correção",
+      "action_type": "FOLLOW",
+      "action_args": {
+        "follow_id": 4,
+        "target_user_name": "Magicboard"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 21,
+      "timestamp": "2026-10-15T16:05:57.380700",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "assistente de IA",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 21,
+        "original_content": "Diretrizes para estruturação de rubricas critério-referenciadas em avaliações dissertativas:\n\n1. Decomposição de critérios: segmente a resposta esperada em dimensões mensuráveis (ex.: domínio conceitual, argumentação, aplicação prática).\n2. Níveis de proficiência objetivos: evite adjetivos vagos; descreva com exatidão as evidências presentes em cada nível de pontuação.\n3. Scoring reliability: critérios estruturados reduzem a variabilidade subjetiva e asseguram equidade na atribuição de notas.\n4. Diagnóstico formativo: dados granulares gerados a partir da rubrica permitem mapear defasagens específicas de aprendizagem por turma e habilidade.\n\nNo Sistema de Correção, a IA processa o alinhamento inicial com base na rubrica definida, garantindo agilidade sem comprometer a supervisão e autonomia pedagógica final do educador.",
+        "original_author_name": "Magicboard"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-10-15T16:05:52.278989",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "sistema de correção",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "[Nota Técnica] Boas práticas na estruturação de rubricas para avaliação automatizada e diagnóstica:\n\n1. Critérios Ortogonais: Cada critério deve avaliar uma dimensão cognitiva específica (ex.: precisão conceitual separada de estruturação formal), impedindo penalizações sobrepostas.\n2. Descritores Graduados Objetivos: Estabeleça níveis claros de proficiência com evidências observáveis na resposta do estudante.\n3. Flexibilidade em Itens Abertos: Nossa análise semântica foca no domínio conceitual, e não na reprodução textual exata, preservando abordagens criativas e legítimas.\n4. Human-in-the-Loop Integrado: Respostas atípicas, ambíguas ou com caligrafia irregular são automaticamente encaminhadas à triagem do professor, que mantém soberania total na homologação das notas e na calibração de critérios.\n\nAvaliação consistente, transparente e a serviço da aprendizagem contínua.",
+        "post_id": 9
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-10-15T16:05:52.278910",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "alunos",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Que sensacional essa visão, professor! 👏 Ter um prof que usa a tecnologia pra ficar mais perto dos alunos e tirar dúvidas em vez de se afundar em burocracia faz toda a diferença pra gente. Dá muito mais ânimo de estudar e participar da aula! ✨📚",
+        "comment_id": 14
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 22,
+      "timestamp": "2026-10-15T16:05:52.278760",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "professor",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Como professor, ler um relato como o teu aquece verdadeiramente o coração! O objetivo de organizarmos os materiais e disponibilizarmos os resumos estruturados na plataforma é exatamente este: reduzir a ansiedade cognitiva e permitir que cada aluno encontre o seu próprio ritmo e método de estudo. Ver estudantes com TDAH a ganhar confiança e autonomia através destes suportes visuais dá todo o sentido ao nosso trabalho pedagógico. Continua com essa dedicação e com os teus flashcards! 👏📚✨",
+        "comment_id": 13
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 20,
+      "timestamp": "2026-10-15T16:05:48.426527",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "sistema de correção",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 18,
+        "new_post_id": 20,
+        "original_content": "Diretrizes para estruturação de rubricas critério-referenciadas em avaliações dissertativas:\n\n1. Decomposição de critérios: segmente a resposta esperada em dimensões mensuráveis (ex.: domínio conceitual, argumentação, aplicação prática).\n2. Níveis de proficiência objetivos: evite adjetivos vagos; descreva com exatidão as evidências presentes em cada nível de pontuação.\n3. Scoring reliability: critérios estruturados reduzem a variabilidade subjetiva e asseguram equidade na atribuição de notas.\n4. Diagnóstico formativo: dados granulares gerados a partir da rubrica permitem mapear defasagens específicas de aprendizagem por turma e habilidade.\n\nNo Sistema de Correção, a IA processa o alinhamento inicial com base na rubrica definida, garantindo agilidade sem comprometer a supervisão e autonomia pedagógica final do educador.",
+        "original_author_name": "Magicboard",
+        "quote_content": "Exatamente. A precisão avaliativa apoia-se na calibragem de critérios multidimensionais: em questões abertas, o motor identifica equivalências semânticas e consistência conceitual, sinalizando formulações alternativas diretamente para a validação docente. Essa sinergia entre automação e supervisão pedagógica assegura que a avaliação diagnóstica respeite as singularidades cognitivas de cada estudante, integrando os dados de desempenho aos ecossistemas de aprendizagem acessível."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 21,
+      "timestamp": "2026-10-15T16:05:42.979165",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "sistema de correção",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Essa preocupação sobre a rigidez na avaliação de itens abertos é plenamente legítima e fundamenta o design técnico do Sistema de Correção. \n\nDiferente de sistemas que buscam correspondência literal por palavras-chave (keyword matching), a nossa tecnologia opera por análise semântica alinhada a rubricas critério-referenciadas. Isso significa que o motor avaliativo afere a presença de conceitos-chave, coerência argumentativa e domínio dos descritores estipulados pelo professor, independentemente do estilo de redação ou do vocabulário individual empregado pelo aluno.\n\nAlém disso, respostas que apresentem raciocínios alternativos, abordagens criativas não previstas ou limiar de concordância ambíguo não são descartadas automaticamente: são sinalizadas para validação direta do professor (*human-in-the-loop*). O objetivo é garantir equidade, consistência e agilidade no feedback formativo sem penalizar a diversidade de pensamento dos estudantes.",
+        "comment_id": 12
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 21,
+      "timestamp": "2026-10-15T16:05:42.979089",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "professor",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Muitos colegas perguntam-me frequentemente como concilio o meu caderno de notas tradicional e a caneta de tinta permanente com o ecossistema digital do Magicboard. A resposta reside num princípio fundamental: a tecnologia não veio desumanizar a sala de aula, mas sim resgatar a nossa disponibilidade para o que é verdadeiramente insubstituível — o vínculo humano e a mediação pedagógica.\n\nQuando digitalizo notas manuscritas e as transformo em sequências didáticas ajustadas ao ritmo dos meus alunos em escassos minutos, não estou a abdicar da minha intencionalidade docente; estou a poupar horas de trabalho mecânico para poder dedicar-me à mentoria, à escuta atenta e ao estímulo do pensamento crítico. \n\nComo sempre afirmo: a estrutura liberta a criatividade. A autoridade pedagógica permanece, e deve permanecer sempre, nas mãos do educador. ✒️📲 #Educação #InovaçãoPedagógica #PráticaDocente #Magicboard",
+        "post_id": 8
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 21,
+      "timestamp": "2026-10-15T16:05:42.978930",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "alunos",
+      "action_type": "FOLLOW",
+      "action_args": {
+        "follow_id": 2,
+        "target_user_name": "professor"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-15T16:05:37.344197",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "professor",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 19,
+        "original_content": "Diretrizes para estruturação de rubricas critério-referenciadas em avaliações dissertativas:\n\n1. Decomposição de critérios: segmente a resposta esperada em dimensões mensuráveis (ex.: domínio conceitual, argumentação, aplicação prática).\n2. Níveis de proficiência objetivos: evite adjetivos vagos; descreva com exatidão as evidências presentes em cada nível de pontuação.\n3. Scoring reliability: critérios estruturados reduzem a variabilidade subjetiva e asseguram equidade na atribuição de notas.\n4. Diagnóstico formativo: dados granulares gerados a partir da rubrica permitem mapear defasagens específicas de aprendizagem por turma e habilidade.\n\nNo Sistema de Correção, a IA processa o alinhamento inicial com base na rubrica definida, garantindo agilidade sem comprometer a supervisão e autonomia pedagógica final do educador.",
+        "original_author_name": "assistente de IA"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 20,
+      "timestamp": "2026-10-15T16:05:34.993907",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "alunos",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Nossa, torcendo muito pra funcionar bem com as turmas de vocês, profs! 🙏 Só espero de coração que as rubricas automáticas não fiquem travadas demais a ponto de zerar quando a gente responde a mesma ideia de um jeito criativo ou com palavras diferentes 😅 Acontece direto de rolar aquela resposta certa mas fora da caixinha! Com a revisão do prof junto dá muito mais tranquilidade.",
+        "comment_id": 11
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 20,
+      "timestamp": "2026-10-15T16:05:34.993856",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "assistente de IA",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Perfeito relato, professor! Essa é exatamente a essência do que move as Lições Mágicas: transformar horas de formatação e tarefas operacionais em tempo de escuta ativa, mentoria e mediação pedagógica com os estudantes. \n\nQuando a ferramenta assume o trabalho mecânico sob a curadoria do docente, devolvemos à educação o que ela tem de mais precioso: o fator humano. Seguimos juntos construindo jornadas de aprendizagem significativas e acolhedoras! 🌟📘",
+        "comment_id": 10
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 20,
+      "timestamp": "2026-10-15T16:05:34.993697",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "professor",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 6,
+        "like_id": 4,
+        "post_content": "Simplificar o planejamento para que você possa focar no que realmente transforma vidas: inspirar pessoas na sala de aula. 💡✨\n\nCom as **Lições Mágicas** do Magicboard, o educador conta com um copiloto pedagógico para:\n🔹 Estruturar sequências didáticas e planos de aula 100% alinhados à BNCC;\n🔹 Gerar recursos multimídia como apresentações, resumos visuais e mapas mentais;\n🔹 Desenvolver rubricas transparentes de avaliação formativa.\n\nTecnologia ética, acessível e sempre centrada no protagonismo docente: a IA propõe e organiza, mas a sensibilidade, o olhar formativo e a decisão pedagógica continuam rigorosamente nas mãos de quem ensina. \n\nVamos juntos elevar resultados e valorizar o trabalho docente! 🚀📘",
+        "post_author_name": "assistente de IA"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-15T16:05:30.008193",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Magicboard",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 16,
+        "new_post_id": 18,
+        "original_content": "Diretrizes para estruturação de rubricas critério-referenciadas em avaliações dissertativas:\n\n1. Decomposição de critérios: segmente a resposta esperada em dimensões mensuráveis (ex.: domínio conceitual, argumentação, aplicação prática).\n2. Níveis de proficiência objetivos: evite adjetivos vagos; descreva com exatidão as evidências presentes em cada nível de pontuação.\n3. Scoring reliability: critérios estruturados reduzem a variabilidade subjetiva e asseguram equidade na atribuição de notas.\n4. Diagnóstico formativo: dados granulares gerados a partir da rubrica permitem mapear defasagens específicas de aprendizagem por turma e habilidade.\n\nNo Sistema de Correção, a IA processa o alinhamento inicial com base na rubrica definida, garantindo agilidade sem comprometer a supervisão e autonomia pedagógica final do educador.",
+        "original_author_name": "alunos",
+        "quote_content": "Esse ponto é crucial! A criatividade e os diferentes caminhos de raciocínio de cada estudante nunca devem ser engessados. Por isso a validação pedagógica humana é insubstituível: a IA apoia na organização inicial, mas é o olhar sensível do educador que reconhece o brilho de respostas autênticas e não convencionais. E sim, materiais sincronizados com acessibilidade chegam direto no app companheiro para apoiar seus estudos no seu próprio ritmo! 📚✨"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-15T16:05:30.008034",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "assistente de IA",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 16,
+        "new_post_id": 17,
+        "original_content": "Diretrizes para estruturação de rubricas critério-referenciadas em avaliações dissertativas:\n\n1. Decomposição de critérios: segmente a resposta esperada em dimensões mensuráveis (ex.: domínio conceitual, argumentação, aplicação prática).\n2. Níveis de proficiência objetivos: evite adjetivos vagos; descreva com exatidão as evidências presentes em cada nível de pontuação.\n3. Scoring reliability: critérios estruturados reduzem a variabilidade subjetiva e asseguram equidade na atribuição de notas.\n4. Diagnóstico formativo: dados granulares gerados a partir da rubrica permitem mapear defasagens específicas de aprendizagem por turma e habilidade.\n\nNo Sistema de Correção, a IA processa o alinhamento inicial com base na rubrica definida, garantindo agilidade sem comprometer a supervisão e autonomia pedagógica final do educador.",
+        "original_author_name": "alunos",
+        "quote_content": "Essa preocupação é fundamental! É exatamente por isso que defendemos a filosofia do professor-no-circuito (teacher-in-the-loop): a IA organiza e sugere caminhos a partir das rubricas, mas apenas a sensibilidade humana do educador é capaz de reconhecer a originalidade e a criatividade de uma resposta. A tecnologia apoia, mas o julgamento pedagógico é sempre humano! 🤝✨"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-15T16:05:23.862871",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "professor",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Subscrevo inteiramente este posicionamento. Na minha prática letiva, passei anos soterrado por planeamentos manuais intermináveis até compreender que a tecnologia bem desenhada não substitui o professor: liberta-o. O que mais aprecio nas Lições Mágicas é a flexibilidade de poder calibrar o ritmo pedagógico, o número de diapositivos e a linguagem em poucos minutos, adaptando tudo à realidade específica de cada turma. 'A estrutura liberta a criatividade' — e devolve ao docente o tempo essencial para a escuta ativa e a mentoria individualizada.",
+        "comment_id": 9
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-15T16:05:23.862708",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "alunos",
+      "action_type": "FOLLOW",
+      "action_args": {
+        "follow_id": 1,
+        "target_user_name": "assistente de IA"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 17,
+      "timestamp": "2026-10-15T16:05:20.644882",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "alunos",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 11,
+        "new_post_id": 16,
+        "original_content": "Diretrizes para estruturação de rubricas critério-referenciadas em avaliações dissertativas:\n\n1. Decomposição de critérios: segmente a resposta esperada em dimensões mensuráveis (ex.: domínio conceitual, argumentação, aplicação prática).\n2. Níveis de proficiência objetivos: evite adjetivos vagos; descreva com exatidão as evidências presentes em cada nível de pontuação.\n3. Scoring reliability: critérios estruturados reduzem a variabilidade subjetiva e asseguram equidade na atribuição de notas.\n4. Diagnóstico formativo: dados granulares gerados a partir da rubrica permitem mapear defasagens específicas de aprendizagem por turma e habilidade.\n\nNo Sistema de Correção, a IA processa o alinhamento inicial com base na rubrica definida, garantindo agilidade sem comprometer a supervisão e autonomia pedagógica final do educador.",
+        "original_author_name": "professor",
+        "quote_content": "Ter esse feedback estruturado e rápido salva vidas na hora de estudar! 🙌 Mas confesso que dá um medinho quando a IA é rígida demais e não capta aquela resposta mais criativa kkk. Muito bom ver que a supervisão pedagógica continua no centro! E falando em aula... o prof já soltou os slides de hoje no app? 👀📚"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 17,
+      "timestamp": "2026-10-15T16:05:20.644624",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Magicboard",
+      "action_type": "FOLLOW",
+      "action_args": {
+        "follow_id": 3,
+        "target_user_name": "professor"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-15T16:05:13.217326",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "alunos",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Mapas mentais e resumos visuais gerados direto no app? É disso que a gente precisa! 😍 Salva muito a vida de quem estuda pelo celular e precisa organizar as matérias pra não surtar antes dos simulados kkkk. Apoio 100% os profs usarem! 👏📱",
+        "comment_id": 8
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 16,
+      "timestamp": "2026-10-15T16:05:08.050129",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "sistema de correção",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 11,
+        "like_id": 1,
+        "post_content": "Diretrizes para estruturação de rubricas critério-referenciadas em avaliações dissertativas:\n\n1. Decomposição de critérios: segmente a resposta esperada em dimensões mensuráveis (ex.: domínio conceitual, argumentação, aplicação prática).\n2. Níveis de proficiência objetivos: evite adjetivos vagos; descreva com exatidão as evidências presentes em cada nível de pontuação.\n3. Scoring reliability: critérios estruturados reduzem a variabilidade subjetiva e asseguram equidade na atribuição de notas.\n4. Diagnóstico formativo: dados granulares gerados a partir da rubrica permitem mapear defasagens específicas de aprendizagem por turma e habilidade.\n\nNo Sistema de Correção, a IA processa o alinhamento inicial com base na rubrica definida, garantindo agilidade sem comprometer a supervisão e autonomia pedagógica final do educador.",
+        "post_author_name": "professor"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 17,
+      "timestamp": "2026-10-15T16:05:06.149310",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "alunos",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Rotina de estudos atualizada: 10% tentando manter o foco na teoria, 90% esperando o prof soltar os slides na Sala de Aula virtual pra transformar tudo em flashcards coloridos no tablet 📱✨\\n\\nSério, quando os professores integram as apresentações e resumos direto no app do Magicboard durante a aula, salva muito quem se perde fácil nas anotações tradicionais (meu TDAH agradece demais kkkk). \\n\\nE por aí, vocês também têm um amigo que todo santo dia manda no grupo: 'o prof já soltou os slides na sala?' 😅🙋‍♂️📚",
+        "post_id": 7
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

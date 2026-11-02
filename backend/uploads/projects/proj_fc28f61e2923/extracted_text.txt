@@ -1,0 +1,131 @@
+
+
+=== MagicBook Technologies – Seed Report for Mirofish.pdf ===
+MagicBook Technologies – Seed Report for
+Mirofish
+Purpose: factual seed document for multi-agent simulation of feature strategy and market
+reaction in Brazil, Portugal and the USA. Items marked [FILL] are unknowns to complete
+before upload. Items marked [ASSUMPTION] are unverified.
+1. Company snapshot
+MagicBook Technologies builds AI-powered notebooks and apps that connect
+handwriting to AI. Tagline: "The Cognitive Interface Between Handwriting and Artificial
+Intelligence."
+Positioning: education first, with stated ambitions in enterprise and creative work. The
+long-term vision is a universal cognitive interface across education, science, medicine,
+engineering and creative industries.
+Founders: Helder Silva (Founder & Head of Product, PhD in Neuroscience, Portuguese
+entrepreneur awards) and Adriana Oliveira (Founder & Head of Growth for Latin
+America). The company's legal and privacy pages are in Portuguese, which suggests a
+Portugal/Brazil base.
+Distribution: integrated with paper manufacturers. A MagicBook code is printed on
+each notebook page; scanning it links the paper notes to the app.
+Users: about 25,000 (internal figure, Oct 2026). Note: the public website claims
+"100,000+ users worldwide". Reconcile before simulation and decide which figure to
+treat as true.
+Feedback to date: positive only. No negative feedback has been recorded. [FILL] any
+ratings, NPS, reviews, support themes or churn data.
+2. Product portfolio
+The website lists these products: MagicBook, Jandia, Wise Book, Estudia, Plania and Dino.
+MagicBoard is not listed publicly. [FILL] what MagicBoard is, and what Jandia, Wise Book,
+Estudia and Plania each are and who they target.
+MagicBook (core)
+1. Scan: photograph handwritten or printed notes; the page is detected automatically.
+2. Review and extract: OCR converts notes into editable text for correction.
+MagicBook Technologies – Seed Report for Mirofish
+Page 1 of 4
+
+3. Apply intelligence: summarize, translate, solve equations, generate quizzes, create
+flashcards, rephrase, shorten, chat with notes.
+Other stated capabilities:
+Automatic organization into structured tabs, plus a searchable knowledge archive that
+grows over time.
+AI assistant that answers questions aligned to the school curriculum with verified
+sources (a "personalized tutor").
+Voice recording of classes, transcription to notes, and text-to-speech playback.
+Dino
+Turns children's drawings into animated, educational stories (science, history, values,
+creativity). Flow: draw on paper, scan with phone, AI animates, personalized educational
+story.
+3. Current strengths (from available evidence)
+Paper-to-digital bridge via printed page codes, which creates a hardware-light
+distribution model through notebook partners.
+Broad AI feature set built on one OCR/knowledge core.
+Curriculum alignment claim and multimodal learning (written, spoken, interactive).
+Strong founder credentials; Portuguese-language roots.
+4. Known gaps and risks to test
+Feature breadth may dilute focus: many AI tools (summarize, translate, chat, quiz,
+flashcards, voice) overlap with free general-purpose AI apps.
+Dependence on notebook partners for acquisition and printed codes.
+Handwriting OCR accuracy across languages, scripts and messy children's
+handwriting. [FILL] accuracy figures.
+Child data privacy and consent: LGPD (Brazil), GDPR (Portugal/EU), COPPA and FERPA
+(USA).
+Curriculum alignment depth per country is unverified. [FILL] which curricula are
+actually supported.
+No public pricing, business model or USA presence found on the website. [FILL]
+MagicBook Technologies – Seed Report for Mirofish
+Page 2 of 4
+
+5. Market context to simulate
+[FILL] per market: notebook brand partners, user counts, pricing, competitors observed.
+6. Business data needed for quantitative analysis
+[FILL] all of the following:
+Users, MAU and retention by country and by product.
+Feature usage ranking (which features are used most and least).
+Conversion and pricing; who pays (parent, school or notebook brand).
+Acquisition cost and channel mix.
+Content generation cost per user (AI/API cost).
+7. Prediction questions for Mirofish
+1. How do students, parents and teachers in Brazil, Portugal and the USA react to
+MagicBook and Dino?
+2. Which existing features would users barely miss if removed, and which are core?
+3. Which new features would increase adoption and retention in each market?
+4. How should the product be positioned and showcased in each market (school channel,
+notebook brand, direct to parents)?
+5. What objections, regulatory concerns and competitor responses emerge, especially in
+the USA?
+Market
+Language
+Curriculum /
+standard
+Presence today
+Key questions
+Brazil
+pt-BR
+BNCC [FILL]
+[FILL]
+Parent and school
+buying behavior, price
+sensitivity, LGPD
+Portugal
+pt-PT
+National
+curriculum [FILL]
+[FILL]
+Differences from pt-
+BR, EU AI and data
+rules, school adoption
+USA
+English
+(plus
+Spanish)
+State standards /
+Common Core
+[FILL]
+None found
+[ASSUMPTION]
+Competition from
+Google, Photomath,
+Khanmigo; COPPA;
+channel to notebook
+brands
+MagicBook Technologies – Seed Report for Mirofish
+Page 3 of 4
+
+6. Which market should be prioritized first, and why?
+8. Caveat
+Simulation output is qualitative scenario modeling from LLM agents, not a statistical
+forecast. Validate conclusions with real data such as pilots, surveys and usage analytics
+before major decisions.
+MagicBook Technologies – Seed Report for Mirofish
+Page 4 of 4

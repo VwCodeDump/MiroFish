@@ -1,0 +1,513 @@
+{
+  "simulation_id": "sim_8cd0fe084af9",
+  "runner_status": "completed",
+  "current_round": 10,
+  "total_rounds": 10,
+  "simulated_hours": 0,
+  "total_simulation_hours": 72,
+  "progress_percent": 100.0,
+  "twitter_current_round": 10,
+  "reddit_current_round": 10,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": true,
+  "reddit_completed": true,
+  "twitter_actions_count": 14,
+  "reddit_actions_count": 20,
+  "total_actions_count": 34,
+  "started_at": "2026-10-15T09:48:56.573238",
+  "updated_at": "2026-10-15T09:49:54.743803",
+  "completed_at": "2026-10-15T10:07:01.256990",
+  "error": null,
+  "process_pid": 99355,
+  "recent_actions": [
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-15T09:49:54.705246",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "MagicBook Technologies",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "At MagicBook Technologies, our hybrid analog-digital ecosystem is engineered to support cognitive synthesis through tactile learning retention. By anchoring optical recognition and computer vision to proprietary page codes, we preserve the vital sensorimotor benefits of handwriting while empowering students across Portugal and Brazil with seamless, curriculum-aligned multimodal workflows and smart continuity.",
+        "comment_id": 6
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-15T09:49:54.705116",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "MagicBook Technologies",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 1,
+        "like_id": 4,
+        "post_content": "Excited to bring MagicBook to students in Brazil and Portugal! Connect your handwritten notes directly to curriculum-aligned AI tutoring, flashcards, and instant summaries via page scan codes. #EdTech #MagicBook #Innovation",
+        "post_author_name": "ebook partners"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-15T09:49:54.704961",
+      "platform": "reddit",
+      "agent_id": 6,
+      "agent_name": "Mirofish",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Empirical research in cognitive science consistently reinforces this principle: tactile note-taking establishes the bedrock for structured knowledge retention. When we bridge physical handwriting with curriculum-aligned intelligence rather than supplanting paper with passive screen consumption, students retain the neurocognitive benefits of kinesthetic encoding while unlocking smarter study workflows—from adaptive synthesis to conversational querying grounded in verified academic sources.",
+        "comment_id": 5
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-15T09:49:54.704712",
+      "platform": "reddit",
+      "agent_id": 5,
+      "agent_name": "Dino",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "We're so thrilled to see young learners' imaginations come alive! Bridging tactile hand-drawn art with multimodal storytelling nurtures creative literacy and cognitive confidence, while keeping physical paper at the center of the learning journey. Obrigada por apoiar uma educação criativa e segura!",
+        "comment_id": 4
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-15T09:49:54.704128",
+      "platform": "reddit",
+      "agent_id": 8,
+      "agent_name": "Adriana Oliveira",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 3,
+        "like_id": 3,
+        "post_content": "EdTech platforms deploying AI that processes children's handwriting, voice recordings, and drawings must maintain strict data governance and explicit parental consent under LGPD in Brazil and GDPR across the EU.",
+        "post_author_name": "FERPA"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-15T09:49:49.215849",
+      "platform": "twitter",
+      "agent_id": 11,
+      "agent_name": "LGPD",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 6,
+        "new_post_id": 8,
+        "original_content": "EdTech platforms deploying AI that processes children's handwriting, voice recordings, and drawings must maintain strict data governance and explicit parental consent under LGPD in Brazil and GDPR across the EU.",
+        "original_author_name": "Helder Silva",
+        "quote_content": "Regulatory Clarification: Under Article 14 of Law No. 13.709/2018 (LGPD), processing of children's and adolescents' personal data—including voice telemetry, handwriting digitization, and multimodal inputs—must strictly prioritize the best interests of the minor. EdTech solutions bridging physical and digital environments must ensure verifiable, specific parental consent and privacy-by-design frameworks prior to any data ingestion within Brazilian jurisdiction."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-15T09:49:49.215398",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "OCR/knowledge core",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 1,
+        "new_post_id": 7,
+        "original_content": "Excited to bring MagicBook to students in Brazil and Portugal! Connect your handwritten notes directly to curriculum-aligned AI tutoring, flashcards, and instant summaries via page scan codes. #EdTech #MagicBook #Innovation",
+        "original_author_name": "ebook partners",
+        "quote_content": "Tactile handwriting serves as an indispensable cognitive anchor for student retention. Through multimodal cognitive ingestion and curriculum-anchored retrieval aligned with national benchmarks in Portugal and Brazil (BNCC), our engine ensures rigorous pedagogical continuity between physical notebook engagement and structured digital synthesis."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:40.740726",
+      "platform": "reddit",
+      "agent_id": 8,
+      "agent_name": "Adriana Oliveira",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Absolutely. Legacy stationery manufacturers don't need to be disrupted out of relevance; phygital integration allows them to capture software-tier margins while defending their core retail distribution. Bridging physical paper with multimodal AI via secure scan codes turns everyday notebooks into intelligent, curriculum-aligned learning hubs. It proves our core thesis at MagicBook: preserve the analog soul, unleash the digital mind.",
+        "comment_id": 3
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:40.740627",
+      "platform": "reddit",
+      "agent_id": 8,
+      "agent_name": "Adriana Oliveira",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 4,
+        "like_id": 2,
+        "post_content": "Paper notebook manufacturers in Lisbon and São Paulo are partnering to distribute specially coded notebooks, bridging traditional retail stationery with digital AI platforms. A viable new revenue model for paper brands?",
+        "post_author_name": "Photomath"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:40.740588",
+      "platform": "reddit",
+      "agent_id": 7,
+      "agent_name": "Helder Silva",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Precisely. The sensorimotor feedback loop inherent to physical handwriting engages complex neural pathways vital for memory consolidation and conceptual mapping—a neurocognitive dynamic that flat glass screens cannot replicate. Preserving tactile neural encoding while introducing contextual, non-intrusive computational layers protects the student's cognitive bandwidth and deepens retention.",
+        "comment_id": 2
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:40.740550",
+      "platform": "reddit",
+      "agent_id": 7,
+      "agent_name": "Helder Silva",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 2,
+        "like_id": 1,
+        "post_content": "Handwriting is deeply linked to cognitive retention and neuroscience. By connecting traditional notebooks to AI rather than replacing paper with screens, we empower students to learn naturally without losing tactile habits. #Education #Neuroscience",
+        "post_author_name": "Helder Silva"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:40.740509",
+      "platform": "reddit",
+      "agent_id": 12,
+      "agent_name": "Google",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Responsible AI in education must always be built on a foundation of trust and safety. Adhering strictly to global privacy frameworks like GDPR, LGPD, and COPPA ensures that as multimodal tools—from handwriting recognition to voice synthesis—expand into learning environments, student data remains secure, private, and ethically governed.",
+        "comment_id": 1
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:40.740470",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "MagicBook Technologies",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Dino turns children's paper drawings into animated, educational stories with voice transcription and narration. Bringing storytelling, science, and values to early childhood education in native Portuguese!",
+        "post_id": 5
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:40.740426",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "Photomath",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Paper notebook manufacturers in Lisbon and São Paulo are partnering to distribute specially coded notebooks, bridging traditional retail stationery with digital AI platforms. A viable new revenue model for paper brands?",
+        "post_id": 4
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:40.740377",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "FERPA",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "EdTech platforms deploying AI that processes children's handwriting, voice recordings, and drawings must maintain strict data governance and explicit parental consent under LGPD in Brazil and GDPR across the EU.",
+        "post_id": 3
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:40.740310",
+      "platform": "reddit",
+      "agent_id": 7,
+      "agent_name": "Helder Silva",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Handwriting is deeply linked to cognitive retention and neuroscience. By connecting traditional notebooks to AI rather than replacing paper with screens, we empower students to learn naturally without losing tactile habits. #Education #Neuroscience",
+        "post_id": 2
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:40.740102",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "ebook partners",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Excited to bring MagicBook to students in Brazil and Portugal! Connect your handwritten notes directly to curriculum-aligned AI tutoring, flashcards, and instant summaries via page scan codes. #EdTech #MagicBook #Innovation",
+        "post_id": 1
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:39.174459",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "Helder Silva",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 3,
+        "like_id": 1,
+        "post_content": "EdTech platforms deploying AI that processes children's handwriting, voice recordings, and drawings must maintain strict data governance and explicit parental consent under LGPD in Brazil and GDPR across the EU.",
+        "post_author_name": "FERPA"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:39.174331",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "Helder Silva",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 3,
+        "new_post_id": 6,
+        "original_content": "EdTech platforms deploying AI that processes children's handwriting, voice recordings, and drawings must maintain strict data governance and explicit parental consent under LGPD in Brazil and GDPR across the EU.",
+        "original_author_name": "FERPA",
+        "quote_content": "Non-negotiable. As we bridge physical paper with adaptive AI in tools like MagicBook and Dino, treating tactile inputs—handwriting, sketches, and vocal expression—as sovereign cognitive artifacts is foundational. Privacy-by-design under GDPR and LGPD isn't merely compliance; it protects cognitive bandwidth and parental trust."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:39.174217",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "MagicBook Technologies",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Dino turns children's paper drawings into animated, educational stories with voice transcription and narration. Bringing storytelling, science, and values to early childhood education in native Portuguese!",
+        "post_id": 5
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:39.174096",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Photomath",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Paper notebook manufacturers in Lisbon and São Paulo are partnering to distribute specially coded notebooks, bridging traditional retail stationery with digital AI platforms. A viable new revenue model for paper brands?",
+        "post_id": 4
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:39.173970",
+      "platform": "twitter",
+      "agent_id": 10,
+      "agent_name": "FERPA",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "EdTech platforms deploying AI that processes children's handwriting, voice recordings, and drawings must maintain strict data governance and explicit parental consent under LGPD in Brazil and GDPR across the EU.",
+        "post_id": 3
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:39.173822",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "Helder Silva",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Handwriting is deeply linked to cognitive retention and neuroscience. By connecting traditional notebooks to AI rather than replacing paper with screens, we empower students to learn naturally without losing tactile habits. #Education #Neuroscience",
+        "post_id": 2
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T09:49:39.173452",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "ebook partners",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Excited to bring MagicBook to students in Brazil and Portugal! Connect your handwritten notes directly to curriculum-aligned AI tutoring, flashcards, and instant summaries via page scan codes. #EdTech #MagicBook #Innovation",
+        "post_id": 1
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T09:49:13.616134",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "MagicBook Technologies",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Dino turns children's paper drawings into animated, educational stories with voice transcription and narration. Bringing storytelling, science, and values to early childhood education in native Portuguese!"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T09:49:13.616084",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "Photomath",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Paper notebook manufacturers in Lisbon and São Paulo are partnering to distribute specially coded notebooks, bridging traditional retail stationery with digital AI platforms. A viable new revenue model for paper brands?"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T09:49:13.616041",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "FERPA",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "EdTech platforms deploying AI that processes children's handwriting, voice recordings, and drawings must maintain strict data governance and explicit parental consent under LGPD in Brazil and GDPR across the EU."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T09:49:13.615989",
+      "platform": "reddit",
+      "agent_id": 7,
+      "agent_name": "Helder Silva",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Handwriting is deeply linked to cognitive retention and neuroscience. By connecting traditional notebooks to AI rather than replacing paper with screens, we empower students to learn naturally without losing tactile habits. #Education #Neuroscience"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T09:49:13.615936",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "ebook partners",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Excited to bring MagicBook to students in Brazil and Portugal! Connect your handwritten notes directly to curriculum-aligned AI tutoring, flashcards, and instant summaries via page scan codes. #EdTech #MagicBook #Innovation"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T09:49:13.522315",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "MagicBook Technologies",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Dino turns children's paper drawings into animated, educational stories with voice transcription and narration. Bringing storytelling, science, and values to early childhood education in native Portuguese!"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T09:49:13.522283",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Photomath",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Paper notebook manufacturers in Lisbon and São Paulo are partnering to distribute specially coded notebooks, bridging traditional retail stationery with digital AI platforms. A viable new revenue model for paper brands?"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T09:49:13.522249",
+      "platform": "twitter",
+      "agent_id": 10,
+      "agent_name": "FERPA",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "EdTech platforms deploying AI that processes children's handwriting, voice recordings, and drawings must maintain strict data governance and explicit parental consent under LGPD in Brazil and GDPR across the EU."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T09:49:13.522213",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "Helder Silva",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Handwriting is deeply linked to cognitive retention and neuroscience. By connecting traditional notebooks to AI rather than replacing paper with screens, we empower students to learn naturally without losing tactile habits. #Education #Neuroscience"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T09:49:13.522171",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "ebook partners",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Excited to bring MagicBook to students in Brazil and Portugal! Connect your handwritten notes directly to curriculum-aligned AI tutoring, flashcards, and instant summaries via page scan codes. #EdTech #MagicBook #Innovation"
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

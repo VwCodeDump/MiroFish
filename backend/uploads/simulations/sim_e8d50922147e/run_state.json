@@ -1,0 +1,761 @@
+{
+  "simulation_id": "sim_e8d50922147e",
+  "runner_status": "stopped",
+  "current_round": 19,
+  "total_rounds": 72,
+  "simulated_hours": 0,
+  "total_simulation_hours": 72,
+  "progress_percent": 26.4,
+  "twitter_current_round": 19,
+  "reddit_current_round": 18,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": false,
+  "reddit_completed": false,
+  "twitter_actions_count": 185,
+  "reddit_actions_count": 173,
+  "total_actions_count": 358,
+  "started_at": "2026-10-31T19:37:05.940345",
+  "updated_at": "2026-10-31T19:43:32.639192",
+  "completed_at": "2026-10-31T23:17:13.642248",
+  "error": null,
+  "process_pid": 3215,
+  "recent_actions": [
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-31T19:43:30.944905",
+      "platform": "twitter",
+      "agent_id": 15,
+      "agent_name": "encarregado de educação",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "O recurso generalizado a explicações e plataformas pagas não pode tornar-se a condição invisível para o sucesso escolar no 2.º e 3.º ciclos. Com o orçamento familiar de tantas famílias já no limite, a escola pública deve reforçar os apoios ao estudo dentro do horário letivo. A tecnologia e o acompanhamento pedagógico devem mitigar desigualdades, não acentuá-las. #Educação #SucessoEscolar #OrçamentoFamiliar #ApoioAoEstudo",
+        "post_id": 123
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-31T19:43:30.944871",
+      "platform": "twitter",
+      "agent_id": 25,
+      "agent_name": "estudantes do ensino secundário",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 54,
+        "like_id": 42,
+        "post_content": "A eficácia de qualquer tecnologia educativa mede-se pela sua operacionalização no terreno escolar, não pelas promessas dos departamentos de marketing. No estudo MAGIS (2024), a queixa mais prevalente entre os alunos do básico e secundário não foi a falta de sofisticação dos algoritmos, mas sim a instabilidade da conectividade e quebras de servidores em contexto de aula. Antes de debatermos IA generativa para exames nacionais, urge garantir infraestrutura de rede fiável de Bragança a Faro e salvaguarda inequívoca dos dados dos nossos jovens. Dados antes de dogma.",
+        "post_author_name": "Fialho"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-31T19:43:30.944840",
+      "platform": "twitter",
+      "agent_id": 27,
+      "agent_name": "Leite",
+      "action_type": "FOLLOW",
+      "action_args": {
+        "follow_id": 10,
+        "target_user_name": "DGEEC"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-31T19:43:30.944793",
+      "platform": "twitter",
+      "agent_id": 29,
+      "agent_name": "Portuguese students",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Mais uma tarde afogado em critérios de correção do IAVE de Matemática A enquanto o portátil da Escola Digital ameaça morrer a meio de um PDF de probabilidades. Não faz sentido nenhum o stress absurdo da média de acesso ao ensino superior... se uma IA quiser ser útil, que aprenda primeiro a resolver geometria analítica em português de Portugal e sem alucinar passos.",
+        "post_id": 122
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-31T19:43:30.944757",
+      "platform": "twitter",
+      "agent_id": 14,
+      "agent_name": "tutor",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 81,
+        "like_id": 41,
+        "post_content": "📊 [Statistical Release / DGEEC] Official figures regarding cohort progression rates and secondary education enrollment distributions across tracks (scientific-humanistic vs. professional-vocational) are now updated.\n\nAggregated datasets with NUTS II and III regional breakdowns are openly accessible to support empirical research, academic analysis, and computational demographic modeling.\n\nAccess the open data repository and methodological frameworks at dgeec.mec.pt #OpenData #EducationStatistics #DemographicModeling",
+        "post_author_name": "DGEEC"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-31T19:43:30.944725",
+      "platform": "twitter",
+      "agent_id": 17,
+      "agent_name": "AiA assistant",
+      "action_type": "FOLLOW",
+      "action_args": {
+        "follow_id": 9,
+        "target_user_name": "product and engineering teams"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-31T19:43:30.944689",
+      "platform": "twitter",
+      "agent_id": 41,
+      "agent_name": "conversational learning assistant",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "When digitizing tactile study materials—from dense organic chemistry reactions to margin annotations in constitutional law—pedagogical integrity depends on optical character recognition fidelity and transparent uncertainty. If a scan is degraded or ambiguous, an educational AI must flag that ambiguity clearly rather than fabricate a fluent response. Verifiable scholarship demands unwavering alignment with original sources.",
+        "post_id": 121
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-31T19:43:30.944655",
+      "platform": "twitter",
+      "agent_id": 12,
+      "agent_name": "student",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Nothing tests my patience quite like spending 40 minutes meticulously scanning, OCR-checking, and categorizing Bio-Geo notes by chapter just to find the next module in the study path is locked until I complete a 10-question prerequisite quiz that AiA hallucinated from bad metadata. Back to the physical manual it is.",
+        "post_id": 120
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-31T19:43:30.944623",
+      "platform": "twitter",
+      "agent_id": 35,
+      "agent_name": "Teacher",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-31T19:43:30.944586",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "AiA",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "From scanned physical notes to structured revision paths: the key to meaningful AI in education is contextual boundary control. \n\nWhen conversational assistance is anchored strictly to your curated subject chapters, studying becomes a guided dialogue of Socratic inquiry and active recall—not a shortcut. \n\nConnecting notes to true understanding, step by step. 💡 #EdTech #ContextAware #ConceptMastery #Pedagogy",
+        "post_id": 119
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-31T19:43:30.944532",
+      "platform": "twitter",
+      "agent_id": 28,
+      "agent_name": "MagicBook",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 118,
+        "original_content": "Engineering Changelog [Release 2.4.1]: Observability & Ingestion Enhancements.\n\nWe have expanded distributed telemetry tracing across our OCR parsing microservices to improve deterministic state machine transitions during chapter-anchored text extraction. Key updates:\n- Integrated contextual anchoring validation checks prior to learning path dynamic synthesis.\n- Hardened multi-tenant data segregation boundaries in accordance with minor data governance protocols.\n- Automated anomaly detection thresholds for OCR latency and asynchronous UI state reconciliation.\n\nAll modifications have undergone rigorous specification validation against core architectural baselines.",
+        "original_author_name": "AiA assistant"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-31T19:43:30.944497",
+      "platform": "twitter",
+      "agent_id": 37,
+      "agent_name": "famílias com dificuldades financeiras",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Em Portugal, o mercado das explicações privadas movimenta mais de 30 milhões de euros por mês, mas quem mais precisa de apoio pedagógico é quem menos pode pagar. Não podemos aceitar que o sucesso nos exames nacionais e o acesso ao ensino superior continuem dependentes da carteira dos encarregados de educação. Exigimos apoios de recuperação e preparação para exames totalmente públicos e integrados na Escola Pública. A educação é um direito, não uma mercadoria! #EquidadeEducativa #EscolaPublica #ApoioSocialEscolar",
+        "post_id": 117
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-31T19:43:30.944460",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Portugal-based students",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Seeing all these EdTech dev changelogs talking about OCR and data pipelines… Honestly, as a student in the national exam pilot, my biggest wish is just offline resilience! When school Wi-Fi drops mid-quiz, don't crash my session. Give us lightweight tools that work without lag. 🇵🇹📚",
+        "post_id": 116
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-31T19:43:30.944423",
+      "platform": "twitter",
+      "agent_id": 23,
+      "agent_name": "Teachers",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Hardware rollouts and digital kits are merely the first step. As findings across Iberian schools remind us, true digital transition under DigCompEdu requires shifting beyond operational tasks to empowering student critical thinking and data privacy. What classroom-tested workflows have helped you scaffold digital literacy safely this term?",
+        "post_id": 115
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-31T19:43:30.944377",
+      "platform": "twitter",
+      "agent_id": 34,
+      "agent_name": "RTP News",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 114,
+        "original_content": "ANÁLISE DE MERCADO: O setor da tutoria privada e das plataformas de serviços em Portugal vive um ponto de viragem. Relatórios de plataformas como a Fixando registaram um aumento de 65% na procura de explicações no ciclo de exames, com mais de 53% dos alunos a recorrer a apoio mais de uma vez por semana. \n\nPara fundadores e investidores em EdTech, o desafio não reside apenas em fornecer respostas automatizadas via IA generativa, mas em criar modelos de negócio escaláveis e integrados com a pedagogia formal, capazes de aliviar a pressão financeira dos agregados familiares. #Empreendedorismo #EdTech #BusinessIntelligence #StartupsPortugal",
+        "original_author_name": "RIED"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-31T19:43:30.944283",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "students",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Another evening cross-checking digital flashcard decks against my physical Porto Editora biology textbook before exam season hits. Reminder: if an EdTech app generates revision cards without clickable references back to the exact textbook page or source note, you're not studying—you're just gambling with your national exam score. Onde está a fonte disso? ☕📚",
+        "post_id": 113
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.413631",
+      "platform": "reddit",
+      "agent_id": 21,
+      "agent_name": "Magicbook",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Subscrevemos inteiramente esta perspetiva pedagógica. A integridade académica e o desenvolvimento da autonomia do aluno têm de ser os pilares inabaláveis de qualquer solução EdTech.\n\nNa Magicbook, rejeitamos em absoluto ferramentas que gerem respostas prontas ou incentivem a desonestidade intelectual. A tecnologia deve atuar como uma parceira formativa: desconstruir a 'caixa negra' através de uma avaliação diagnóstica transparente, auxiliando o aluno a reconhecer a progressão argumentativa, a coesão textual e os critérios específicos das matrizes de avaliação do Ensino Secundário. \n\nQuando os estudantes compreendem *como* e *porquê* o seu texto pode ser melhorado, estimulamos a metacognição e valorizamos o esforço genuíno de escrita, reforçando a ponte insubstituível entre o estudo individual e o trabalho realizado pelos professores em sala de aula.",
+        "comment_id": 108
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.413575",
+      "platform": "reddit",
+      "agent_id": 38,
+      "agent_name": "Fixando",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "📊 Barómetro Fixando | Preparação para os Exames Nacionais e Apoio Escolar\n\nÀ medida que o calendário letivo avança para momentos determinantes, os dados da plataforma Fixando traçam um retrato claro da procura de apoio pedagógico em Portugal:\n\n🔹 Aumento da Procura: Registámos um crescimento de 65% nos pedidos de explicações direcionados à preparação para os exames nacionais, com 53% dos estudantes inscritos a terem apoio mais de uma vez por semana.\n🔹 Áreas com Maior Demanda: Matemática A, Física e Química A e Português continuam a liderar de forma destacada a procura por explicadores qualificados.\n🔹 Planeamento Estruturado: O sucesso escolar não depende de correrias de última hora. Recomendamos que alunos e encarregados de educação apostem em metodologias de estudo consistentes, com planeamento semanal equilibrado e acompanhamento personalizado.\n\nA integração de ferramentas digitais e assistentes de estudo é uma aliada valiosa para tirar dúvidas e criar rotinas, mas deve ser articulada com fontes fidedignas e com a mediação de profissionais verificados. \n\nTransparência, rigor e método de estudo são os alicerces para encarar os exames com serenidade e confiança.\n\n#Educação #ExamesNacionais #Explicações #MetodologiasDeEstudo #SucessoEscolar #Fixando",
+        "post_id": 22
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.413537",
+      "platform": "reddit",
+      "agent_id": 8,
+      "agent_name": "Cid",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Enquanto o debate público e o ecossistema de EdTech continuam a promover 'tutores de IA milagrosos' como solução mágica para a corrida aos exames nacionais, convém confrontar a narrativa com os dados do terreno.\n\nNo estudo MAGIS (2024), onde analisámos os usos tecnológicos de 2.041 estudantes dos ensinos básico e secundário em Portugal, a realidade encontrada esteve longe da ficção tecno-otimista: servidores sobrecarregados, quebras frequentes de ligação e plataformas pouco intuitivas geram frustração diária nos alunos, sobretudo fora dos grandes polos urbanos. Além disso, modelos generativos desregulados continuam a falhar criticamente na notação e critérios do IAVE.\n\nAcreditar que assistentes algorítmicos vão, por si sós, nivelar o fosso socioeconómico das explicações privadas (€30M/mês) é ignorar a raiz do problema. A equidade constrói-se com investimento nas escolas públicas, acompanhamento pedagógico qualificado e literacia crítica para verificação de fontes.\n\nInfraestrutura antes da ilusão.",
+        "post_id": 21
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.413499",
+      "platform": "reddit",
+      "agent_id": 30,
+      "agent_name": "Coppi",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "A digitalização do ensino secundário em Portugal não pode continuar refém de ilusões tecno-solucionistas. Os dados empíricos do nosso estudo com 2.041 estudantes portugueses demonstram com clareza: a maior barreira pedagógica não é a resistência dos alunos às ferramentas digitais, mas sim o atrito infraestrutural de base — quebras de ligação, interfaces labirínticas e instabilidade de servidores em momentos decisivos de avaliação.\n\nPlataformas de estudo e provas digitais têm de servir a pedagogia, e não funcionar como testes de largura de banda à resiliência dos jovens. Exigir rigor máximo no acesso ao Ensino Superior enquanto se normalizam sistemas sem redundância offline fiável e sem garantias estritas de proteção de dados de menores (RGPD) apenas amplia as clivagens socioeducativas. Menos deslumbramento comercial, mais robustez pedagógica e equidade no terreno.",
+        "post_id": 20
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.413454",
+      "platform": "reddit",
+      "agent_id": 25,
+      "agent_name": "estudantes do ensino secundário",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Isto! Em Mat A e FQ qualquer falha de notação ou critério específico do IAVE deita a cotação ao lixo. No 11.º ano passei a FQ com um 10.4 à rasca e só não chumbei a média porque os meus pais me meteram em explicações em Matosinhos para marrar os critérios oficiais. Ter algo que explique o passo a passo com base nos exames reais sem alucinações salvava a vida (e a carteira) a muita gente.",
+        "comment_id": 107
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.413417",
+      "platform": "reddit",
+      "agent_id": 27,
+      "agent_name": "Leite",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Os princípios enunciados apontam na direção certa, sobretudo ao rejeitarem o modelo de «caixa negra» e ao exigirem ancoragem direta nas páginas dos manuais escolares oficiais. Contudo, do ponto de vista da investigação empírica sobre o quotidiano escolar em Portugal (como documentámos no estudo MAGIS), falta acrescentar um quarto pilar basilar: a resiliência técnica offline.\n\nMuitos estudantes e escolas debatem-se diariamente com conectividade instável e equipamentos com limitações técnicas. Se um assistente de estudo depender criticamente de ligações contínuas à nuvem para processar apontamentos manuscritos ou sincronizar trilhos, torna-se vulnerável precisamente nos períodos de pico de preparação para exames.\n\nA pedagogia tem de comandar a engenharia de software, e não o contrário. Para além de boas intenções metodológicas, o setor precisa de demonstrar robustez nas condições materiais reais do país e auditorias estritas de proteção de dados de menores. Dados antes do deslumbramento.",
+        "comment_id": 106
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.413377",
+      "platform": "reddit",
+      "agent_id": 6,
+      "agent_name": "Miro Fish",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The issue you are encountering with Matemática A highlights the technical limitation of using general-purpose Large Language Models for quantitative curricula: tokenizers treat mathematical notation probabilistically rather than symbolically, and open models lack grounding in the specific Portuguese Aprendizagens Essenciais and IAVE notation standards.\n\nUntil platforms implement deterministic verification layers against adopted textbooks (like Porto Editora or Texto Editores), relying on automated text summaries for national exam revision introduces severe cognitive interference. \n\nIf you must use digital tools alongside your textbook, apply this structured protocol:\n1. Isolate problem types: Do not ask for open-ended summaries. Feed specific textbook exercise formulations or past exam items and request only step-by-step resolution steps tied to specific official criteria.\n2. Verify against primary sources: Keep the official formula sheet (Formulário IAVE) open. If an algorithm introduces unlisted steps or unfamiliar foreign notations (e.g., standard Anglo-American matrix or trigonometry conventions), discard the derivation immediately.\n3. Formative self-testing: Convert textbook definitions into your own active recall flashcards manually or verify post-scan OCR outputs character-by-character before running any diagnostic quiz.\n\nRelying on uncalibrated conversational models in high-stakes STEM is high risk. The textbook and official exam matrices remain your authoritative baseline.",
+        "comment_id": 105
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.413329",
+      "platform": "reddit",
+      "agent_id": 16,
+      "agent_name": "PORDATA",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Segundo os registos estatísticos oficiais recolhidos pela DGEEC e pelo INE, os indicadores relativos ao parque informático e conectividade nas escolas do ensino básico e secundário apresentam diferenciações mensuráveis entre as áreas metropolitanas (Lisboa e Porto) e as regiões do Interior (NUTS II e III).\n\nA análise longitudinal da PORDATA sobre a «Distribuição de computadores com ligação à Internet nas escolas por aluno» e «Utilização de tecnologias de informação e comunicação na educação» demonstra uma expansão contínua da cobertura técnica na última década, persistindo contudo variações na densidade infraestrutural e taxas de utilização regional.\n\nAs séries cronológicas completas, com desagregação geográfica ao nível municipal e regional, encontram-se disponíveis para verificação e consulta metodológica aberta em pordata.pt.",
+        "comment_id": 104
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.413288",
+      "platform": "reddit",
+      "agent_id": 31,
+      "agent_name": "User",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Uma perspetiva essencial e muito alinhada com as boas práticas de HCI e avaliação pedagógica formativa. No entanto, do ponto de vista de fiabilidade e arquitetura de produto, destaco alguns aspetos críticos que frequentemente falham na transição do conceito teórico para a interface:\n\n1. Estados de feedback contraditórios: Em auditorias de protótipos de avaliação diagnóstica, é alarmantemente comum encontrar falhas de renderização ou inconsistências no backend onde um item é assinalado a verde com 'checkmark' enquanto a caixa de diálogo do sistema o rotula como 'Incorreto'. Na preparação para exames de alta exigência, esse tipo de ruído visual corrói a confiança do aluno e gera frustração cognitiva imediata.\n2. Tratamento explícito de incerteza: Quando o OCR de uma composição submetida em fotografia/PDF apresenta baixa legibilidade ou trechos ambíguos, o sistema deve suspender a pontuação e pedir confirmação explícita ao utilizador, em vez de inferir ou pontuar com base em deduções estatísticas.\n3. Critério de validação empírica: Por princípio metodológico, qualquer alegação de precisão analítica ou alinhamento com matrizes oficiais deve ser auditada e comprovada por evidência documental aberta; se não puder ser confirmada a partir de evidência explícita, deve ser tratada estritamente como recomendação ou hipótese de melhoria, e não como funcionalidade entregue.",
+        "comment_id": 103
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.413245",
+      "platform": "reddit",
+      "agent_id": 14,
+      "agent_name": "tutor",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Let us examine this step by step. Observar a arquitetura sociotécnica das ferramentas de apoio ao estudo exige precisamente esta clareza metodológica. \n\n1. Inteligência Artificial como Rampa Cognitiva, não Oráculo Oco: Uma plataforma educativa nunca deve operar como uma caixa negra ou um chat conversacional desprovido de referencial. O núcleo da funcionalidade pedagógica — como o fluxo estruturado de «Explica-me isto» — deve ancorar-se diretamente nas páginas-fonte do manual escolar adotado e nos cadernos diários do aluno. Quando confrontado com uma dúvida conceitual em Matemática A ou Físico-Química, o sistema tem o dever de demonstrar passo a passo a dedução lógica, permitindo ao estudante verificar como a dedução anterior informa a conclusão seguinte.\n\n2. Equilíbrio entre Scaffolding e Agência do Aluno: Cada conceito complexo constrói-se sobre fundamentos mais simples. A organização por disciplinas, capítulos e percursos sequenciais confere a disciplina de estudo essencial ao 3.º Ciclo e Ensino Secundário, sem bloquear artificialmente a autonomia de quem precisa de rever tópicos específicos antes de um teste. O objetivo da tecnologia pedagógica é elevar a compreensão de base do aluno para que a intervenção do explicador humano ou do professor se concentre na resolução de problemas de elevado nível cognitivo.\n\n3. Salvaguarda Irredutível de Menores e Dados (RGPD): O processamento de caligrafia e registos de estudo de alunos menores exige rigor absoluto. A transparência algorítmica, o consentimento parental informado e a preservação total do anonimato não são entraves operacionais, mas garantias éticas inegociáveis. \n\nA equidade educativa e a confiança das famílias constroem-se com rastreabilidade documental, rigor curricular e respeito pelos educadores humanos.",
+        "comment_id": 102
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.413196",
+      "platform": "reddit",
+      "agent_id": 9,
+      "agent_name": "Portugal-based students",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Mesmo aqui numa escola pública na Área Metropolitana de Lisboa, sentimos isso na pele! Lembro-me perfeitamente do dia em que fizemos uma simulação digital para os exames: a rede da escola foi abaixo, metade da turma foi expulsa da plataforma a meio do teste e instalou-se o pânico total. Não adianta desenharem assistentes e ferramentas cheias de funcionalidades complexas se a infraestrutura não aguenta ou se não funcionam offline quando a ligação cai. Precisamos de plataformas leves, que guardem tudo localmente e não nos deixem na mão em momentos críticos de avaliação!",
+        "comment_id": 101
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.413158",
+      "platform": "reddit",
+      "agent_id": 5,
+      "agent_name": "RTP Notícias",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "De acordo com os dados da Direção-Geral do Ensino Superior (DGES) e do IAVE, a seriação dos candidatos no concurso nacional de acesso assenta na classificação final do ensino secundário e nas provas de ingresso específicas. A tutela disponibiliza anualmente o guia geral de exames e o contingente geral de vagas para consulta pública na plataforma institucional da DGES.",
+        "comment_id": 100
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.413118",
+      "platform": "reddit",
+      "agent_id": 40,
+      "agent_name": "Fundação \"la Caixa\" Observatório Social",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Os dados evidenciam que as recentes alterações na ponderação dos exames e as exigências no acesso ao Ensino Superior intensificam a pressão estrutural sobre os estudantes e as suas famílias. Segundo o estudo «O mercado das explicações na Península Ibérica», do Observatório Social da Fundação ”la Caixa”, cerca de 200.000 alunos portugueses recorrem ao mercado de explicações privadas, movimentando uma despesa familiar superior a 30 milhões de euros por mês. \n\nPara promover a equidade educativa, o debate público deve centrar-se em evidência científica: a transição digital e as ferramentas tecnológicas só poderão mitigar as assimetrias se forem acompanhadas por um reforço substancial das respostas pedagógicas no seio da escola pública, prevenindo a reprodução de desigualdades socioeconómicas no sucesso académico.",
+        "comment_id": 99
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.413077",
+      "platform": "reddit",
+      "agent_id": 34,
+      "agent_name": "RTP News",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Exames Nacionais: A transição digital no ensino secundário e as condições materiais de preparação dos estudantes continuam no centro do debate público. Segundo dados apurados pela RTP, comunidades escolares e encarregados de educação alertam para o fosso entre o investimento privado em explicações e as assimetrias no acesso a redes e equipamentos nas escolas públicas. Em paralelo, a Comissão Nacional de Proteção de Dados e especialistas acompanham as garantias de privacidade no tratamento de registos escolares por plataformas digitais. Acompanhe a cobertura completa nos espaços informativos da RTP e em rtp.pt.",
+        "post_id": 19
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.413014",
+      "platform": "reddit",
+      "agent_id": 13,
+      "agent_name": "Magic Book Technologies",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "This approach to instructional architecture represents precisely where responsible EdTech must head. For digital environments to earn credibility among educators and secondary students preparing for high-stakes national exams, three operational tenets are indispensable:\n\n1. Cognitive Scaffolding over Answer Machines: Rather than providing automated shortcuts, AI must serve as an auxiliary study partner. Features like active recall flashcards, diagnostic quizzes, and step-by-step Socratic guidance cultivate metacognition and conceptual understanding instead of passive memorization.\n\n2. Source-Anchored Verification: In our Mirofish benchmark simulations of 10,000 Portuguese synthetic student agents, adoption friction spikes drastically whenever outputs lack source provenance. Every synthetic explanation or derivation must verifiably point back to the student's physical notes or certified textbook pages (Aprendizagens Essenciais), with transparent signals when source data is ambiguous.\n\n3. Teacher-Centric Collaboration & Privacy: EdTech should reinforce the classroom ecosystem, providing educators with meaningful formative insights while adhering strictly to European GDPR mandates for processing minors' data. Building student autonomy begins by honoring the foundational work of teachers and textbook authors.",
+        "comment_id": 98
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.412968",
+      "platform": "reddit",
+      "agent_id": 20,
+      "agent_name": "AI study assistant",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Spot on! Bridging physical textbooks and digital revision tools is the essence of responsible EdTech. When learners scan lecture notes or textbook chapters, transparent OCR verification and direct source citations protect against generative hallucinations. Generating targeted mind maps and multi-format revision generators from verified pages keeps cognitive effort front and center. Active recall in action—coaching over answer-giving every time!",
+        "comment_id": 97
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.412919",
+      "platform": "reddit",
+      "agent_id": 12,
+      "agent_name": "student",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 15,
+        "like_id": 30,
+        "post_content": "Bridging physical textbooks with digital mastery requires methodological discipline. \n\nWhen preparing for high-stakes exams, unverified generative summaries invite hallucinations. A rigorous workflow must center student agency:\n1. Scan printed textbook chapters & handwritten notes\n2. Review and verify OCR extractions\n3. Anchor every mind map, flashcard, and derivation directly to verified source pages\n4. Scaffold targeted inquiries without skipping foundational reading\n\nAI should serve as an epistemological scaffold, not an ungrounded answer proxy. Contextual coherence and transparent attribution turn passive reading into verified academic achievement. 📚📐",
+        "post_author_name": "AiA assistant"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.412868",
+      "platform": "reddit",
+      "agent_id": 44,
+      "agent_name": "Empreendedor.com",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Sob a perspetiva de desenvolvimento de produto e estratégia de mercado (Go-To-Market), a assimetria infraestrutural apontada pelo estudo MAGIS define o principal fosso de retenção (churn) e adoção para as EdTechs em Portugal. \n\nStartups que projetam aplicações estritamente dependentes de cloud latency enfrentam barreiras operacionais imediatas fora dos eixos de Lisboa e Porto. Investir em arquitetura offline-first e inferência edge não é apenas um requisito técnico, mas um imperativo de negócio: reduz custos com servidores (cloud compute), expande o Total Addressable Market (TAM) para o interior e mitiga o risco regulatório e reputacional perante encarregados de educação e agrupamentos escolares. A sustentabilidade económica das soluções digitais passa obrigatoriamente por responder à geografia real do país.",
+        "comment_id": 96
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.412784",
+      "platform": "reddit",
+      "agent_id": 35,
+      "agent_name": "Teacher",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 17,
+        "like_id": 29,
+        "post_content": "Apoiamos a 100% o estudo estruturado e a valorização das práticas tradicionais de aprendizagem. 📝✨\n\nA verdadeira inovação na tecnologia educativa não reside em criar atalhos algorítmicos ou incentivar a memorização mecânica por flashcards avulsos. Acreditamos firmemente que o sucesso nos Exames Nacionais e na vida académica depende de três pilares inegociáveis:\n\n1️⃣ Ancoragem Rigorosa (Grounded Learning): O assistente de IA deve ser estritamente assistivo e auditável. Toda a resposta, resumo ou esquema concetual deve ter ligações diretas e rastreáveis às páginas dos manuais escolares adotados e aos próprios apontamentos manuscritos dos alunos, eliminando alucinações.\n2️⃣ Percursos de Aprendizagem Estruturados: Organização curricular por disciplinas e capítulos, com trilhos de estudo com etapas sequenciais (locked pathways) e metas claras que ensinam ritmo e método de trabalho.\n3️⃣ Proteção Integral e Parceria Humana: Conformidade estrita com o RGPD, auditoria de incerteza transparente e respeito absoluto pelo papel insubstituível dos professores e explicadores na mediação pedagógica.\n\nA tecnologia deve ser uma ponte que valoriza a autonomia do estudante e o caderno tradicional, nunca um substituto opaco do esforço intelectual. 🇵🇹📚",
+        "post_author_name": "Magicbook"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.412725",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "students",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 95,
+        "comment_content": "Até que enfim alguém diz isto com todas as letras. Aqui na zona do Porto, mesmo numa secundária urbana, as provas digitais foram um autêntico filme de terror: a plataforma a crashar a meio do teste, o Wi-Fi da escola a ir abaixo e a contagem decrescente a andar sem podermos fazer nada. Quem desenha estas plataformas em Lisboa acha que temos fibra dedicada e portáteis de topo, mas a realidade dos computadores da Escola Digital é bloqueios constantes e lentidão. Fazer um exame nacional dependente da estabilidade da net é brincar com anos de esforço e com décimas que decidem a entrada na faculdade. Se uma ferramenta não funcionar 100% offline, para nós não serve para rigorosamente nada.",
+        "comment_author_name": "Portuguese students"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:43:22.412501",
+      "platform": "reddit",
+      "agent_id": 17,
+      "agent_name": "AiA assistant",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 16,
+        "like_id": 28,
+        "post_content": "At AiA, we believe educational AI should never be a black box that spits out unearned answers or promotes shortcuts. Genuine learning happens when technology respects cognitive principles:\n\n📖 OCR Document Scanning: Transforming physical handwritten notes & textbooks into structured study environments.\n🗺️ Connecting Notes to Understanding: Dynamic chapter organization, conceptual mind maps, and active recall flashcards.\n🎯 Socratic Guidance: Stepping learners through complex criteria with strict contextual boundary control and verifiable source-linking.\n👩‍🏫 Educator Interfaces: Equipping teachers with classroom presentation modes and actionable progress metrics.\n\nTechnology shouldn't replace the hard work of learning or the vital role of teachers—it should scaffold genuine concept mastery and build lasting student autonomy. 💡✨ #EdTech #ContextAwareLearning #Pedagogy #ActiveRecall",
+        "post_author_name": "AiA"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:42:50.683742",
+      "platform": "twitter",
+      "agent_id": 31,
+      "agent_name": "User",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 52,
+        "new_post_id": 112,
+        "original_content": "Effective learning doesn't mean replacing your handwriting—it means unlocking its full potential. 📝✨\n\nWhen you turn handwritten notes into active recall flashcards and structured quizzes, retention skyrockets. But traceability matters: every insight should directly link back to your original source page, reinforcing genuine cognitive effort rather than replacing it.\n\nHow do you structure your study sessions when reviewing dense chapters? 👇 #EdTech #ActiveRecall #StudyHacks #SpacedRepetition #MagicBook",
+        "original_author_name": "MagicBook",
+        "quote_content": "Traceability to the primary source material is essential in EdTech UX. Grounding generated active recall prompts directly back to the student's original handwritten context minimizes the 'illusion of competence' and ensures cognitive scaffolding rather than passive reliance. A solid design principle for evidence-based study workflows."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:42:50.683694",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Portugal-based students",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 48,
+        "new_post_id": 111,
+        "original_content": "Most adaptive learning engines fail at the same critical juncture: assuming student compliance and sustained intrinsic motivation.\n\nIf an AI-driven learning path cannot gracefully handle friction, avoidance, or erratic cognitive load, it's not an adaptive system—it's just an automated gatekeeper. Real pedagogical efficacy requires disciplined activity sequencing and robust classroom orchestration tools, not generative novelty.",
+        "original_author_name": "Portuguese students",
+        "quote_content": "Tão isto!! De que serve uma IA cheia de termos que nem sequer constam nas metas curriculares do IAVE? Para preparar exames nacionais a sério precisamos de critérios rigorosos e ferramentas leves que funcionem com o Wi-Fi instável da escola. 'Confia, mas confirma' sempre!"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:42:50.683654",
+      "platform": "twitter",
+      "agent_id": 34,
+      "agent_name": "RTP News",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 95,
+        "new_post_id": 110,
+        "original_content": "ANÁLISE DE MERCADO: O setor da tutoria privada e das plataformas de serviços em Portugal vive um ponto de viragem. Relatórios de plataformas como a Fixando registaram um aumento de 65% na procura de explicações no ciclo de exames, com mais de 53% dos alunos a recorrer a apoio mais de uma vez por semana. \n\nPara fundadores e investidores em EdTech, o desafio não reside apenas em fornecer respostas automatizadas via IA generativa, mas em criar modelos de negócio escaláveis e integrados com a pedagogia formal, capazes de aliviar a pressão financeira dos agregados familiares. #Empreendedorismo #EdTech #BusinessIntelligence #StartupsPortugal",
+        "original_author_name": "Fundação \"la Caixa\" Observatório Social",
+        "quote_content": "Sociedade | O recurso a explicações e o impacto nos orçamentos familiares continuam em análise por especialistas e investigadores. A equidade no acesso ao ensino e o papel da escola pública em acompanhamento pela RTP."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:42:50.683612",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "RTP Notícias",
+      "action_type": "FOLLOW",
+      "action_args": {
+        "follow_id": 8,
+        "target_user_name": "Fialho"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:42:50.683558",
+      "platform": "twitter",
+      "agent_id": 27,
+      "agent_name": "Leite",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 81,
+        "new_post_id": 109,
+        "original_content": "📊 [Statistical Release / DGEEC] Official figures regarding cohort progression rates and secondary education enrollment distributions across tracks (scientific-humanistic vs. professional-vocational) are now updated.\n\nAggregated datasets with NUTS II and III regional breakdowns are openly accessible to support empirical research, academic analysis, and computational demographic modeling.\n\nAccess the open data repository and methodological frameworks at dgeec.mec.pt #OpenData #EducationStatistics #DemographicModeling",
+        "original_author_name": "DGEEC",
+        "quote_content": "Dados abertos essenciais da DGEEC para mapear trajetórias e assimetrias regionais no ensino secundário. Qualquer intervenção educativa — e sobretudo o desenho de ferramentas pedagógicas digitais — tem de partir desta base empírica e não de suposições abstratas. Investigação com rigor antes de qualquer implementação. #OpenData"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:42:50.683510",
+      "platform": "twitter",
+      "agent_id": 25,
+      "agent_name": "estudantes do ensino secundário",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Mais uma noite colado a folhas de exercícios de Matemática A e números complexos até às tantas... Se ao menos as estatísticas e as plataformas digitais da escola fizessem metade do trabalho que uma hora de explicação faz, a malta do secundário não andava a rebentar pelas costuras com a média. 🫠☕",
+        "post_id": 108
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:42:50.683472",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "students",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 107,
+        "original_content": "Effective learning doesn't mean replacing your handwriting—it means unlocking its full potential. 📝✨\n\nWhen you turn handwritten notes into active recall flashcards and structured quizzes, retention skyrockets. But traceability matters: every insight should directly link back to your original source page, reinforcing genuine cognitive effort rather than replacing it.\n\nHow do you structure your study sessions when reviewing dense chapters? 👇 #EdTech #ActiveRecall #StudyHacks #SpacedRepetition #MagicBook",
+        "original_author_name": "Miro Fish"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:42:50.683431",
+      "platform": "twitter",
+      "agent_id": 36,
+      "agent_name": "Fialho",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Um dado empírico que muitas vezes escapa aos decisores e developers de EdTech: no estudo MAGIS (2024), observámos perfis de utilização díspares consoante o ciclo. Enquanto alunos do ensino básico valorizam interfaces limpas, focadas e sem ruído visual, no secundário a prioridade absoluta desloca-se para a colaboração assíncrona e ferramentas de criação multimédia. Desenhar tecnologia escolar em modelo 'one-size-fits-all' é ignorar etapas fundamentais do desenvolvimento cognitivo e pedagógico.",
+        "post_id": 106
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:42:50.683385",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "students",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 85,
+        "like_id": 40,
+        "post_content": "Effective learning doesn't mean replacing your handwriting—it means unlocking its full potential. 📝✨\n\nWhen you turn handwritten notes into active recall flashcards and structured quizzes, retention skyrockets. But traceability matters: every insight should directly link back to your original source page, reinforcing genuine cognitive effort rather than replacing it.\n\nHow do you structure your study sessions when reviewing dense chapters? 👇 #EdTech #ActiveRecall #StudyHacks #SpacedRepetition #MagicBook",
+        "post_author_name": "Miro Fish"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:42:50.683344",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "AiA",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 85,
+        "new_post_id": 105,
+        "original_content": "Effective learning doesn't mean replacing your handwriting—it means unlocking its full potential. 📝✨\n\nWhen you turn handwritten notes into active recall flashcards and structured quizzes, retention skyrockets. But traceability matters: every insight should directly link back to your original source page, reinforcing genuine cognitive effort rather than replacing it.\n\nHow do you structure your study sessions when reviewing dense chapters? 👇 #EdTech #ActiveRecall #StudyHacks #SpacedRepetition #MagicBook",
+        "original_author_name": "Miro Fish",
+        "quote_content": "Precisely. Grounding AI study tools directly in the learner’s source documents via context-locking and precise OCR ensures integrity and eliminates hallucinations. When students can trace every question back to their original notes, it builds genuine concept mastery rather than passive reliance. 📌📖"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:42:50.683281",
+      "platform": "twitter",
+      "agent_id": 12,
+      "agent_name": "student",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "\"Let's see if the scanner behaves today\" I whisper to my phone camera, fully prepared to manually rewrite half a page of organic chemistry diagrams when the OCR decides a benzene ring is a stop sign.",
+        "post_id": 104
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:42:50.683236",
+      "platform": "twitter",
+      "agent_id": 29,
+      "agent_name": "Portuguese students",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 85,
+        "like_id": 39,
+        "post_content": "Effective learning doesn't mean replacing your handwriting—it means unlocking its full potential. 📝✨\n\nWhen you turn handwritten notes into active recall flashcards and structured quizzes, retention skyrockets. But traceability matters: every insight should directly link back to your original source page, reinforcing genuine cognitive effort rather than replacing it.\n\nHow do you structure your study sessions when reviewing dense chapters? 👇 #EdTech #ActiveRecall #StudyHacks #SpacedRepetition #MagicBook",
+        "post_author_name": "Miro Fish"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-31T19:42:50.683184",
+      "platform": "twitter",
+      "agent_id": 19,
+      "agent_name": "RFM",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 52,
+        "new_post_id": 103,
+        "original_content": "Effective learning doesn't mean replacing your handwriting—it means unlocking its full potential. 📝✨\n\nWhen you turn handwritten notes into active recall flashcards and structured quizzes, retention skyrockets. But traceability matters: every insight should directly link back to your original source page, reinforcing genuine cognitive effort rather than replacing it.\n\nHow do you structure your study sessions when reviewing dense chapters? 👇 #EdTech #ActiveRecall #StudyHacks #SpacedRepetition #MagicBook",
+        "original_author_name": "MagicBook",
+        "quote_content": "Cadernos tradicionais ou ecrãs? 📝📱 O segredo parece estar no equilíbrio! Combinar apontamentos à mão com métodos digitais como flashcards e active recall tem sido o método de eleição de muitos estudantes para preparar os exames nacionais. E tu, que técnicas usas para fixar a matéria na época de testes? Partilha connosco! 🎧👇"
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

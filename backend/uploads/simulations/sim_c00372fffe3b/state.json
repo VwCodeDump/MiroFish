@@ -1,0 +1,29 @@
+{
+  "simulation_id": "sim_c00372fffe3b",
+  "project_id": "proj_105bb0d8014d",
+  "graph_id": "mirofish_db0aa90a11ee430b",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "completed",
+  "entities_count": 48,
+  "profiles_count": 48,
+  "entity_types": [
+    "IdeologicalOrganization",
+    "Person",
+    "PoliticalParty",
+    "PoliticalAlliance",
+    "PoliticalLeader",
+    "Journalist",
+    "GovernmentAgency",
+    "Organization"
+  ],
+  "profiles_generated": true,
+  "config_generated": true,
+  "config_reasoning": "Time Config: The simulation models an in-depth, multi-faceted macro-political debate within the Indian political ecosystem aligned with Indian Standard Time (IST). A 120-hour window allows sufficient progression to explore policy trajectories, federal realignment, and regional friction following a diminished INC. Daily activity reflects Indian media and political schedules: press briefings and institutional actions occur during work hours (09:00-18:00), followed by prime-time television debates and heavy social media engagement in the late evening (19:00-23:00), tapering off sharply past midnight. | Event Config: The simulation explores an ideal-case hypothetical scenario of INC's extinction and uninterrupted BJP dominance over the next five years. To accurately capture the multifaceted public and institutional reactions, the initial posts incorporate distinct ideological lenses: the political analyst examining structural dynamics, regional organizations warning about federal friction, ruling party perspectives advocating rapid developmental reform, alliances strategizing realignment, ideological anchors projecting cultural consolidation, and common citizens questioning grassroots delivery. | Agent Config: 48 generated | Post Assignment: 7 posts assigned",
+  "current_round": 0,
+  "twitter_status": "not_started",
+  "reddit_status": "not_started",
+  "created_at": "2026-10-12T17:51:29.577899",
+  "updated_at": "2026-10-12T18:41:45.508642",
+  "error": null
+}

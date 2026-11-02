@@ -1,0 +1,152 @@
+
+
+=== Magicboard Mirofish.pdf ===
+Lições Mágicas
+As Lições Mágicas permitem que o professor prepare aulas completas de forma rápida e
+personalizada, com o apoio da inteligência artificial do Magicboard.
+O professor começa por selecionar a disciplina que leciona e definir o tema que pretende
+abordar. Com base nessas informações, o Magicboard gera uma aula estruturada, com uma
+sequência lógica de conteúdos, slides de apresentação e um plano passo a passo que orienta
+o professor ao longo da aula.
+A aula é organizada para facilitar a explicação dos conceitos, a apresentação dos conteúdos e
+o desenvolvimento das atividades pedagógicas, ajudando o professor a conduzir a
+aprendizagem de forma clara e organizada.
+Desta forma, o professor poupa tempo na preparação das aulas e dispõe de materiais de apoio
+que pode utilizar para apresentar os conteúdos e orientar os alunos durante todo o processo de
+aprendizagem.
+Torne o texto mais conciso e diretoDestaque melhor os benefícios para professores
+
+
+
+
+
+
+Aula ao Vivo
+A funcionalidade Aula ao Vivo permite que o professor conduza a aula diretamente no
+Magicboard, seguindo cada etapa da Lição Mágica previamente preparada. Durante a aula, o
+professor pode acompanhar a sequência de atividades, consultar o tempo previsto para cada
+etapa e gerir o ritmo da sessão.
+Ao longo da aula, o professor conta com o apoio de um assistente de IA, que pode fornecer
+insights pedagógicos, sugerir exemplos e analogias, simplificar explicações e ajudar a
+esclarecer dúvidas sobre os conteúdos que estão a ser ensinados. O professor também pode
+fazer perguntas ao assistente a qualquer momento para aprofundar os temas, explorar
+diferentes abordagens ou encontrar novas formas de explicar os conceitos aos alunos.
+Desta forma, o Magicboard funciona como um assistente pedagógico em tempo real, ajudando
+o professor a conduzir a aula de forma mais estruturada, dinâmica e interativa, sem perder o
+controlo sobre o conteúdo e o ritmo do ensino.
+
+
+
+Geração de Slides
+A funcionalidade Geração de Slides permite que o professor crie apresentações pedagógicas
+de forma rápida e personalizada, a partir de um tema relacionado com a disciplina que leciona.
+Para criar uma apresentação, o professor pode definir o tema, escolher o número de slides,
+selecionar o tom de aprendizagem e indicar a duração prevista da apresentação. Com base
+nessas preferências, o Magicboard gera automaticamente os slides em poucos instantes,
+organizando os conteúdos de forma estruturada e adequada aos objetivos da aula.
+As apresentações podem incluir textos explicativos, imagens, cores e elementos visuais que
+facilitam a compreensão dos conteúdos e tornam as aulas mais dinâmicas e apelativas.
+Após a geração, o professor pode editar livremente os slides, modificar os textos e os
+conteúdos, ajustar os elementos visuais e personalizar a apresentação de acordo com as suas
+necessidades pedagógicas.
+Quando estiver pronta, a apresentação pode ser partilhada com os alunos através da aplicação
+do aluno, permitindo-lhes aceder aos materiais utilizados pelo professor durante a aula.
+Desta forma, o Magicboard simplifica a preparação de apresentações, permitindo ao professor
+criar, personalizar e partilhar materiais pedagógicos em poucos instantes, mantendo a
+flexibilidade para adaptar cada slide aos seus objetivos de ensino.
+
+
+
+
+
+
+Sala de Aula
+O professor pode criar uma sala de aula virtual e partilhá-la com os alunos através da aplicação
+do aluno. A partir desta sala, pode partilhar slides e materiais de apoio, bem como enviar
+avaliações rápidas para verificar a compreensão dos conteúdos ensinados.
+O professor pode acompanhar os resultados das avaliações, consultar as notas de cada aluno
+e analisar o nível de compreensão da turma. Quando desejar, pode também considerar os
+resultados destas avaliações para a média dos alunos.
+Desta forma, o Magicboard facilita a partilha de materiais, promove a interação entre professor
+e alunos e permite acompanhar a aprendizagem em tempo real.
+
+
+
+
+
+Geração de Avaliações
+O professor pode utilizar o Magicboard para criar avaliações personalizadas de forma rápida e
+flexível. Pode escolher o tipo de questões — verdadeiro ou falso, resposta aberta, escolha
+múltipla ou preenchimento de lacunas —, definir o número de perguntas e estabelecer a
+cotação de cada questão e a classificação final.
+O conteúdo da avaliação pode ser baseado em materiais fornecidos pelo professor ou em
+conteúdos obtidos através da base de conhecimento da IA. O professor também pode
+personalizar os critérios de avaliação, ajustar as perguntas e editar todos os conteúdos
+gerados, garantindo que a avaliação corresponde aos objetivos de aprendizagem e às
+necessidades dos alunos.
+
+
+
+
+Correção de Provas
+O professor pode utilizar o Magicboard para corrigir provas de forma rápida e automatizada,
+com o apoio da inteligência artificial. Para iniciar a correção, deve carregar três elementos: a
+rubrica de avaliação, com os critérios de correção e o gabarito; a prova, com as questões
+apresentadas aos alunos; e as folhas de resposta, com um ficheiro por aluno da turma.
+O sistema analisa as respostas de cada aluno com base no gabarito e nos critérios definidos,
+atribuindo uma classificação de acordo com a rubrica fornecida. Desta forma, o professor
+consegue agilizar o processo de correção, manter a consistência na avaliação e acompanhar o
+desempenho individual dos alunos.
+
+
+
+
+
+Digitalização de Conteúdos
+O professor pode utilizar o Magicboard para digitalizar conteúdos manuscritos, tanto dos
+cadernos dos alunos como dos seus próprios cadernos de apontamentos. Através da
+digitalização, a IA reconhece e interpreta a informação escrita, transformando-a em conteúdo
+digital que pode ser consultado e reutilizado na preparação de aulas e na organização dos
+materiais pedagógicos.
+
+
+
+Assistente de IA do Professor
+
+
+O Assistente de IA do Magicboard é um apoio inteligente que permite ao professor aceder às
+principais funcionalidades da plataforma diretamente através de uma conversa. A partir do chat,
+o professor pode criar Lições Mágicas, gerar apresentações, exercícios e mapas mentais, criar
+rubricas e avaliações, e corrigir provas e trabalhos.
+O professor pode fazer pedidos em linguagem natural, esclarecer dúvidas, aprofundar
+conteúdos, solicitar exemplos, analogias ou explicações simplificadas e obter sugestões para
+preparar e dinamizar as suas aulas.
+O assistente também permite iniciar a criação de materiais pedagógicos a partir das
+necessidades específicas do professor, facilitando o acesso às ferramentas do Magicboard sem
+ter de navegar manualmente por cada funcionalidade.
+Desta forma, o Assistente de IA funciona como um ponto central de apoio ao trabalho docente,
+ajudando a planear aulas, produzir materiais, criar avaliações e apoiar o processo de ensino de
+forma mais rápida e eficiente.
+
+
+
+
+Perfis de Acessibilidade e Personalização Pedagógica
+O Magicboard permite personalizar Lições Mágicas, apresentações, exercícios e avaliações de
+acordo com os perfis de acessibilidade e as necessidades de aprendizagem dos alunos. O
+professor pode selecionar um ou mais perfis, como autismo, TDAH, dislexia, discalculia,
+deficiência intelectual, sobredotação, dificuldades de fala e linguagem, necessidades visuais ou
+auditivas.
+
+
+Com base nos perfis selecionados, a inteligência artificial adapta a linguagem, a estrutura, o
+formato e a apresentação dos conteúdos, mantendo os objetivos pedagógicos e os
+conhecimentos a desenvolver. As adaptações podem incluir instruções mais claras, textos
+simplificados, exemplos concretos, suportes visuais, tarefas divididas em etapas ou atividades
+com maior nível de aprofundamento.
+Esta funcionalidade pode ser aplicada aos diferentes materiais pedagógicos gerados no
+Magicboard, permitindo ao professor preparar aulas e avaliações mais inclusivas e ajustadas à
+diversidade da turma.
+Desta forma, o Magicboard ajuda o professor a criar experiências de aprendizagem mais
+acessíveis e personalizadas, promovendo a participação dos alunos e respeitando as suas
+diferentes necessidades, sem comprometer os objetivos curriculares.

@@ -1,0 +1,24 @@
+{
+  "project_id": "proj_0fb1c137e5a8",
+  "name": "Unnamed Project",
+  "status": "failed",
+  "created_at": "2026-10-12T17:32:22.356283",
+  "updated_at": "2026-10-12T17:32:28.367988",
+  "files": [
+    {
+      "filename": "Evolution of Indian Politics (1947–2026).pdf",
+      "size": 227003
+    }
+  ],
+  "total_text_length": 15320,
+  "ontology": null,
+  "analysis_summary": null,
+  "graph_id": null,
+  "graph_build_task_id": null,
+  "zep_batch_id": null,
+  "zep_batch_operation_id": null,
+  "simulation_requirement": "What will happen in an ideal scenario if INC, Indian National Congress, would be diluted and it's totally diminished, and only BJP remains in the power, in the politics for India? How would the things turn out in next 5 years for the Government of India?",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": "LLM provider request failed (HTTP 401) (request_id: req_37e2024df9d5429cb1ccbd2749926b2e)"
+}

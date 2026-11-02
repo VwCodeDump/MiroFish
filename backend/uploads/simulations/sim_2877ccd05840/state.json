@@ -1,0 +1,31 @@
+{
+  "simulation_id": "sim_2877ccd05840",
+  "project_id": "proj_8322274f49eb",
+  "graph_id": "mirofish_a8033365e1b044b3",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "stopped",
+  "entities_count": 135,
+  "profiles_count": 135,
+  "entity_types": [
+    "GovernmentAgency",
+    "Tutor",
+    "Teacher",
+    "EdTechCompany",
+    "Organization",
+    "Student",
+    "ParentGuardian",
+    "Person",
+    "MediaOutlet",
+    "EducationalInstitution"
+  ],
+  "profiles_generated": true,
+  "config_generated": true,
+  "config_reasoning": "Time Config: Configured for Portuguese secondary and higher education students aligned with the Western European Time (WET/UTC+0) rhythm. Portuguese students typically attend classes from 08:30 to 17:00 and attend private tutoring (explicações) in the late afternoon. Online self-study, AI tool experimentation, and educational peer debates peak in the post-dinner window (19:00-00:00). Public institutions, IAVE updates, and media outlets (RTP, DNoticias) maintain steady activity during normal school/work hours (09:00-18:00), while early morning hours (01:00-06:00) remain minimal. | Event Config: The scenario addresses the real-world anxieties of Portuguese students and families facing the high-stakes Exames Nacionais and the economic barrier of private tutoring. The initial posts represent key voices—public media, EdTech innovators modeling student behavior, secondary students, teachers, parents, and tutors—reflecting key technical and pedagogical friction points such as IAVE alignment, language dialect fidelity, and cost equity. | Agent Config: 135 generated | Post Assignment: 6 posts assigned",
+  "current_round": 0,
+  "twitter_status": "not_started",
+  "reddit_status": "not_started",
+  "created_at": "2026-10-30T15:38:58.231302",
+  "updated_at": "2026-11-01T00:34:41.530980",
+  "error": "模拟进程已结束"
+}

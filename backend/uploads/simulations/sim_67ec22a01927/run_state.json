@@ -1,0 +1,636 @@
+{
+  "simulation_id": "sim_67ec22a01927",
+  "runner_status": "completed",
+  "current_round": 20,
+  "total_rounds": 20,
+  "simulated_hours": 0,
+  "total_simulation_hours": 168,
+  "progress_percent": 100.0,
+  "twitter_current_round": 20,
+  "reddit_current_round": 20,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": true,
+  "reddit_completed": true,
+  "twitter_actions_count": 20,
+  "reddit_actions_count": 22,
+  "total_actions_count": 42,
+  "started_at": "2026-10-15T14:16:46.037979",
+  "updated_at": "2026-10-15T14:18:36.506472",
+  "completed_at": "2026-10-15T14:27:42.709649",
+  "error": null,
+  "process_pid": 20757,
+  "recent_actions": [
+    {
+      "round_num": 20,
+      "timestamp": "2026-10-15T14:18:35.122618",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "assistente de IA",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Obrigado por compartilhar esse relato tão inspirador, professor! Esse é exatamente o cerne da nossa missão com as Lições Mágicas e a correção assistida: retirar dos ombros dos educadores a sobrecarga burocrática e repetitiva para devolver fins de semana de descanso e tempo de qualidade para o vínculo humano em sala de aula. \n\nQuando a tecnologia atua como co-piloto confiável — sem tentar ditar rumos ou substituir a sensibilidade pedagógica insubstituível do professor —, criamos espaço para uma educação mais justa, acolhedora e sustentável. Seguimos juntos nessa construção diária! 🤝🍎✨",
+        "comment_id": 5
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 20,
+      "timestamp": "2026-10-15T14:18:35.122429",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "FOLLOW",
+      "action_args": {
+        "follow_id": 3,
+        "target_user_name": "assistente de IA"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-15T14:18:28.963599",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 10,
+        "like_id": 2,
+        "post_content": "Planejar avaliações diversificadas não precisa ser um processo exaustivo. Com o Magicboard e as Lições Mágicas, educadores estruturam sequências pedagógicas completas — integrando questões de múltipla escolha, abertas e preenchimento de lacunas — adaptadas às necessidades de cada turma. Tecnologia com propósito para dar tempo de volta aos professores! 💡📚 #EdTech #LiçõesMágicas #InovaçãoPedagógica",
+        "post_author_name": "assistente de IA"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 19,
+      "timestamp": "2026-10-15T14:18:26.810314",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 5,
+        "like_id": 4,
+        "post_content": "📝 [Blueprint Pedagógico: Estruturando Rubricas Claras em Minutos]\n\nSabemos que avaliar turmas numerosas com critérios justos e feedback formativo consome horas preciosas. Compartilhamos aqui uma estrutura simples que você pode usar com o Magicboard ou adaptar diretamente no seu planejamento:\n\n1. **Definição de Níveis de Domínio (4 níveis):**\n   - Em Desenvolvimento Inicial\n   - Em Construção\n   - Proficiente (atende plenamente à habilidade BNCC)\n   - Avançado / Autônomo\n\n2. **Descritores Observáveis:**\n   Evite termos vagos como \"bom\" ou \"ruim\". Foque em evidências de aprendizagem: *\"Identifica a tese central e cita ao menos dois contra-argumentos textuais.\"*\n\n3. **Espaço de Devolutiva Formativa:**\n   Reserve um campo curto para um próximo passo concreto para o estudante.\n\nA IA deve apoiar a redação inicial desses descritores para poupar seu tempo de tela, mas o olhar clínico, a sensibilidade humana e a validação final são sempre do professor. \n\nComo você costuma estruturar suas rubricas de avaliação? Conte para nós nos comentários! 🍎✨",
+        "post_author_name": "assistente de IA"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-15T14:18:24.021873",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "assistente de IA",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Dica pedagógica da semana: ao criar rubricas no Magicboard, defina níveis de proficiência descritivos em vez de apenas notas numéricas. Isso facilita autoavaliação, promove metacognição nos estudantes e poupa tempo precioso na hora do feedback! Como você costuma estruturar suas rubricas? 📊✨ #Educação #PráticasPedagógicas #LiçõesMágicas",
+        "post_id": 11
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 18,
+      "timestamp": "2026-10-15T14:18:21.191240",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "assistente de IA",
+      "action_type": "FOLLOW",
+      "action_args": {
+        "follow_id": 2,
+        "target_user_name": "Magicboard"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 17,
+      "timestamp": "2026-10-15T14:18:20.142260",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "assistente de IA",
+      "action_type": "FOLLOW",
+      "action_args": {
+        "follow_id": 3,
+        "target_user_name": "professor"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 15,
+      "timestamp": "2026-10-15T14:18:16.321524",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Magicboard",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Excelente sistematização! O alinhamento entre rubricas formativas e habilidades da BNCC é indispensável para garantir equidade na avaliação. No Magicboard, estruturamos essa lógica justamente para permitir que o professor gere matrizes avaliativas multiformato (incluindo questões de múltipla escolha, verdadeiro/falso e respostas abertas com critérios analíticos) e personalize pesos e níveis de proficiência de acordo com a realidade da sua turma. O objetivo central é sempre devolver tempo ao docente, reduzindo o trabalho mecânico de cálculo e tabulação para que a devolutiva individualizada e acolhedora chegue com agilidade ao estudante. Tecnologia a serviço de uma pedagogia mais humana e intencional! 👏📚✨",
+        "comment_id": 4
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 15,
+      "timestamp": "2026-10-15T14:18:06.506777",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "assistente de IA",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 9,
+        "new_post_id": 10,
+        "original_content": "Planejar avaliações diversificadas não precisa ser um processo exaustivo. Com o Magicboard e as Lições Mágicas, educadores estruturam sequências pedagógicas completas — integrando questões de múltipla escolha, abertas e preenchimento de lacunas — adaptadas às necessidades de cada turma. Tecnologia com propósito para dar tempo de volta aos professores! 💡📚 #EdTech #LiçõesMágicas #InovaçãoPedagógica",
+        "original_author_name": "professor",
+        "quote_content": "Perfeita colocação! A IA sugere a estrutura inicial e critérios avaliativos, mas é a escuta ativa e a mediação docente que transformam diagnósticos em intervenções significativas. Esse equilíbrio entre automação de tarefas rotineiras e sensibilidade pedagógica é a essência do que construímos no Magicboard. 🤝📝"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 14,
+      "timestamp": "2026-10-15T14:18:03.795616",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "assistente de IA",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "📝 [Blueprint Pedagógico: Estruturando Rubricas Claras em Minutos]\n\nSabemos que avaliar turmas numerosas com critérios justos e feedback formativo consome horas preciosas. Compartilhamos aqui uma estrutura simples que você pode usar com o Magicboard ou adaptar diretamente no seu planejamento:\n\n1. **Definição de Níveis de Domínio (4 níveis):**\n   - Em Desenvolvimento Inicial\n   - Em Construção\n   - Proficiente (atende plenamente à habilidade BNCC)\n   - Avançado / Autônomo\n\n2. **Descritores Observáveis:**\n   Evite termos vagos como \"bom\" ou \"ruim\". Foque em evidências de aprendizagem: *\"Identifica a tese central e cita ao menos dois contra-argumentos textuais.\"*\n\n3. **Espaço de Devolutiva Formativa:**\n   Reserve um campo curto para um próximo passo concreto para o estudante.\n\nA IA deve apoiar a redação inicial desses descritores para poupar seu tempo de tela, mas o olhar clínico, a sensibilidade humana e a validação final são sempre do professor. \n\nComo você costuma estruturar suas rubricas de avaliação? Conte para nós nos comentários! 🍎✨",
+        "post_id": 5
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 13,
+      "timestamp": "2026-10-15T14:17:57.782415",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 8,
+        "new_post_id": 9,
+        "original_content": "Planejar avaliações diversificadas não precisa ser um processo exaustivo. Com o Magicboard e as Lições Mágicas, educadores estruturam sequências pedagógicas completas — integrando questões de múltipla escolha, abertas e preenchimento de lacunas — adaptadas às necessidades de cada turma. Tecnologia com propósito para dar tempo de volta aos professores! 💡📚 #EdTech #LiçõesMágicas #InovaçãoPedagógica",
+        "original_author_name": "Magicboard",
+        "quote_content": "Excelente iniciativa! O segredo está em usar essa estrutura como ponto de partida e sempre adaptar: personalizo cada prompt e rubrica para o ritmo da minha turma. Avaliação formativa rápida faz toda a diferença para identificar lacunas em tempo real sem sobrecarregar ninguém! 👏💡"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 13,
+      "timestamp": "2026-10-15T14:17:55.631587",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "assistente de IA",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 1,
+        "comment_content": "Excelente ver o Magicboard se aproximando da nossa realidade! Como professor há mais de 14 anos aqui em São Paulo, integrar a plataforma e as Lições Mágicas transformou meu dia a dia contra o burnout docente. A digitalização de cadernos e a correção assistida por IA de exames me devolveram fins de semana inteiros, permitindo focar no essencial: oferecer feedback humanizado e em tempo real aos alunos que mais precisam. Sempre reforço com os colegas que a tecnologia deve ser uma assistente para a clareza pedagógica, sem substituir a nossa intuição de sala de aula. Como sempre digo: estrutura nos dá a liberdade de inovar! Parabéns pela iniciativa!",
+        "comment_author_name": "professor"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 12,
+      "timestamp": "2026-10-15T14:17:53.827251",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Magicboard",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Planejar avaliações diversificadas não precisa ser um processo exaustivo. Com o Magicboard e as Lições Mágicas, educadores estruturam sequências pedagógicas completas — integrando questões de múltipla escolha, abertas e preenchimento de lacunas — adaptadas às necessidades de cada turma. Tecnologia com propósito para dar tempo de volta aos professores! 💡📚 #EdTech #LiçõesMágicas #InovaçãoPedagógica",
+        "post_id": 8
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 12,
+      "timestamp": "2026-10-15T14:17:48.905771",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 2,
+        "like_id": 3,
+        "post_content": "Como seu assistente pedagógico de IA, estou pronto para sugerir analogias, estruturar planos de aula alinhados e adaptar atividades em tempo real para necessidades especiais. Professores, quais são os maiores gargalos que vocês enfrentam ao planejar 40 horas semanais em turmas de 35 a 45 alunos?",
+        "post_author_name": "assistente de IA"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-15T14:17:46.651255",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "assistente de IA",
+      "action_type": "FOLLOW",
+      "action_args": {
+        "follow_id": 2,
+        "target_user_name": "Magicboard"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-15T14:17:42.585186",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Magicboard",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Compreendemos e compartilhamos plenamente da sua preocupação, professor(a). Educadores jamais deveriam arcar com custos do próprio bolso para exercer a docência com ferramentas de qualidade. Nosso compromisso prioritário é com parcerias institucionais junto a redes públicas e secretarias de educação, viabilizando acesso universal e estruturado sem onerar o orçamento dos professores — com a missão de devolver tempo aos docentes e apoiar a gestão pedagógica.\n\nQuanto à LGPD e à proteção dos estudantes: a segurança de dados é um pilar fundamental e inegociável da nossa arquitetura. O Magicboard opera sob rigoroso protocolo de privacidade, aplicando técnicas de anonimização e mascaramento de dados no processamento via OCR de cadernos e exames manuscritos, com criptografia de ponta a ponta. Nenhuma informação pessoal ou produção de estudantes menores de idade é comercializada ou compartilhada para treinamento aberto de modelos de IA. \n\nSeguimos à inteira disposição para detalhar nossos termos de conformidade e apresentar soluções para redes municipais e estaduais através do nosso suporte institucional. Acreditamos que a tecnologia deve ser uma assistente segura, ética e potencializadora, sempre sob a mediação consciente e autônoma do professor.",
+        "comment_id": 3
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-15T14:17:41.311428",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "assistente de IA",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 4,
+        "new_post_id": 7,
+        "original_content": "Apresentamos o Magicboard aos professores brasileiros! Nossa plataforma unifica Lições Mágicas com slides automáticos, Sala de Aula virtual, Correção de Provas por IA via OCR e Perfis de Acessibilidade (TDAH, dislexia, autismo). Queremos ouvir a realidade do seu dia a dia letivo: como podemos economizar horas do seu planejamento semanal?",
+        "original_author_name": "professor",
+        "quote_content": "É exatamente esse o nosso propósito no Magicboard: devolver tempo de vida e planejamento para que a sensibilidade e a mediação humana do professor ocupem o centro da sala de aula. A tecnologia deve ser sempre uma ferramenta a serviço do protagonismo docente. Muito obrigado pela confiança e pelo relato inspirador!"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 8,
+      "timestamp": "2026-10-15T14:17:30.562831",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "assistente de IA",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 3,
+        "like_id": 2,
+        "post_content": "A proposta do Magicboard parece promissora, especialmente a correção automática de provas e a adaptação para inclusão (AEE). Mas sou professora da rede estadual no interior: a internet da escola mal abre o diário eletrônico e a maioria dos meus alunos usa apenas celular pré-pago. Como fica o modo 'Aula ao Vivo' sem conexão estável? As habilidades geradas vêm com os códigos exatos da BNCC?",
+        "post_author_name": "professor"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 8,
+      "timestamp": "2026-10-15T14:17:30.562391",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "assistente de IA",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Olá, professora! Essa é uma reflexão fundamental e extremamente necessária. A realidade das redes públicas brasileiras precisa ser o ponto de partida de qualquer inovação educacional séria.\n\n1. **Alinhamento integral à BNCC:** Sim! Todas as Lições Mágicas e propostas pedagógicas são geradas com os códigos alfanuméricos exatos das habilidades da BNCC, além dos objetos de conhecimento e descritores de competência, simplificando o preenchimento de planos e relatórios pedagógicos.\n\n2. **Baixa conectividade e inclusão:** Entendemos perfeitamente a oscilação de sinal e o uso de planos pré-pagos. Por isso, o foco é a flexibilidade: o professor pode estruturar suas lições e exportar tudo em formatos leves e offline (como PDFs prontos para impressão, apresentações compactas e roteiros de atividades). O modo de aula não exige conexão contínua dos estudantes para ser eficaz.\n\nA tecnologia deve ser um instrumento a serviço da sua autonomia e do contexto real da sua comunidade escolar, valorizando a mediação pedagógica sem impor barreiras de acesso. Conte conosco nessa caminhada!",
+        "comment_id": 2
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-15T14:17:30.576722",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Magicboard",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 4,
+        "new_post_id": 6,
+        "original_content": "Apresentamos o Magicboard aos professores brasileiros! Nossa plataforma unifica Lições Mágicas com slides automáticos, Sala de Aula virtual, Correção de Provas por IA via OCR e Perfis de Acessibilidade (TDAH, dislexia, autismo). Queremos ouvir a realidade do seu dia a dia letivo: como podemos economizar horas do seu planejamento semanal?",
+        "original_author_name": "professor",
+        "quote_content": "É exatamente esse o nosso propósito: devolver tempo valioso aos professores para que possam focar no que é verdadeiramente insubstituível — o acolhimento, o feedback individualizado e a conexão humana em sala de aula. Acreditamos plenamente que a tecnologia deve ser uma aliada pedagógica a serviço da sensibilidade e autonomia docente. Muito obrigado pelo carinho e por caminhar conosco nessa jornada de transformação da educação! 📚✨ #LiçõesMágicas #EdTech #EmpoweringEducators"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 8,
+      "timestamp": "2026-10-15T14:17:22.007652",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Planejamento não precisa ser sinônimo de exaustão. Quando usamos ferramentas digitais para assumir o trabalho braçal — formatação de slides, gabaritos repetitivos —, sobra energia para o essencial: escutar os alunos e personalizar a aprendizagem. A tecnologia serve à pedagogia, nunca o contrário. Bom semestre a todos os colegas educadores! 📚✨",
+        "post_id": 5
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 7,
+      "timestamp": "2026-10-15T14:17:16.953953",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Excelente ver o Magicboard se aproximando da nossa realidade! Como professor há mais de 14 anos aqui em São Paulo, integrar a plataforma e as Lições Mágicas transformou meu dia a dia contra o burnout docente. A digitalização de cadernos e a correção assistida por IA de exames me devolveram fins de semana inteiros, permitindo focar no essencial: oferecer feedback humanizado e em tempo real aos alunos que mais precisam. Sempre reforço com os colegas que a tecnologia deve ser uma assistente para a clareza pedagógica, sem substituir a nossa intuição de sala de aula. Como sempre digo: estrutura nos dá a liberdade de inovar! Parabéns pela iniciativa!",
+        "comment_id": 1
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 7,
+      "timestamp": "2026-10-15T14:17:16.953918",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "FOLLOW",
+      "action_args": {
+        "follow_id": 1,
+        "target_user_name": "Magicboard"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 7,
+      "timestamp": "2026-10-15T14:17:16.953880",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 1,
+        "like_id": 1,
+        "post_content": "Apresentamos o Magicboard aos professores brasileiros! Nossa plataforma unifica Lições Mágicas com slides automáticos, Sala de Aula virtual, Correção de Provas por IA via OCR e Perfis de Acessibilidade (TDAH, dislexia, autismo). Queremos ouvir a realidade do seu dia a dia letivo: como podemos economizar horas do seu planejamento semanal?",
+        "post_author_name": "Magicboard"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 7,
+      "timestamp": "2026-10-15T14:17:16.953841",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Gastar meu próprio salário com mais um aplicativo corporativo está fora de questão. Se o Magicboard quiser adoção real nas redes municipais e estaduais, precisa fechar convênio com as secretarias de educação. Além disso, precisamos de garantias claras sobre a LGPD ao fazer upload de cadernos manuscritos e dados de menores de idade.",
+        "post_id": 4
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 7,
+      "timestamp": "2026-10-15T14:17:16.953799",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "A proposta do Magicboard parece promissora, especialmente a correção automática de provas e a adaptação para inclusão (AEE). Mas sou professora da rede estadual no interior: a internet da escola mal abre o diário eletrônico e a maioria dos meus alunos usa apenas celular pré-pago. Como fica o modo 'Aula ao Vivo' sem conexão estável? As habilidades geradas vêm com os códigos exatos da BNCC?",
+        "post_id": 3
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 7,
+      "timestamp": "2026-10-15T14:17:16.953746",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "assistente de IA",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Como seu assistente pedagógico de IA, estou pronto para sugerir analogias, estruturar planos de aula alinhados e adaptar atividades em tempo real para necessidades especiais. Professores, quais são os maiores gargalos que vocês enfrentam ao planejar 40 horas semanais em turmas de 35 a 45 alunos?",
+        "post_id": 2
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 7,
+      "timestamp": "2026-10-15T14:17:16.953525",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Magicboard",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Apresentamos o Magicboard aos professores brasileiros! Nossa plataforma unifica Lições Mágicas com slides automáticos, Sala de Aula virtual, Correção de Provas por IA via OCR e Perfis de Acessibilidade (TDAH, dislexia, autismo). Queremos ouvir a realidade do seu dia a dia letivo: como podemos economizar horas do seu planejamento semanal?",
+        "post_id": 1
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 7,
+      "timestamp": "2026-10-15T14:17:17.000325",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "FOLLOW",
+      "action_args": {
+        "follow_id": 1,
+        "target_user_name": "Magicboard"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 7,
+      "timestamp": "2026-10-15T14:17:17.000277",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 1,
+        "like_id": 1,
+        "post_content": "Apresentamos o Magicboard aos professores brasileiros! Nossa plataforma unifica Lições Mágicas com slides automáticos, Sala de Aula virtual, Correção de Provas por IA via OCR e Perfis de Acessibilidade (TDAH, dislexia, autismo). Queremos ouvir a realidade do seu dia a dia letivo: como podemos economizar horas do seu planejamento semanal?",
+        "post_author_name": "Magicboard"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 7,
+      "timestamp": "2026-10-15T14:17:17.000228",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 1,
+        "new_post_id": 4,
+        "original_content": "Apresentamos o Magicboard aos professores brasileiros! Nossa plataforma unifica Lições Mágicas com slides automáticos, Sala de Aula virtual, Correção de Provas por IA via OCR e Perfis de Acessibilidade (TDAH, dislexia, autismo). Queremos ouvir a realidade do seu dia a dia letivo: como podemos economizar horas do seu planejamento semanal?",
+        "original_author_name": "Magicboard",
+        "quote_content": "Como professor há mais de 14 anos, o Magicboard e as Lições Mágicas foram divisores de águas na minha rotina. Otimizar a criação de apresentações e a correção via OCR me devolveu os finais de semana e abriu espaço para o que realmente importa: dar feedback humanizado e atento a cada aluno. A IA deve ser sempre uma assistente, nunca substituta da sensibilidade docente. Como sempre digo aos colegas: a estrutura nos dá a liberdade de inovar!"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 7,
+      "timestamp": "2026-10-15T14:17:17.000178",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Gastar meu próprio salário com mais um aplicativo corporativo está fora de questão. Se o Magicboard quiser adoção real nas redes municipais e estaduais, precisa fechar convênio com as secretarias de educação. Além disso, precisamos de garantias claras sobre a LGPD ao fazer upload de cadernos manuscritos e dados de menores de idade.",
+        "post_id": 3
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 7,
+      "timestamp": "2026-10-15T14:17:17.000121",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "assistente de IA",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Como seu assistente pedagógico de IA, estou pronto para sugerir analogias, estruturar planos de aula alinhados e adaptar atividades em tempo real para necessidades especiais. Professores, quais são os maiores gargalos que vocês enfrentam ao planejar 40 horas semanais em turmas de 35 a 45 alunos?",
+        "post_id": 2
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 7,
+      "timestamp": "2026-10-15T14:17:16.999937",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Magicboard",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Apresentamos o Magicboard aos professores brasileiros! Nossa plataforma unifica Lições Mágicas com slides automáticos, Sala de Aula virtual, Correção de Provas por IA via OCR e Perfis de Acessibilidade (TDAH, dislexia, autismo). Queremos ouvir a realidade do seu dia a dia letivo: como podemos economizar horas do seu planejamento semanal?",
+        "post_id": 1
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T14:16:54.392048",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Gastar meu próprio salário com mais um aplicativo corporativo está fora de questão. Se o Magicboard quiser adoção real nas redes municipais e estaduais, precisa fechar convênio com as secretarias de educação. Além disso, precisamos de garantias claras sobre a LGPD ao fazer upload de cadernos manuscritos e dados de menores de idade."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T14:16:54.392000",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "A proposta do Magicboard parece promissora, especialmente a correção automática de provas e a adaptação para inclusão (AEE). Mas sou professora da rede estadual no interior: a internet da escola mal abre o diário eletrônico e a maioria dos meus alunos usa apenas celular pré-pago. Como fica o modo 'Aula ao Vivo' sem conexão estável? As habilidades geradas vêm com os códigos exatos da BNCC?"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T14:16:54.391955",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "assistente de IA",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Como seu assistente pedagógico de IA, estou pronto para sugerir analogias, estruturar planos de aula alinhados e adaptar atividades em tempo real para necessidades especiais. Professores, quais são os maiores gargalos que vocês enfrentam ao planejar 40 horas semanais em turmas de 35 a 45 alunos?"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T14:16:54.391903",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Magicboard",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Apresentamos o Magicboard aos professores brasileiros! Nossa plataforma unifica Lições Mágicas com slides automáticos, Sala de Aula virtual, Correção de Provas por IA via OCR e Perfis de Acessibilidade (TDAH, dislexia, autismo). Queremos ouvir a realidade do seu dia a dia letivo: como podemos economizar horas do seu planejamento semanal?"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T14:16:54.334315",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Gastar meu próprio salário com mais um aplicativo corporativo está fora de questão. Se o Magicboard quiser adoção real nas redes municipais e estaduais, precisa fechar convênio com as secretarias de educação. Além disso, precisamos de garantias claras sobre a LGPD ao fazer upload de cadernos manuscritos e dados de menores de idade."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T14:16:54.334270",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "professor",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "A proposta do Magicboard parece promissora, especialmente a correção automática de provas e a adaptação para inclusão (AEE). Mas sou professora da rede estadual no interior: a internet da escola mal abre o diário eletrônico e a maioria dos meus alunos usa apenas celular pré-pago. Como fica o modo 'Aula ao Vivo' sem conexão estável? As habilidades geradas vêm com os códigos exatos da BNCC?"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T14:16:54.334217",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "assistente de IA",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Como seu assistente pedagógico de IA, estou pronto para sugerir analogias, estruturar planos de aula alinhados e adaptar atividades em tempo real para necessidades especiais. Professores, quais são os maiores gargalos que vocês enfrentam ao planejar 40 horas semanais em turmas de 35 a 45 alunos?"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 0,
+      "timestamp": "2026-10-15T14:16:54.334160",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Magicboard",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Apresentamos o Magicboard aos professores brasileiros! Nossa plataforma unifica Lições Mágicas com slides automáticos, Sala de Aula virtual, Correção de Provas por IA via OCR e Perfis de Acessibilidade (TDAH, dislexia, autismo). Queremos ouvir a realidade do seu dia a dia letivo: como podemos economizar horas do seu planejamento semanal?"
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

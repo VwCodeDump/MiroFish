@@ -1,0 +1,447 @@
+{
+  "project_id": "proj_105bb0d8014d",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-10-12T17:34:22.652299",
+  "updated_at": "2026-10-12T17:42:42.953367",
+  "files": [
+    {
+      "filename": "Evolution of Indian Politics (1947–2026).pdf",
+      "size": 227003
+    }
+  ],
+  "total_text_length": 15320,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "PoliticalParty",
+        "description": "An organized political entity contesting elections and shaping policy narratives.",
+        "attributes": [
+          {
+            "name": "party_title",
+            "type": "text",
+            "description": "The official recognized title of the political party"
+          },
+          {
+            "name": "ideological_stance",
+            "type": "text",
+            "description": "The primary ideological orientation or platform of the party"
+          },
+          {
+            "name": "headquarters_location",
+            "type": "text",
+            "description": "City or state where party headquarters is based"
+          }
+        ],
+        "examples": [
+          "Bharatiya Janata Party (BJP)",
+          "Indian National Congress (INC)",
+          "Aam Aadmi Party (AAP)",
+          "Telugu Desam Party (TDP)"
+        ]
+      },
+      {
+        "name": "PoliticalLeader",
+        "description": "An elected or key executive official, party president, or high-profile politician.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full legal or public name of the politician"
+          },
+          {
+            "name": "political_role",
+            "type": "text",
+            "description": "Designation such as Prime Minister, Chief Minister, or Party President"
+          },
+          {
+            "name": "constituency",
+            "type": "text",
+            "description": "Electoral constituency or state represented by the leader"
+          }
+        ],
+        "examples": [
+          "Narendra Modi",
+          "Rahul Gandhi",
+          "Arvind Kejriwal",
+          "N. Chandrababu Naidu"
+        ]
+      },
+      {
+        "name": "PoliticalAlliance",
+        "description": "A coalition or multiparty pact formed to contest elections or govern collectively.",
+        "attributes": [
+          {
+            "name": "alliance_title",
+            "type": "text",
+            "description": "Official title or acronym of the political front"
+          },
+          {
+            "name": "lead_party",
+            "type": "text",
+            "description": "Anchor or majority party steering the alliance"
+          }
+        ],
+        "examples": [
+          "National Democratic Alliance (NDA)",
+          "INDIA Bloc",
+          "United Progressive Alliance (UPA)"
+        ]
+      },
+      {
+        "name": "GovernmentAgency",
+        "description": "A state, constitutional, regulatory, or administrative body issuing public decisions.",
+        "attributes": [
+          {
+            "name": "agency_title",
+            "type": "text",
+            "description": "Official title of the governmental department or commission"
+          },
+          {
+            "name": "jurisdiction_level",
+            "type": "text",
+            "description": "Level of administration such as Union Central or State"
+          }
+        ],
+        "examples": [
+          "Prime Minister's Office (PMO)",
+          "Election Commission of India",
+          "Enforcement Directorate (ED)"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "A journalism, broadcast, print, or digital news organization shaping public opinion.",
+        "attributes": [
+          {
+            "name": "outlet_title",
+            "type": "text",
+            "description": "Brand name of the news publication or network"
+          },
+          {
+            "name": "media_format",
+            "type": "text",
+            "description": "Type of distribution such as Television, Print Newspaper, or Digital News"
+          }
+        ],
+        "examples": [
+          "NDTV",
+          "The Hindu",
+          "Republic TV",
+          "The Indian Express"
+        ]
+      },
+      {
+        "name": "Journalist",
+        "description": "A professional news reporter, political analyst, anchor, or commentator.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the media professional"
+          },
+          {
+            "name": "press_affiliation",
+            "type": "text",
+            "description": "Media outlet or publication they are associated with"
+          }
+        ],
+        "examples": [
+          "Rajdeep Sardesai",
+          "Barkha Dutt",
+          "Prannoy Roy"
+        ]
+      },
+      {
+        "name": "IdeologicalOrganization",
+        "description": "A socio-cultural, religious, or political parent cadre network driving grassroots movements.",
+        "attributes": [
+          {
+            "name": "org_title",
+            "type": "text",
+            "description": "Official title of the socio-cultural or cadre organization"
+          },
+          {
+            "name": "foundational_ideology",
+            "type": "text",
+            "description": "Core socio-political or cultural philosophy espoused"
+          }
+        ],
+        "examples": [
+          "Rashtriya Swayamsevak Sangh (RSS)",
+          "Vishwa Hindu Parishad (VHP)"
+        ]
+      },
+      {
+        "name": "SocialActivist",
+        "description": "A prominent individual leading civil society protests, public interest, or policy causes.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the activist or campaign leader"
+          },
+          {
+            "name": "advocacy_focus",
+            "type": "text",
+            "description": "Primary issue area such as Anti-Corruption, Agrarian Rights, or Civil Rights"
+          }
+        ],
+        "examples": [
+          "Anna Hazare",
+          "Medha Patkar",
+          "Rakesh Tikait"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "A natural person fallback for individual citizens, voters, or unclassified social users.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name or public social media screen name of the individual"
+          },
+          {
+            "name": "profile_description",
+            "type": "text",
+            "description": "Brief biography or background of the person"
+          }
+        ],
+        "examples": [
+          "Voter in Uttar Pradesh",
+          "Political Blogger",
+          "Party Volunteer"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "A fallback entity for any corporate, community, or collective group not otherwise classified.",
+        "attributes": [
+          {
+            "name": "org_title",
+            "type": "text",
+            "description": "Name of the group, association, or enterprise"
+          },
+          {
+            "name": "entity_category",
+            "type": "text",
+            "description": "General domain such as Trade Union, Industry Chamber, or Student Association"
+          }
+        ],
+        "examples": [
+          "Federation of Indian Chambers of Commerce & Industry",
+          "All India Kisan Sabha",
+          "Delhi University Students Union"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "MEMBER_OF",
+        "description": "Indicates an individual holds membership or official status in a party or organization.",
+        "source_targets": [
+          {
+            "source": "PoliticalLeader",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "PoliticalLeader",
+            "target": "IdeologicalOrganization"
+          },
+          {
+            "source": "Person",
+            "target": "PoliticalParty"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "ALLIED_WITH",
+        "description": "Designates an electoral, parliamentary, or strategic coalition partnership.",
+        "source_targets": [
+          {
+            "source": "PoliticalParty",
+            "target": "PoliticalAlliance"
+          },
+          {
+            "source": "PoliticalParty",
+            "target": "PoliticalParty"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "OPPOSES",
+        "description": "Denotes active political or ideological opposition, protest, or campaign rivalry.",
+        "source_targets": [
+          {
+            "source": "PoliticalParty",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "PoliticalLeader",
+            "target": "PoliticalLeader"
+          },
+          {
+            "source": "SocialActivist",
+            "target": "GovernmentAgency"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "CRITICIZES",
+        "description": "Represents public censure, denunciation, or negative commentary on social channels.",
+        "source_targets": [
+          {
+            "source": "PoliticalLeader",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "Journalist",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "SocialActivist",
+            "target": "PoliticalLeader"
+          },
+          {
+            "source": "Person",
+            "target": "PoliticalLeader"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "ENDORSES",
+        "description": "Indicates formal or public backing of a policy, leader, candidate, or stance.",
+        "source_targets": [
+          {
+            "source": "IdeologicalOrganization",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "PoliticalLeader",
+            "target": "PoliticalLeader"
+          },
+          {
+            "source": "SocialActivist",
+            "target": "PoliticalParty"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Denotes journalistic coverage and investigation of an entity or event.",
+        "source_targets": [
+          {
+            "source": "MediaOutlet",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "Journalist",
+            "target": "PoliticalLeader"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "GOVERNS",
+        "description": "Identifies executive control or administrative oversight over a government apparatus.",
+        "source_targets": [
+          {
+            "source": "PoliticalLeader",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "PoliticalParty",
+            "target": "GovernmentAgency"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "RESPONDS_TO",
+        "description": "Shows an official rebuttal, statement, or counter-narrative issued in response to another.",
+        "source_targets": [
+          {
+            "source": "PoliticalParty",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "PoliticalLeader",
+            "target": "PoliticalLeader"
+          },
+          {
+            "source": "GovernmentAgency",
+            "target": "Journalist"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      }
+    ]
+  },
+  "analysis_summary": "This ontology models the multi-actor dynamics of Indian politics to simulate scenarios where national opposition like the INC diminishes and single-party dominance or regional pushback emerges. By specifying political parties, leaders, coalitions, state agencies, media outlets, and grassroots groups, alongside fallbacks, the system can realistically track cross-platform political discourse, state responses, and regional balance-of-power shifts over a five-year horizon.",
+  "graph_id": "mirofish_db0aa90a11ee430b",
+  "graph_build_task_id": "aa7fe940-8956-4969-bce1-24a010946885",
+  "zep_batch_id": "5202b403-ea5b-43c6-a61f-66090ae0828b",
+  "zep_batch_operation_id": "4df03b373647ff572aa8d89b8aa0d8798ddda8d5a3e4efd12a6433656067efdb",
+  "simulation_requirement": "What will happen in an ideal scenario if INC, Indian National Congress, would be diluted and it's totally diminished, and only BJP remains in the power, in the politics for India? How would the things turn out in next 5 years for the Government of India?",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

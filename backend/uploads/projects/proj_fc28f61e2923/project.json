@@ -1,0 +1,515 @@
+{
+  "project_id": "proj_fc28f61e2923",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-10-12T18:41:28.044302",
+  "updated_at": "2026-10-12T18:43:21.730003",
+  "files": [
+    {
+      "filename": "MagicBook Technologies – Seed Report for Mirofish.pdf",
+      "size": 119840
+    }
+  ],
+  "total_text_length": 5491,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Student",
+        "description": "A learner using or evaluating educational technology tools and physical notebooks.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name or social media display name of the student"
+          },
+          {
+            "name": "education_level",
+            "type": "text",
+            "description": "Current educational stage, such as Primary, Middle School, or Higher Ed"
+          },
+          {
+            "name": "country",
+            "type": "text",
+            "description": "Geographic location of the student, such as Brazil, Portugal, or USA"
+          }
+        ],
+        "examples": [
+          "Lucas Silva",
+          "Beatriz Santos"
+        ]
+      },
+      {
+        "name": "Parent",
+        "description": "A parent or legal guardian evaluating educational value, cost, and child data privacy.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name or username of the parent"
+          },
+          {
+            "name": "children_age_group",
+            "type": "text",
+            "description": "Age range of their children, e.g., Early Childhood or K-12"
+          },
+          {
+            "name": "country",
+            "type": "text",
+            "description": "Country where the parent resides"
+          }
+        ],
+        "examples": [
+          "Mariana Costa",
+          "John Miller"
+        ]
+      },
+      {
+        "name": "Teacher",
+        "description": "An educator assessing pedagogical fit, curriculum alignment, and AI utility in classrooms.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name or professional title of the teacher"
+          },
+          {
+            "name": "subject_area",
+            "type": "text",
+            "description": "Primary academic discipline taught, e.g., STEM, Literature, or Early Ed"
+          },
+          {
+            "name": "institution_type",
+            "type": "text",
+            "description": "Type of educational workplace, e.g., Public School or Private Academy"
+          }
+        ],
+        "examples": [
+          "Professor Miguel Alves",
+          "Sarah Jenkins"
+        ]
+      },
+      {
+        "name": "ContentCreator",
+        "description": "A tech reviewer, parenting blogger, or education influencer posting opinions online.",
+        "attributes": [
+          {
+            "name": "handle",
+            "type": "text",
+            "description": "Social media handle or channel moniker"
+          },
+          {
+            "name": "platform_focus",
+            "type": "text",
+            "description": "Primary broadcast channel, such as YouTube, TikTok, or Instagram"
+          },
+          {
+            "name": "primary_niche",
+            "type": "text",
+            "description": "Domain specialty, such as EdTech Reviews, Parenting Tips, or Productivity"
+          }
+        ],
+        "examples": [
+          "Canal EdTech Brasil",
+          "TechEdu Portugal"
+        ]
+      },
+      {
+        "name": "EdTechCompany",
+        "description": "A company producing educational technology, AI apps, or digital learning platforms.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Official company or product brand name"
+          },
+          {
+            "name": "core_offering",
+            "type": "text",
+            "description": "Main product capability, such as AI Notebooks or Math Solvers"
+          },
+          {
+            "name": "headquarters_country",
+            "type": "text",
+            "description": "Origin country of the corporate entity"
+          }
+        ],
+        "examples": [
+          "MagicBook Technologies",
+          "Photomath"
+        ]
+      },
+      {
+        "name": "EducationalInstitution",
+        "description": "A formal school, district, or university deciding on technology adoption and policies.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Official name of the school or academic institution"
+          },
+          {
+            "name": "school_level",
+            "type": "text",
+            "description": "Academic scope, e.g., K-12 District, Private High School, or University"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "text",
+            "description": "Geographic jurisdiction and governing regional authority"
+          }
+        ],
+        "examples": [
+          "Colégio Bandeirantes",
+          "Escola Secundária de Camões"
+        ]
+      },
+      {
+        "name": "StationeryBrand",
+        "description": "A paper or notebook manufacturer distributing paper products integrated with tech codes.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Commercial brand name of the notebook or paper company"
+          },
+          {
+            "name": "market_region",
+            "type": "text",
+            "description": "Primary geographical market distribution territory"
+          },
+          {
+            "name": "product_line",
+            "type": "text",
+            "description": "Types of stationery produced, such as School Notebooks or Office Planners"
+          }
+        ],
+        "examples": [
+          "Tilibra",
+          "Porto Editora Papelaria"
+        ]
+      },
+      {
+        "name": "RegulatoryAuthority",
+        "description": "A governmental agency enforcing data protection, child privacy laws, or school curricula.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Official title of the regulatory commission or ministry"
+          },
+          {
+            "name": "regulatory_scope",
+            "type": "text",
+            "description": "Domain of oversight, such as Data Privacy (LGPD/GDPR) or Education Standards"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "text",
+            "description": "Country or regional territory of regulatory authority"
+          }
+        ],
+        "examples": [
+          "ANPD Brazil",
+          "CNPD Portugal"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "A default individual entity who does not specifically fit other defined person types.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Individual full name or public online identifier"
+          },
+          {
+            "name": "occupation",
+            "type": "text",
+            "description": "Professional field or social role"
+          },
+          {
+            "name": "nationality",
+            "type": "text",
+            "description": "Country of origin or residence"
+          }
+        ],
+        "examples": [
+          "Carlos Mendes",
+          "Emily Davis"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "A default organization entity that does not specifically fit other defined org types.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Full formal name of the organization"
+          },
+          {
+            "name": "industry",
+            "type": "text",
+            "description": "Sector or functional activity area of the organization"
+          },
+          {
+            "name": "headquarters",
+            "type": "text",
+            "description": "City or country where headquarters is situated"
+          }
+        ],
+        "examples": [
+          "Brazilian Association of Parents and Teachers",
+          "European EdTech Alliance"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "REVIEWS_PRODUCT",
+        "description": "An actor publishes a review, impressions, or testing results about an EdTech product.",
+        "source_targets": [
+          {
+            "source": "ContentCreator",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Student",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Teacher",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Parent",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Person",
+            "target": "EdTechCompany"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "ENDORSES",
+        "description": "An entity publicly supports, recommends, or champions an organization or product.",
+        "source_targets": [
+          {
+            "source": "ContentCreator",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Teacher",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Parent",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "StationeryBrand",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Person",
+            "target": "EdTechCompany"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "CRITICIZES",
+        "description": "An entity expresses disapproval, skepticism, or complaints regarding features or ethics.",
+        "source_targets": [
+          {
+            "source": "ContentCreator",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Teacher",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Parent",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Student",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Person",
+            "target": "EdTechCompany"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "PARTNERS_WITH",
+        "description": "A commercial, distribution, or research alliance between two organizations.",
+        "source_targets": [
+          {
+            "source": "EdTechCompany",
+            "target": "StationeryBrand"
+          },
+          {
+            "source": "EdTechCompany",
+            "target": "EducationalInstitution"
+          },
+          {
+            "source": "Organization",
+            "target": "EdTechCompany"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "REGULATES",
+        "description": "A supervisory entity issues rules, investigations, or compliance mandates to another.",
+        "source_targets": [
+          {
+            "source": "RegulatoryAuthority",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "RegulatoryAuthority",
+            "target": "EducationalInstitution"
+          },
+          {
+            "source": "RegulatoryAuthority",
+            "target": "Organization"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "ADOPTS_SOLUTION",
+        "description": "A school or student integrates an educational platform into daily practice.",
+        "source_targets": [
+          {
+            "source": "EducationalInstitution",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Teacher",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Student",
+            "target": "EdTechCompany"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "EXPRESSES_CONCERN_OVER",
+        "description": "An entity raises privacy, pricing, or pedagogic integrity objections toward another.",
+        "source_targets": [
+          {
+            "source": "Parent",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Teacher",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "RegulatoryAuthority",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Organization",
+            "target": "EdTechCompany"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      },
+      {
+        "name": "INTERACTS_WITH",
+        "description": "Social media conversational exchanges such as replies, quotes, or debates between agents.",
+        "source_targets": [
+          {
+            "source": "Person",
+            "target": "Person"
+          },
+          {
+            "source": "Parent",
+            "target": "Teacher"
+          },
+          {
+            "source": "Student",
+            "target": "Student"
+          },
+          {
+            "source": "ContentCreator",
+            "target": "EdTechCompany"
+          },
+          {
+            "source": "Teacher",
+            "target": "EducationalInstitution"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "details",
+            "type": "text",
+            "description": "Additional details about this ontology type."
+          }
+        ]
+      }
+    ]
+  },
+  "analysis_summary": "The ontology is designed to model public reception, stakeholder dynamics, and market resistance for MagicBook Technologies across Brazil, Portugal, and the US. Key voices include Students, Parents, Teachers, and Content Creators interacting with EdTech Companies, Notebook Partner Brands, and Regulatory Authorities (LGPD/GDPR/COPPA), backed by flexible Person and Organization fallbacks.",
+  "graph_id": "mirofish_83bebdc316b84a64",
+  "graph_build_task_id": "1597e157-3506-4fcc-96bb-783df4bcfc08",
+  "zep_batch_id": "2cb157d5-f54d-4603-82c3-43a3cbbf3479",
+  "zep_batch_operation_id": "7e660849b82f396164c3f6958edf9b10b7e7a9f1fc689dbd6fbc8e111c906e70",
+  "simulation_requirement": "We have these products in Brazil and Portugal. Can you please tell me how the public would be reacting to it in the real-case scenarios and all?",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

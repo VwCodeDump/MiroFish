@@ -1,0 +1,30 @@
+{
+  "simulation_id": "sim_e8d50922147e",
+  "project_id": "proj_d6a387243d7c",
+  "graph_id": "mirofish_d0f31f0e122645be",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "stopped",
+  "entities_count": 46,
+  "profiles_count": 46,
+  "entity_types": [
+    "Person",
+    "ParentGuardian",
+    "EdTechCompany",
+    "Student",
+    "MediaOutlet",
+    "EducationAuthority",
+    "Organization",
+    "Tutor",
+    "Teacher"
+  ],
+  "profiles_generated": true,
+  "config_generated": true,
+  "config_reasoning": "Time Config: The simulation targets Portuguese students and educational stakeholders situated in UTC+0/UTC+1. Portuguese secondary and university students are in compulsory classes and extracurricular activities during standard daytime hours (09:00-17:00). High-intensity study, homework completion, tutoring ('explicações'), and AI learning tool usage occur primarily in the late afternoon and late evening (18:00-23:00). Off-peak hours correspond to typical sleep schedules for Iberian youth (00:00-06:59). A 72-hour simulation captures three complete daily academic cycles to thoroughly evaluate student needs, exam stress points, and EdTech tool adoption. | Event Config: This configuration sets up the core tension identified in the Portuguese student simulation: intense exam pressure and expensive private tutoring versus the promise and limitations of AI-powered EdTech tools. By engaging students, parents, teachers, tutors, and tech companies, the simulation can realistically assess student feature demand, willingness to pay, and friction points. | Agent Config: 46 generated | Post Assignment: 7 posts assigned",
+  "current_round": 0,
+  "twitter_status": "not_started",
+  "reddit_status": "not_started",
+  "created_at": "2026-10-31T19:31:50.602280",
+  "updated_at": "2026-10-31T23:17:13.647252",
+  "error": null
+}

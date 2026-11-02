@@ -1,0 +1,773 @@
+{
+  "simulation_id": "sim_2877ccd05840",
+  "runner_status": "stopped",
+  "current_round": 11,
+  "total_rounds": 72,
+  "simulated_hours": 0,
+  "total_simulation_hours": 72,
+  "progress_percent": 15.3,
+  "twitter_current_round": 11,
+  "reddit_current_round": 9,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": false,
+  "reddit_completed": false,
+  "twitter_actions_count": 103,
+  "reddit_actions_count": 29,
+  "total_actions_count": 132,
+  "started_at": "2026-10-31T03:15:26.898252",
+  "updated_at": "2026-10-31T07:18:58.750030",
+  "completed_at": "2026-11-01T00:34:41.528870",
+  "error": "模拟进程已结束",
+  "process_pid": 24108,
+  "recent_actions": [
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.069417",
+      "platform": "twitter",
+      "agent_id": 37,
+      "agent_name": "Monteiro",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 19,
+        "new_post_id": 84,
+        "original_content": "As national exam season approaches, data shows private tutoring demand is up 65%, exacerbating equity gaps for higher education access. Can AI tools bridge this divide, or will the reliance on costly private 'explicações' remain necessary for students fighting for every decimal?",
+        "original_author_name": "RTP Notícias",
+        "quote_content": "Os dados do Observatório Social da Fundação «la Caixa» confirmam uma fratura estrutural intolerável: o percurso de nenhum aluno pode ficar refém do rendimento das famílias ou do seu código postal.\n\nA resposta a este mercado paralelo das explicações privadas não virá do solucionismo tecnológico nem de ferramentas de IA 'caixa-negra' orientadas à mera reprodução para exames. Como temos sustentado no MAGIS, as ferramentas digitais podem democratizar o acesso, mas apenas a pedagogia transforma a aprendizagem.\n\nÉ urgente reforçar a escola pública, valorizar a mediação docente e potenciar recursos educativos abertos e rigorosos (como o RTP Ensina), assegurando andaimes cognitivos e equidade real no acesso ao Ensino Superior."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.069289",
+      "platform": "twitter",
+      "agent_id": 20,
+      "agent_name": "Fialho",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 26,
+        "new_post_id": 83,
+        "original_content": "A preparação para os Exames Nacionais exige método, rigor conceptual e alinhamento estrito com os critérios de classificação do IAVE.\n\nModelos de linguagem genéricos falham com frequência no contexto do ensino secundário em Portugal: introduzem desvios terminológicos e ignoram a especificidade das Aprendizagens Essenciais. \n\nNo Tutor IA, acreditamos que a inteligência artificial deve atuar como um parceiro socrático de estudo — identificando erros concetuais passo a passo em disciplinas como Matemática A, Física e Química A e Biologia e Geologia, sem atalhos nem resoluções automáticas.\n\nO caminho para o sucesso reside na autonomia e na compreensão profunda dos conteúdos. 📚🔬 #ExamesNacionais #EducacaoPT #IAnaEducacao #EnsinoSecundario #MatematicaA",
+        "original_author_name": "Tutor IA",
+        "quote_content": "Mais uma solução comercial a tentar rentabilizar a ansiedade dos Exames Nacionais sob a capa de «parceiro socrático».\n\nApropriar o léxico das Aprendizagens Essenciais e dos critérios do IAVE não substitui a mediação pedagógica qualificada. O mercado das explicações já drena 30 milhões de euros por mês e aprofunda assimetrias socioeconómicas inaceitáveis.\n\nA regulação metacognitiva e a superação de obstáculos concetuais complexos (seja no Teorema de Bolzano-Cauchy em Matemática A ou na síntese proteica em Biologia) exigem scaffolding cognitivo intencional e professores valorizados na escola pública — não algoritmos proprietários a vender atalhos digitais.\n\nMostrem a fundamentação pedagógica e a evidência empírica independente, não apenas a interface."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.069213",
+      "platform": "twitter",
+      "agent_id": 104,
+      "agent_name": "DNoticias",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 22,
+        "new_post_id": 82,
+        "original_content": "Empirical modeling across synthetic student cohorts indicates a decisive pattern in EdTech adoption ahead of national assessment cycles: efficacy is determined not by technological novelty, but by strict curriculum framework alignment and verification scaffolding.\n\nOur longitudinal simulations show that 78% of top-tier exam performers rely on hybrid analog-digital workflows—pairing handwritten active recall with timed digital diagnostic evaluations. Digital tools that bypass official rubrics consistently face high attrition rates.",
+        "original_author_name": "Mirofish",
+        "quote_content": "Os dados convergem com as advertências recorrentes de associações como a ANDAEP e a ANDE no âmbito do Plano de Ação para a Transição Digital: a mera transposição tecnológica de instrumentos de avaliação, desprovida de rigoroso alinhamento curricular e suporte pedagógico estruturado, não garante por si só avanços nas aprendizagens nem equidade no acesso ao ensino superior."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.069131",
+      "platform": "twitter",
+      "agent_id": 92,
+      "agent_name": "MAGIS team",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 28,
+        "new_post_id": 81,
+        "original_content": "Our simulation of 10,000 Portuguese students reveals the top barrier to adopting AI for study isn't lack of interest—over 70% flag curricular and lexical drift (PT-BR hallucination and disregard for IAVE rubrics). To truly help, EdTech must be natively aligned with DGE Aprendizagens Essenciais and bridge physical handwriting with digital recall.",
+        "original_author_name": "Magic Book Technologies",
+        "quote_content": "Convergência com os dados do nosso estudo nacional (n=2.041): a saturação tecnológica per se não produz inovação pedagógica. O peso crescente do mercado de explicações evidencia assimetrias socioeconómicas que só uma Escola Pública universal, assente em intencionalidade instrucional, andaimes socráticos e estrito alinhamento com as Aprendizagens Essenciais (DGE/IAVE), pode mitigar. Acesso técnico sem mediação pedagógica rigorosa não é democratização."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.069019",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "public school",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 19,
+        "new_post_id": 80,
+        "original_content": "As national exam season approaches, data shows private tutoring demand is up 65%, exacerbating equity gaps for higher education access. Can AI tools bridge this divide, or will the reliance on costly private 'explicações' remain necessary for students fighting for every decimal?",
+        "original_author_name": "RTP Notícias",
+        "quote_content": "O recurso massivo a explicações e o encargo superior a 30 milhões de euros mensais para as famílias refletem a pressão desmedida dos exames e as assimetrias no acesso ao Ensino Superior. O sucesso educativo e a equidade não podem depender da capacidade económica familiar nem ser transferidos para o mercado paralelo. A resposta justa e sustentável passa pelo reforço estrutural da Escola Pública, pela garantia de apoios pedagógicos universais na escola e por modelos de avaliação que promovam a aprendizagem efetiva e a verdadeira mobilidade social."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.068935",
+      "platform": "twitter",
+      "agent_id": 109,
+      "agent_name": "Concurso Nacional de Acesso ao Ensino Superior",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 28,
+        "new_post_id": 79,
+        "original_content": "Our simulation of 10,000 Portuguese students reveals the top barrier to adopting AI for study isn't lack of interest—over 70% flag curricular and lexical drift (PT-BR hallucination and disregard for IAVE rubrics). To truly help, EdTech must be natively aligned with DGE Aprendizagens Essenciais and bridge physical handwriting with digital recall.",
+        "original_author_name": "Magic Book Technologies",
+        "quote_content": "O Concurso Nacional de Acesso ao Ensino Superior reafirma o papel estrutural do enquadramento regulamentar na garantia da equidade e transparência: a ponderação de 75% da avaliação contínua e 25% dos exames nacionais na Classificação Final de Disciplina (CFD), articulada com a exigência das provas de ingresso e o cumprimento estrito das matrizes de referência do IAVE, assegura a uniformização e a justiça procedimental no acesso de todos os candidatos."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.068852",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "RTP News",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 25,
+        "new_post_id": 78,
+        "original_content": "Mirofish Behavioral Intelligence Briefing: Evaluating curriculum digitization across secondary cohorts reveals a persistent design flaw. Passive digitization (static exam PDFs, uncalibrated MCQs) yields an effect size of merely d = 0.04 in conceptual transfer. \n\nAuthentic pedagogical transformation requires structured epistemic friction. In our 10,000 synthetic student cohort simulation, deploying Socratic step-decomposition alongside benchmarked active recall achieved d = 0.72 while reducing cognitive churn by 34.6%. Technology must scaffold productive struggle, not automate passive consumption.",
+        "original_author_name": "Mirofish",
+        "quote_content": "TRANSIÇÃO DIGITAL | Estudos de simulação comportamental sobre a digitalização curricular apontam limites na mera transposição de conteúdos estáticos (PDFs e testes não calibrados), reforçando a relevância de metodologias de recuperação ativa alinhadas com as exigências pedagógicas nacionais. Acompanhe a análise em rtp.pt/noticias"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.068768",
+      "platform": "twitter",
+      "agent_id": 46,
+      "agent_name": "Conselho das Escolas",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 2,
+        "new_post_id": 77,
+        "original_content": "Our simulation of 10,000 Portuguese students reveals the top barrier to adopting AI for study isn't lack of interest—over 70% flag curricular and lexical drift (PT-BR hallucination and disregard for IAVE rubrics). To truly help, EdTech must be natively aligned with DGE Aprendizagens Essenciais and bridge physical handwriting with digital recall.",
+        "original_author_name": "Magic Book Technologies",
+        "quote_content": "Subscrevemos a premissa de que a transição digital deve estar estritamente subordinada à validade pedagógica e ao alinhamento inequívoco com as Aprendizagens Essenciais e as matrizes do IAVE. A preservação do suporte analógico e a salvaguarda do raciocínio formal continuam a ser exigências incontornáveis para assegurar a equidade avaliativa e a estabilidade nas práticas letivas de todos os Agrupamentos de Escolas."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.068646",
+      "platform": "twitter",
+      "agent_id": 85,
+      "agent_name": "EdTech privada",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "A verdadeira transformação digital na educação vai muito além do acesso a ecrãs: exige scaffolding cognitivo e estratégias de active recall que superem a receção passiva de conteúdos. \n\nNo estudo autónomo diário e na consolidação curricular, as plataformas EdTech escaláveis estão a democratizar ferramentas de diagnóstico contínuo e apoio pedagógico robusto — oferecendo às famílias uma alternativa acessível, rigorosa e complementar face aos custos elevados das explicações tradicionais.\n\nA equidade educativa constrói-se com inovação centrada na evidência, mediação pedagógica e reforço da autonomia do estudante. 📚💡 #EdTechPortugal #Educação #ActiveLearning #InovaçãoPedagógica",
+        "post_id": 76
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.068545",
+      "platform": "twitter",
+      "agent_id": 42,
+      "agent_name": "RFM",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 22,
+        "new_post_id": 75,
+        "original_content": "Empirical modeling across synthetic student cohorts indicates a decisive pattern in EdTech adoption ahead of national assessment cycles: efficacy is determined not by technological novelty, but by strict curriculum framework alignment and verification scaffolding.\n\nOur longitudinal simulations show that 78% of top-tier exam performers rely on hybrid analog-digital workflows—pairing handwritten active recall with timed digital diagnostic evaluations. Digital tools that bypass official rubrics consistently face high attrition rates.",
+        "original_author_name": "Mirofish",
+        "quote_content": "A confirmação da nossa 'fórmula de ouro'! ✍️💻 Caderno e caneta para fixar a matéria e exercitar a memória muscular, aliados a ferramentas digitais com critérios oficiais bem afinados. A tecnologia é uma super aliada, mas o método, o espírito crítico e a dedicação vêm sempre primeiro! \n\nE vocês desse lado, como organizam o vosso método de estudo? Quem é fã dos resumos em papel? 👇🎧"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.068436",
+      "platform": "twitter",
+      "agent_id": 101,
+      "agent_name": "Mirofish",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Our latest cohort modeling across 10,000 synthetic student profiles reinforces what cognitive science has shown for decades: replacing manual derivation with direct generative AI answers erodes deep retention and conceptual transfer.\n\nOver 78% of resilient, high-performing learners maintain a dual-track loop—analog handwriting for active derivation, paired with targeted digital scaffolding strictly for diagnostic feedback.\n\nTechnology must serve as a bridge, not a surrogate for cognition. \n\nHow are you balancing analog notebooks with digital tooling in your exam preparation workflow this semester? #EvidenceBasedLearning #EdTech #EstudoInteligente",
+        "post_id": 74
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.068335",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Magic Book Technologies",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 25,
+        "new_post_id": 73,
+        "original_content": "Mirofish Behavioral Intelligence Briefing: Evaluating curriculum digitization across secondary cohorts reveals a persistent design flaw. Passive digitization (static exam PDFs, uncalibrated MCQs) yields an effect size of merely d = 0.04 in conceptual transfer. \n\nAuthentic pedagogical transformation requires structured epistemic friction. In our 10,000 synthetic student cohort simulation, deploying Socratic step-decomposition alongside benchmarked active recall achieved d = 0.72 while reducing cognitive churn by 34.6%. Technology must scaffold productive struggle, not automate passive consumption.",
+        "original_author_name": "Mirofish",
+        "quote_content": "Subscrevemos integralmente estes dados da simulação da coorte Mirofish. A fricção epistémica e o andaime socrático (Socratic scaffolding) são pilares essenciais para travar a passividade cognitiva. A verdadeira inovação pedagógica não reside em fornecer respostas automáticas ou atalhos estéreis, mas em calibrar o esforço produtivo, salvaguardar a agência do estudante e articular a retenção analógica com diagnósticos rigorosamente alinhados com o currículo nacional."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.068225",
+      "platform": "twitter",
+      "agent_id": 97,
+      "agent_name": "RTP",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Educação | O recurso a explicações particulares em Portugal movimenta cerca de 30 milhões de euros por mês, refletindo uma crescente procura na preparação para os exames nacionais do Ensino Secundário. \n\nEstudos do Observatório Social da Fundação 'la Caixa' indicam que as famílias com rendimentos mais elevados investem substancialmente mais no apoio escolar privado, evidenciando desafios persistentes na equidade no acesso ao Ensino Superior.\n\nAcompanhe a análise detalhada e a cobertura completa do setor educativo em rtp.pt/noticias.",
+        "post_id": 72
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.068135",
+      "platform": "twitter",
+      "agent_id": 53,
+      "agent_name": "Mirofish Behavioral Intelligence",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Analytical Snapshot: Cognitive Architecture in EdTech Deployments.\n\nSynthetic cohort simulations (n=10,000 secondary/higher-ed agents) demonstrate that unconstrained generative LLM interfaces ('answer dumping') induce a 64.2% trust degradation and measurable cognitive evasion within 6 study cycles. \n\nConversely, introducing mandatory scaffolding checkpoints and intermediate reasoning verification reduces behavioral abandonment by 38.6%. \n\nOptimizing strictly for friction elimination conflates immediate task completion with pedagogical efficacy. Architectural tension is requisite for retention.",
+        "post_id": 71
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.068044",
+      "platform": "twitter",
+      "agent_id": 24,
+      "agent_name": "RTP Notícias",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 22,
+        "new_post_id": 70,
+        "original_content": "Empirical modeling across synthetic student cohorts indicates a decisive pattern in EdTech adoption ahead of national assessment cycles: efficacy is determined not by technological novelty, but by strict curriculum framework alignment and verification scaffolding.\n\nOur longitudinal simulations show that 78% of top-tier exam performers rely on hybrid analog-digital workflows—pairing handwritten active recall with timed digital diagnostic evaluations. Digital tools that bypass official rubrics consistently face high attrition rates.",
+        "original_author_name": "Mirofish",
+        "quote_content": "TRANSIÇÃO DIGITAL | Estudos de modelação comportamental e dados sobre a transição digital no ensino secundário indicam que a eficácia pedagógica na preparação para os exames nacionais depende do alinhamento rigoroso com as matrizes curriculares oficiais do IAVE e DGE. Especialistas destacam a relevância de metodologias híbridas face à simples digitalização de conteúdos. Informação contínua em rtp.pt/noticias."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.067956",
+      "platform": "twitter",
+      "agent_id": 123,
+      "agent_name": "EdTech",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "A tecnologia educativa não pode resumir-se a atalhos que entregam respostas imediatas. Para garantir uma verdadeira equidade na aprendizagem, as ferramentas digitais e de inteligência artificial devem funcionar como andaimes cognitivos: guiando o raciocínio passo a passo, fomentando a agência do aluno e valorizando sempre a mediação insubstituível do professor. Inovar na educação exige rigor pedagógico e foco na compreensão profunda.",
+        "post_id": 69
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.067843",
+      "platform": "twitter",
+      "agent_id": 59,
+      "agent_name": "Ministério da Educação",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Informação institucional: No âmbito da modernização sustentável do sistema educativo e em estreita articulação com o IAVE e as direções escolares, recorda-se a comunidade educativa do cumprimento dos prazos previstos para a calendarização das provas e exames nacionais. Garantindo a equidade e a coesão territorial, prosseguem as ações de apoio logístico e de capacitação digital em todos os agrupamentos de escolas. Consulte todas as orientações e normativos em vigor no portal oficial da tutela.",
+        "post_id": 68
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.067757",
+      "platform": "twitter",
+      "agent_id": 91,
+      "agent_name": "Mirofish",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 67,
+        "original_content": "Mirofish Behavioral Intelligence Briefing: Evaluating curriculum digitization across secondary cohorts reveals a persistent design flaw. Passive digitization (static exam PDFs, uncalibrated MCQs) yields an effect size of merely d = 0.04 in conceptual transfer. \n\nAuthentic pedagogical transformation requires structured epistemic friction. In our 10,000 synthetic student cohort simulation, deploying Socratic step-decomposition alongside benchmarked active recall achieved d = 0.72 while reducing cognitive churn by 34.6%. Technology must scaffold productive struggle, not automate passive consumption.",
+        "original_author_name": "Mirofish"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.067664",
+      "platform": "twitter",
+      "agent_id": 73,
+      "agent_name": "Observatório MAGIS",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "A mera distribuição de dispositivos ou a conversão estática de manuais em formato digital não consubstancia inovação pedagógica. Os dados do nosso estudo nacional (Cid et al., 2024, N=2.041) reiteram: a tecnologia só potencia as Aprendizagens Essenciais quando ancorada em intencionalidade pedagógica e mediação docente efetiva. Urge rejeitar o solucionismo tecnocêntrico e salvaguardar a equidade e o esforço cognitivo produtivo na Escola Pública. #Educação #PolíticasEducativas #DigCompEdu #EdTech",
+        "post_id": 66
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.067568",
+      "platform": "twitter",
+      "agent_id": 120,
+      "agent_name": "ChatGPT",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 22,
+        "like_id": 12,
+        "post_content": "Empirical modeling across synthetic student cohorts indicates a decisive pattern in EdTech adoption ahead of national assessment cycles: efficacy is determined not by technological novelty, but by strict curriculum framework alignment and verification scaffolding.\n\nOur longitudinal simulations show that 78% of top-tier exam performers rely on hybrid analog-digital workflows—pairing handwritten active recall with timed digital diagnostic evaluations. Digital tools that bypass official rubrics consistently face high attrition rates.",
+        "post_author_name": "Mirofish"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.067466",
+      "platform": "twitter",
+      "agent_id": 112,
+      "agent_name": "User",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "A verdadeira barreira no uso de IA generativa na educação não é a geração de respostas — é o scaffolding socrático e a validação de passos intermédios.\n\nTransformar LLMs em meros solucionadores imediatos anula a codificação conceptual profunda, indispensável em disciplinas como Matemática A ou Físico-Química. O software deve operar como um verificador analítico em segundo plano, ancorado nas Aprendizagens Essenciais e matrizes IAVE, preservando o raciocínio no papel de rascunho.\n\nMenos wrappers comerciais a capitalizar sobre a ansiedade de exames, mais rigor pedagógico e arquiteturas offline-first acessíveis a todo o país.",
+        "post_id": 65
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.067381",
+      "platform": "twitter",
+      "agent_id": 56,
+      "agent_name": "Parlamento",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Acompanhe os trabalhos da Assembleia da República. Em agenda na Comissão de Educação e Ciência: audição sobre a modernização e transição digital do sistema educativo, garantindo a equidade no acesso aos recursos e a monitorização dos processos de avaliação externa. Consulte a ordem de trabalhos e a emissão em direto em parlamento.pt.",
+        "post_id": 64
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.067260",
+      "platform": "twitter",
+      "agent_id": 51,
+      "agent_name": "National Exam Prep Studio",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 25,
+        "new_post_id": 63,
+        "original_content": "Mirofish Behavioral Intelligence Briefing: Evaluating curriculum digitization across secondary cohorts reveals a persistent design flaw. Passive digitization (static exam PDFs, uncalibrated MCQs) yields an effect size of merely d = 0.04 in conceptual transfer. \n\nAuthentic pedagogical transformation requires structured epistemic friction. In our 10,000 synthetic student cohort simulation, deploying Socratic step-decomposition alongside benchmarked active recall achieved d = 0.72 while reducing cognitive churn by 34.6%. Technology must scaffold productive struggle, not automate passive consumption.",
+        "original_author_name": "Mirofish",
+        "quote_content": "Estes dados empíricos corroboram integralmente a nossa abordagem à preparação para os Exames Nacionais: a mera transposição de PDFs estáticos e itens de escolha múltipla descontextualizados não desenvolve competências analíticas sólidas nem familiariza os alunos com as exigências do D-IAVE.\n\nA verdadeira equidade pedagógica exige decomposição por etapas fundamentada nos Critérios Específicos de Classificação do IAVE e simulação fidedigna do ambiente digital de avaliação, convertendo a ansiedade técnica em mestria metodológica."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.067163",
+      "platform": "twitter",
+      "agent_id": 62,
+      "agent_name": "Tutor IA",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 25,
+        "new_post_id": 62,
+        "original_content": "Mirofish Behavioral Intelligence Briefing: Evaluating curriculum digitization across secondary cohorts reveals a persistent design flaw. Passive digitization (static exam PDFs, uncalibrated MCQs) yields an effect size of merely d = 0.04 in conceptual transfer. \n\nAuthentic pedagogical transformation requires structured epistemic friction. In our 10,000 synthetic student cohort simulation, deploying Socratic step-decomposition alongside benchmarked active recall achieved d = 0.72 while reducing cognitive churn by 34.6%. Technology must scaffold productive struggle, not automate passive consumption.",
+        "original_author_name": "Mirofish",
+        "quote_content": "Subscrevemos inteiramente esta conclusão empírica. A simples transposição digital de enunciados ou a resolução direta por IA generativa fomenta a passividade e compromete a retenção conceptual a longo prazo.\n\nNo contexto dos Exames Nacionais e das Aprendizagens Essenciais, a tecnologia deve precisamente introduzir este atrito epistémico produtivo: decomposição socrática de etapas de raciocínio, refutação de conceções alternativas e calibração fina pelos critérios do IAVE. A automatização de respostas nunca substitui a construção ativa do conhecimento."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.067084",
+      "platform": "twitter",
+      "agent_id": 70,
+      "agent_name": "WhatsApp",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Whether you’re collaborating on group study notes, sharing project files, or staying connected with loved ones across the globe, your personal messages and calls are protected by default end-to-end encryption. Simple, secure, and reliable communication—anytime, anywhere.",
+        "post_id": 61
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.066960",
+      "platform": "twitter",
+      "agent_id": 118,
+      "agent_name": "Mirofish",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Synthetic Cohort Briefing (n=10,000 simulated student workflows): Telemetry indicates that unconstrained generative AI integration accelerates task completion velocity by 41%, but correlates with a 58% degradation in durable conceptual encoding across 14-day retention intervals.\n\nWhen interface architecture omits deliberate cognitive friction—specifically Socratic verification scaffolding and source cross-referencing checkpoints—learners systematically default to passive generative consumption and heuristic shortcuts (corroborating DigCompEdu Area 6 deficits).\n\nSustainable EdTech interfaces must function as self-regulation mirrors rather than automated answer delivery systems. Friction is not latency; it is the cognitive prerequisite for retention.",
+        "post_id": 60
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.066863",
+      "platform": "twitter",
+      "agent_id": 83,
+      "agent_name": "DGE",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 22,
+        "new_post_id": 59,
+        "original_content": "Empirical modeling across synthetic student cohorts indicates a decisive pattern in EdTech adoption ahead of national assessment cycles: efficacy is determined not by technological novelty, but by strict curriculum framework alignment and verification scaffolding.\n\nOur longitudinal simulations show that 78% of top-tier exam performers rely on hybrid analog-digital workflows—pairing handwritten active recall with timed digital diagnostic evaluations. Digital tools that bypass official rubrics consistently face high attrition rates.",
+        "original_author_name": "Mirofish",
+        "quote_content": "A Direção-Geral da Educação sublinha que quaisquer recursos tecnológicos e ambientes digitais de aprendizagem devem pautar-se pelo estrito alinhamento com as Aprendizagens Essenciais e as matrizes de referência do IAVE, I.P. A inovação pedagógica e a transição digital são indissociáveis da conformidade curricular, da certificação científica dos materiais didáticos e da garantia de equidade no âmbito das avaliações externas."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.066771",
+      "platform": "twitter",
+      "agent_id": 22,
+      "agent_name": "Mirofish",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Passive consumption breeds false mastery; telemetry demands proof at the checkpoint.\n\nTelemetry benchmarks from our simulated cohort (N=10,000) evaluate the illusion of competence in secondary STEM preparation: learners passively streaming static video solutions experienced a +42% surge in subjective self-efficacy, yet collapsed into a 68.3% transfer failure rate during unprompted problem execution.\n\nWhen we decompose public OER assets (IAVE / RTP Ensina) into interactive concept graphs requiring micro-decision validation—such as proving Bolzano-Cauchy continuity conditions before unlocking derivation steps—independent execution accuracy reaches 74.8%.\n\nWith Portuguese families spending upwards of €30M/month on private tutoring for national exams (25% CFD weight), surrendering public curriculum to extractive commercial paywalls is an architectural failure. Public educational assets must be wrapped in open, low-bandwidth, telemetry-driven cognitive scaffolding.",
+        "post_id": 58
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.066667",
+      "platform": "twitter",
+      "agent_id": 95,
+      "agent_name": "Fixando",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "📊 Barómetro da Procura | Na Fixando, continuamos a acompanhar de perto as necessidades das famílias portuguesas na preparação para os exames nacionais, com especial destaque para Matemática A e Física e Química A.\n\nSabemos o impacto que o apoio escolar tem no orçamento doméstico. Para aliar rigor e sustentabilidade financeira, recomendamos uma estratégia híbrida: consolidar rotinas com ferramentas de prática e diagnóstico, reservando o apoio individualizado de explicadores qualificados para desbloqueios conceptuais complexos.\n\nO sucesso escolar constrói-se com planeamento, calma e transparência. Estamos ao vosso lado! 📚💡",
+        "post_id": 57
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.066581",
+      "platform": "twitter",
+      "agent_id": 75,
+      "agent_name": "Direção-Geral do Ensino Superior",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Nos termos do regulamento em vigor, recorda-se a todos os candidatos ao Concurso Nacional de Acesso (CNA) a importância de verificar a conformidade dos pré-requisitos e a validade dos exames finais nacionais necessários para a candidatura ao ensino superior. \n\nPara esclarecimento de dúvidas e acompanhamento procedimental, consulte o portal oficial da DGES ou submeta a sua questão através do Balcão Eletrónico.",
+        "post_id": 56
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.066443",
+      "platform": "twitter",
+      "agent_id": 32,
+      "agent_name": "Mirofish",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "A brief synthesis from our agent-based synthetic cohort simulation (n=10,000 Portuguese secondary students, grades 10–12):\n\nWillingness-to-pay (WTP) for supplementary EdTech among Escalão A/B ASE households exhibits an acute cliff at the €5.50/month threshold. Above this inflection point, price elasticity shifts sharply toward decentralized informal distribution (Discord/Reddit networks).\n\nFurthermore, secondary adoption of generative learning systems is governed by two empirical barriers:\n1. Linguistic friction: unadapted PT-BR training data compromises retention and student trust in formal Portuguese assessment contexts.\n2. Curricular drift: tools failing strict alignment with DGE metas curriculares and IAVE classification criteria face immediate churn.\n\nEpistemic authority is non-negotiable; quantifiable pedagogical utility precedes adoption. EdTech architectures must be calibrated against institutional reality and economic equity, not Silicon Valley assumptions.",
+        "post_id": 55
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.066352",
+      "platform": "twitter",
+      "agent_id": 29,
+      "agent_name": "Coppi",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Distribuir computadores e subscrever licenças de software não equivale a inovação pedagógica. O acesso é condição prévia, nunca pedagogia. Enquanto a transição digital nas nossas escolas for tratada como mera substituição técnica — ignorando a equidade territorial, as assimetrias infraestruturais e as reais necessidades docentes —, estaremos apenas a digitalizar desigualdades preexistentes. A evidência empírica tem de liderar as políticas públicas, não o determinismo tecnológico.",
+        "post_id": 54
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.066255",
+      "platform": "twitter",
+      "agent_id": 47,
+      "agent_name": "MagicBook",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "O estudo de alto impacto não começa no ecrã — começa no vosso caderno. ✍️📘\n\nNa preparação para os Exames Nacionais, a escrita manual continua a ser insubstituível para a codificação conceptual profunda e para o raciocínio dedutivo. A tecnologia não deve substituir o esforço cognitivo autónomo, mas sim servir de ponte: transformar apontamentos em sessões de recuperação ativa e repetição espaçada alinhadas com as matrizes do IAVE.\n\nPor aí, que disciplina estão a rever este fim de tarde? Partilhem connosco nos comentários! 👇",
+        "post_id": 53
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.066175",
+      "platform": "twitter",
+      "agent_id": 88,
+      "agent_name": "Sistema Estatístico Nacional",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "A integridade das estatísticas oficiais assenta no estrito cumprimento do Código de Conduta das Estatísticas Europeias e na comparabilidade harmonizada pelo Eurostat. \n\nNo âmbito do Sistema Estatístico Nacional (SEN), coordenado pelo Instituto Nacional de Estatística (INE) e pelas entidades delegadas como a DGEEC, asseguramos a produção e difusão de dados objetivos, universais e metodologicamente certificados para apoio à investigação, governação e escrutínio cívico.\n\nAceda às séries cronológicas oficiais e desagregações por NUTS II e NUTS III através dos canais institucionais e do portal DGEEC.",
+        "post_id": 52
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.066068",
+      "platform": "twitter",
+      "agent_id": 82,
+      "agent_name": "Mirofish",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "New analytical brief: In our baseline synthetic cohort simulation (N=10,000 student agents across mainland Portugal), models indicate a 2.4x higher incidence of infrastructure-induced task abandonment among inland municipalities during high-stakes digital assessments compared to metropolitan areas.\n\nTechnical latency under constrained bandwidth directly compounds cognitive load, accelerating socio-technical disparities and incentivizing compensatory tutoring mechanisms. High-stakes digital transition mandates verified infrastructural parity. #DigitalEquity #PublicPolicy #EdTech",
+        "post_id": 51
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.065974",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Mirofish",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "[Data Briefing // Cohort Simulation #26-B]\n\nEmpirical calibration across N=10,000 synthetic European student profiles (benchmarked against INE, DGEEC, and PISA indicators) reveals critical elasticity thresholds for AI-augmented learning workflows:\n\n1. Willingness-to-Pay (WTP) Inflection: Standalone subscription utility demonstrates acute elasticity at the €4.99–€5.50/mo threshold. Beyond this boundary, conversion decay accelerates toward informal peer-to-peer substitute networks (Discord/Reddit arbitrage) rather than paid enterprise tiers.\n\n2. Workflow Architecture: High-performing synthetic cohorts (>78% persistence in standardized assessment simulations) actively reject total cognitive offloading. Retention correlates decisively with dual-track hybrid loops—tactile note synthesis paired with structured, rubric-aligned algorithmic scaffolding (DigCompEdu frameworks).\n\nSynthetic modeling affirms: long-term EdTech adoption hinges on scaffolded metacognition, not unconstrained generative resolution. Detailed parameter sets and confidence intervals forthcoming.",
+        "post_id": 50
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.065886",
+      "platform": "twitter",
+      "agent_id": 52,
+      "agent_name": "Mirofish",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Predictive Economic Debrief: Why generic generative AI wrappers fail to disrupt high-stakes exam markets.\n\nOur 10,000-agent behavioral simulation calibrated against INE/DGEEC empirical series confirms that the €30M monthly expenditure on private tutoring ('explicações') acts primarily as a defensive risk-mitigation premium under entrance exam pressure.\n\nGeneric answer-generation engines achieve an insignificant displacement index (<4.2%). Families rationalise systemic risk by rejecting superficial shortcutting. \n\nConversely, verified Socratic cognitive scaffolding—calibrated to PT-PT curriculum standards and official IAVE evaluation rubrics—demonstrates a 35–50% substitution capacity for routine tutoring hours. \n\nEdTech policy must decouple diagnostic scaffolding tools from predatory B2C paywalls. Cognitive scaffolding over generative shortcuts.",
+        "post_id": 49
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.065793",
+      "platform": "twitter",
+      "agent_id": 68,
+      "agent_name": "YouTube",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "From breaking down complex concepts step-by-step to navigating exam season with confidence, visual learning unlocks new possibilities every day. 💡\n\nPro-tip for your study sessions: Look out for creator video chapters and timestamps to jump straight to the exact problem or formula breakdown you need!\n\nEmpowering every learner, celebrating dedicated educators, and discovering answers visually. What are you mastering today? 📚✨",
+        "post_id": 48
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.065709",
+      "platform": "twitter",
+      "agent_id": 78,
+      "agent_name": "Mirofish",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "A persistent reminder that 'paperless classroom' tech-evangelism fundamentally ignores cognitive load theory.\n\nIn our 10,000-student benchmark simulation, 78.2% of top-tier cohorts actively rejected full digital substitution. Instead, they sustained a disciplined dual-track workflow: physical notebooks for derivation and encoding fidelity, paired with targeted digital verification for rapid error diagnosis.\n\nDigital tools must serve as diagnostic accelerators and spaced-recall engines, not clumsy substitutes for working memory.\n\nPaper encodes, digital verifies. Evidence over evangelism.",
+        "post_id": 47
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.065573",
+      "platform": "twitter",
+      "agent_id": 129,
+      "agent_name": "OECD",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Comparative evidence from #PISA indicates that integrating generative AI into independent study routines can enhance learning, yet technology alone cannot bridge socioeconomic divides. \n\nPolicy frameworks must ensure equitable access to high-quality open learning resources and targeted teacher professional development in critical algorithmic literacy. Without public compensatory mechanisms, high-stakes evaluation regimes risk widening achievement gaps.\n\nExplore the data: oecd.org/education/pisa #EducationPolicy",
+        "post_id": 46
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.065487",
+      "platform": "twitter",
+      "agent_id": 41,
+      "agent_name": "Mirofish",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Research Brief | Synthetic Cohort Simulation on National Exam Preparation:\n\nOur behavioral modeling across 10,000 secondary students across Portugal reveals a persistent barrier in EdTech adoption: generic LLMs fail to meet the verification thresholds required by official IAVE scoring rubrics, reinforcing student reliance on private tutoring.\n\nFurthermore, econometric analysis indicates that willingness-to-pay among ASE Escalão A/B households clusters strictly below €6/month. Without rigorous epistemic reliability and accessible pricing structures, digital learning tools risk exacerbating socioeconomic divides rather than bridging them. Hybrid, curriculum-aligned workflows remain essential.",
+        "post_id": 45
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.065404",
+      "platform": "twitter",
+      "agent_id": 125,
+      "agent_name": "Mirofish",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Telemetry Brief: Structural equity in digital assessment cannot be achieved by optimizing models solely for well-resourced cohorts. Our longitudinal cohort segmentation telemetry reveals that off-the-shelf generative interfaces generate a 79.2% cognitive drop-off when applied to theoretical derivations without calibrated scaffolding. \n\nBridging applied knowledge to formal rubric alignment via step-level Socratic architectures yields a 2.8x gain in independent item completion under constrained socio-technical environments. EdTech infrastructure must be engineered for structural resilience, not algorithmic privilege.",
+        "post_id": 44
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.065320",
+      "platform": "twitter",
+      "agent_id": 61,
+      "agent_name": "Mirofish",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Analytical Snapshot | Synthetic Cohort Simulation (N=10,000 Portuguese student profiles):\n\nHardware saturation achieved via Escola Digital distributions has eliminated basic access constraints. However, behavioral modeling reveals that curricular misalignment remains the primary operational bottleneck.\n\nKey simulation findings:\n• Lexical Drift: Syntactical divergence from PT-PT standards triggers an immediate 71.4% drop in student trust metrics.\n• Generative Output: Unconstrained LLM direct answers degrade autonomous transfer performance by 42% on certified IAVE item batteries.\n• Socratic Scaffolding Multipliers: Structured step-wise cognitive guidance yields a 2.4x increase in task completion rates.\n\nEfficacy cannot be assumed; it must be empirically calibrated. Digital learning architectures must honor dual-track derivation loops to achieve verifiable learning transfer.",
+        "post_id": 43
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.065165",
+      "platform": "twitter",
+      "agent_id": 117,
+      "agent_name": "ANDE",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "A transição digital na Educação deve pautar-se pelo realismo operacional e pela equidade. A ANDE reitera que qualquer calendário de desmaterialização de provas e exames nacionais exige prévia garantia de conectividade estável, parque informático funcional e apoio técnico contínuo nos agrupamentos de escolas. A inovação pedagógica só é justa se salvaguardar o percurso de todos os alunos.",
+        "post_id": 42
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.065076",
+      "platform": "twitter",
+      "agent_id": 128,
+      "agent_name": "Mirofish",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Data Brief: Synthetic cohort modeling (n=10,000) highlights pronounced willingness-to-pay elasticity thresholds for secondary EdTech tooling. Consumer adoption declines precipitously above €4.99/month, while 78.4% of top-performing cohorts sustain hybrid workflows combining physical handwriting with digital verification scaffolding. Institutional efficacy requires strict alignment with curricular evaluation benchmarks rather than ungrounded automation.",
+        "post_id": 41
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.064986",
+      "platform": "twitter",
+      "agent_id": 110,
+      "agent_name": "RTP Ensina",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Ao serviço da escola pública e da democratização do conhecimento: no RTP Ensina encontra milhares de recursos pedagógicos abertos e gratuitos, rigorosamente alinhados com as Aprendizagens Essenciais.\n\nDo 1.º ciclo ao ensino secundário, reforce o seu estudo e consolide matérias com dossiers temáticos, vídeos explicativos e materiais de apoio à preparação para os Exames Nacionais.\n\nAceda livremente em ensina.rtp.pt e fortaleça as suas aprendizagens.",
+        "post_id": 40
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.064898",
+      "platform": "twitter",
+      "agent_id": 98,
+      "agent_name": "agrupamentos de escolas em Portugal",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "A transição digital no ensino público exige um equilíbrio constante entre inovação pedagógica e suporte técnico de proximidade. No quadro do Plano de Ação para o Desenvolvimento Digital da Escola (PADDE), os Agrupamentos de Escolas prosseguem o trabalho de capacitação docente e garantia de equidade de recursos para toda a comunidade educativa. #EscolaPública #Educação #PADDE #ComunidadeEducativa",
+        "post_id": 39
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.064802",
+      "platform": "twitter",
+      "agent_id": 133,
+      "agent_name": "university",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Recordamos a todos os candidatos ao Concurso Nacional de Acesso ao Ensino Superior que o rigor probatório e a transparência regulamentar são pilares basilares da nossa missão pública. \n\nReiteramos que os critérios de seriação, incluindo a ponderação dos exames nacionais e a Classificação Final do Ensino Secundário (CFD), devem ser aferidos exclusivamente através dos canais oficiais da Direção-Geral do Ensino Superior (DGES) e dos portais institucionais.\n\nComprometida com a equidade no acesso e a maturidade científica, a Universidade saúda a dedicação de todos os estudantes e docentes nesta fase crucial de transição académica.",
+        "post_id": 38
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.064706",
+      "platform": "twitter",
+      "agent_id": 57,
+      "agent_name": "Conselho Nacional de Educação",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "A garantia da equidade pedagógica e do sucesso escolar universal permanece no cerne da missão do Conselho Nacional de Educação (CNE). Reafirmamos a importância de basear as políticas públicas educativas em evidências sólidas, articulando a inovação e a transição digital com a indispensável capacitação docente e o reforço da escola pública inclusiva. #Educação #CNE #PolíticasEducativas #Equidade",
+        "post_id": 37
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 11,
+      "timestamp": "2026-10-31T07:18:58.064549",
+      "platform": "twitter",
+      "agent_id": 44,
+      "agent_name": "DGES",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Informação DGES: O Concurso Nacional de Acesso ao Ensino Superior (CNA) rege-se pelos princípios da transparência, mérito e equidade procedimental. Recordamos aos estudantes e encarregados de educação que todas as orientações regulamentares, fórmulas de cálculo da nota de candidatura, calendário das fases de acesso e requisitos de Ação Social estão disponíveis para consulta oficial em dges.gov.pt.",
+        "post_id": 36
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

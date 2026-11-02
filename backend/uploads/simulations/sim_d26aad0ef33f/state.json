@@ -1,0 +1,23 @@
+{
+  "simulation_id": "sim_d26aad0ef33f",
+  "project_id": "proj_610042c602e6",
+  "graph_id": "mirofish_3130fb90b6a441fb",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "completed",
+  "entities_count": 5,
+  "profiles_count": 5,
+  "entity_types": [
+    "Person",
+    "EdtechCompany"
+  ],
+  "profiles_generated": true,
+  "config_generated": true,
+  "config_reasoning": "Time Config: Configured for Brazilian school routines (UTC-3 Brasília time) over a 5-day cycle (120 hours). Brazilian educators typically teach double shifts (morning and afternoon), leaving minimal free time during regular school hours (09:00-17:00). Peak platform exploration, assessment grading, lesson adaptation, and WhatsApp community discussions concentrate heavily during evening hours (18:00-22:00) during extraclass planning time (HTPC/planejamento). Activity gradually picks up during morning prep (06:00-08:00) and drops significantly late at night (23:00-05:00). | Event Config: The configuration sets up the baseline dynamic between the edtech platform's value proposition and the realistic constraints faced by Brazilian teachers across diverse backgrounds. It introduces the key operational topics (BNCC alignment, infrastructure limitations, accessibility, pricing, and LGPD) while strictly adhering to the available entity types (EdtechCompany and Person) to reflect both institutional platform messaging and grassroots educator feedback. | Agent Config: 5 generated | Post Assignment: 5 posts assigned",
+  "current_round": 40,
+  "twitter_status": "completed",
+  "reddit_status": "completed",
+  "created_at": "2026-10-15T10:14:10.967254",
+  "updated_at": "2026-10-15T16:14:03.258543",
+  "error": null
+}

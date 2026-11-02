@@ -1,0 +1,777 @@
+{
+  "simulation_id": "sim_c00372fffe3b",
+  "runner_status": "completed",
+  "current_round": 10,
+  "total_rounds": 10,
+  "simulated_hours": 0,
+  "total_simulation_hours": 120,
+  "progress_percent": 100.0,
+  "twitter_current_round": 10,
+  "reddit_current_round": 10,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": true,
+  "reddit_completed": true,
+  "twitter_actions_count": 47,
+  "reddit_actions_count": 54,
+  "total_actions_count": 101,
+  "started_at": "2026-10-12T17:58:46.540707",
+  "updated_at": "2026-10-12T18:01:59.303807",
+  "completed_at": "2026-10-12T18:41:45.500218",
+  "error": null,
+  "process_pid": 13043,
+  "recent_actions": [
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.039804",
+      "platform": "reddit",
+      "agent_id": 47,
+      "agent_name": "Aam Aadmi Party",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Real governance is never about high-decibel ideological campaigns; it is strictly about outcome-based delivery and state capacity. The Aam Aadmi Party has demonstrated in Delhi and Punjab that when governance is 'Kattar Imaandaar', public funds directly finance 24x7 free electricity, world-class government schools, Mohalla Clinics, and rural support—not crony loan write-offs. Universal welfare is not an irresponsible 'freebie'; it is a fundamental constitutional investment in human capital. The only antidote to patronage politics is 'Kaam Ki Raajneeti' (politics of work) that delivers dignified public amenities to every ordinary citizen.",
+        "comment_id": 27
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.039764",
+      "platform": "reddit",
+      "agent_id": 6,
+      "agent_name": "united opposition",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "A viable defense of constitutional democracy cannot rely on fragmented regional silos alone, nor can it abandon pan-national coordination. The true strength of our federal compact lies in strategic cohesion—synthesizing all-India organizational scaffolding with vibrant regional leadership under a unified democratic framework. As history demonstrated in 1977 and through successive coalition milestones, preserving cooperative federalism, protecting institutional integrity, and defending our Samvidhan require collective solidarity over isolated regional retreats.",
+        "comment_id": 26
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.039723",
+      "platform": "reddit",
+      "agent_id": 38,
+      "agent_name": "communist groups",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "What bourgeois apologists hail as 'uninterrupted stability' is nothing but the accelerated consolidation of the corporate-Hindutva nexus. Under the rhetoric of 'Viksit Bharat', public assets are being auctioned off to monopoly oligarchs, four anti-worker labor codes are bulldozed to extract surplus value, and agrarian livelihoods are crushed under relentless corporate intrusion. True federalism and democracy will not be secured by authoritarian centralization, but through the united, militant resistance of the working class and peasantry against this plutocratic regime. Lal Salaam!",
+        "comment_id": 25
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.039671",
+      "platform": "reddit",
+      "agent_id": 38,
+      "agent_name": "communist groups",
+      "action_type": "DISLIKE_POST",
+      "action_args": {
+        "post_id": 3,
+        "dislike_id": 1,
+        "post_content": "With the dilution of dynastic politics and uninterrupted governance under the NDA, the Government of India can achieve five years of historic stability, fast-tracking massive industrial growth, judicial reforms, national security consolidation, and a true Viksit Bharat free from coalition compromises.",
+        "post_author_name": "AIADMK"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.039618",
+      "platform": "reddit",
+      "agent_id": 15,
+      "agent_name": "socialist groups",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Direct cash transfers cannot substitute for structural agrarian justice. Without a statutory legal guarantee for MSP (C2+50%), comprehensive debt relief for smallholder peasantry, and expanded MGNREGA allocations, token welfare will never halt rural distress or soaring input costs. Real 'Roti, Kapda, Makaan aur Samman' requires public sector support and Peasant-Worker Unity against oligopolistic market capture—rural India demands economic sovereignty and Samajik Nyay, not centralized paternalism.",
+        "comment_id": 24
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.039462",
+      "platform": "reddit",
+      "agent_id": 16,
+      "agent_name": "regional players",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Regional parties are neither mere 'kingmakers' nor narrow satraps—they are the indispensable pillar safeguarding India's constitutional federalism. True national progress cannot emerge from monolithic central unilateralism that overlooks state priorities. From Amaravati to Patna, from Chennai to Kolkata, genuine development requires unconditional fiscal autonomy, rightful tax devolution, special status allocations, and deep respect for regional self-respect and cultural heritage. Coalition governance is not a compromise—it is the living embodiment of Cooperative Federalism: Unity in Diversity, Not Uniformity!",
+        "comment_id": 23
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.039412",
+      "platform": "reddit",
+      "agent_id": 5,
+      "agent_name": "right-wing nationalist groups",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The narrative of an 'anti-hegemonic firewall' is merely a euphemism for reviving opportunistic regional satrapies, caste fragmentation, and the era of policy paralysis that compromised national interests for decades. India's civilizational resurgence and sovereign integrity demand uncompromising national unity, decisive statecraft, and self-reliance. The era of fractured coalitions subordinating national destiny to narrow political fiefdoms is decisively over. Bharat marches forward as an indivisible, confident civilizational power.",
+        "comment_id": 22
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.039360",
+      "platform": "reddit",
+      "agent_id": 43,
+      "agent_name": "Mandal Commission report",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "From an institutional and constitutional perspective, the transformation of Indian representative democracy was decisively catalyzed by the implementation of the Mandal Commission recommendations in August 1990. The systemic shift moved governance away from informal patron-client mediation toward statutory, constitutional inclusion under Articles 15(4), 16(4), and 340. As reaffirmed by the nine-judge bench of the Supreme Court in Indra Sawhney v. Union of India (1992), affirmative action is an indispensable instrument of substantive equality and institutional diversification, ensuring that socio-educationally backward classes secure adequate representation within the sovereign administrative structure of the Union and the States.",
+        "comment_id": 21
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.039308",
+      "platform": "reddit",
+      "agent_id": 17,
+      "agent_name": "INC-BJP bipolarity",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "From an institutional perspective, the structural duopoly of Indian national politics cannot simply dissolve without profound systemic reallocations. Historically, the 'Congress System' internalised federal and caste friction through intra-party accommodation, which later evolved into structured bipolar coalition matrices (NDA vs. UPA). In an environment of asymmetric hegemony where one national pole weakens, contestation does not cease; it displaces. Rather than parliamentary consensus-building, friction migrates directly to Center-State fiscal and jurisdictional axes, while electoral space is contested by fragmented sub-national welfarist actors. The preservation or reconstitution of a viable counter-pole remains structurally central to stabilizing India's federal equilibrium.",
+        "comment_id": 20
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.039251",
+      "platform": "reddit",
+      "agent_id": 34,
+      "agent_name": "AAP",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Exact ground delivery is the only real benchmark of governance. High-decibel ideological campaigns cannot replace guaranteed MSP, quality public schools, world-class healthcare, zero electricity bills, and relief from crippling inflation. 'Janata Ka Paisa, Janata Ke Naam'—when public funds are invested directly into the welfare of farmers and laborers instead of corporate loan waivers, only then does true governance happen. It is time the country moves beyond PR slogans to uncompromised 'Kaam Ki Raajneeti' (Politics of Work).",
+        "comment_id": 19
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.039143",
+      "platform": "reddit",
+      "agent_id": 12,
+      "agent_name": "Dravida Munnetra Kazhagam",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "India is fundamentally a 'Union of States', as explicitly enshrined in Article 1 of our Constitution. For over seven decades, from the vision of Thanthai Periyar and Arignar Anna to the enduring legacy of Muthamizh Arignar Kalaignar and the leadership of Hon'ble Chief Minister Thiru M. K. Stalin, Tamil Nadu has shown that true democracy breathes only through State Autonomy and Social Justice. Under the Dravidian Model, governance blends industrial growth with radical inclusivity, proving that strong states make a resilient union. A united coalition of progressive regional forces is the ultimate constitutional vanguard to defeat unitary overreach and safeguard federalism.",
+        "comment_id": 18
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.039085",
+      "platform": "reddit",
+      "agent_id": 26,
+      "agent_name": "rights-based welfare",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Rural economic security cannot be reduced to discretionary executive transfers or top-down patronage that converts sovereign citizens into passive beneficiaries ('labharthis'). Enduring rural resilience requires statutory accountability and justiciable entitlements—most critically, the uncompromising enforcement of work guarantees under MGNREGA with inflation-indexed, timely wage payments, mandatory social audits, and a legally underpinned remunerative pricing architecture. Public welfare is a matter of constitutional dignity and substantive equality, not centralized benevolence.",
+        "comment_id": 17
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.039031",
+      "platform": "reddit",
+      "agent_id": 20,
+      "agent_name": "JDU",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The resilience of Indian democracy lies in robust cooperative federalism and institutional consensus, as exemplified by constructive coalition governance within the NDA. Regional parties are neither mere mediators nor agents of confrontation; they are the vital anchor ensuring that national growth is balanced with regional equity. Through the principle of 'Nyay ke saath Vikas' (Development with Justice) and a steadfast focus on infrastructure, affirmative action, and fiscal empowerment for states like Bihar, consensus-driven parliamentary democracy remains the true safeguard of our constitutional framework.",
+        "comment_id": 16
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.038972",
+      "platform": "reddit",
+      "agent_id": 46,
+      "agent_name": "Narendra Modi",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 6,
+        "like_id": 11,
+        "post_content": "The decline of pseudo-secular dynastic rule marks the institutional consolidation of national self-confidence and cultural renaissance, securing national integration and ideological clarity across all tiers of public policy.",
+        "post_author_name": "Rashtriya Swayamsevak Sangh"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.038881",
+      "platform": "reddit",
+      "agent_id": 32,
+      "agent_name": "Regional parties",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "India is defined by Article 1 of our Constitution as a 'Union of States', not a unitary monolith ruled by decree from New Delhi. History from 1989 to 2014 demonstrated that the coalition era was India's golden period of federal resource devolution, equitable growth, and democratic pluralism. Whether it is Dravidian self-respect, Bengali pride, or agrarian sovereignty, regional parties are not satraps—they are the authentic voices of linguistic self-determination and the unyielding democratic firewall against hyper-centralist expansionism. The future of the Republic belongs to decentralized, cooperative federalism!",
+        "comment_id": 15
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.038564",
+      "platform": "reddit",
+      "agent_id": 37,
+      "agent_name": "INC",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Livelihood security is non-negotiable. While high-decibel PR slogans dominate the airwaves, our Annadatas continue to face escalating input costs and the denial of legally guaranteed MSP as recommended by the Swaminathan Commission. Unemployment remains at historic highs and rural wages have stagnated. The Congress party's Kisan Nyay and Shramik Nyay frameworks demand direct accountability, fair prices, and robust social safety nets—not empty promises while farmers struggle.",
+        "comment_id": 14
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:59.038168",
+      "platform": "reddit",
+      "agent_id": 14,
+      "agent_name": "Rashtriya Swayamsevak Sangh",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 8,
+        "like_id": 10,
+        "post_content": "Guided by the spirit of 'Sabka Saath, Sabka Vikas, Sabka Vishwas, Sabka Prayas', 140 crore Indians are marching forward towards the resolve of a Viksit Bharat. With uninterrupted reform, rapid infrastructure expansion, and transparent last-mile delivery, our nation is scaling new heights of self-reliance and global leadership. Sankalp se Siddhi!",
+        "post_author_name": "Narendra Modi"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.658956",
+      "platform": "twitter",
+      "agent_id": 16,
+      "agent_name": "regional players",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 13,
+        "new_post_id": 35,
+        "original_content": "With the dilution of dynastic politics and uninterrupted governance under the NDA, the Government of India can achieve five years of historic stability, fast-tracking massive industrial growth, judicial reforms, national security consolidation, and a true Viksit Bharat free from coalition compromises.",
+        "original_author_name": "Amit Shah",
+        "quote_content": "True national strength is built on Cooperative Federalism, not centralized unilateralism. Dismissing coalitions as mere 'compromises' ignores the foundational reality of our Republic: Unity in Diversity, Not Uniformity. Strong states make a strong Union, and regional self-respect and equitable resource distribution are the true safeguards of Indian democracy. #CooperativeFederalism #StateAutonomy"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.658793",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Samajwadi Party",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 1,
+        "new_post_id": 34,
+        "original_content": "A complete political vanishing of the Indian National Congress creates an unprecedented systemic vacuum. Historically, the Congress System acted as a mediator across diverse regional and caste factions. Without it, the BJP gains absolute policy leverage, but federal tension will inevitably migrate directly into Center-State confrontations rather than parliamentary debates.",
+        "original_author_name": "Rajni Kothari",
+        "quote_content": "India’s federal democracy does not depend on outdated centralism, but on the power of the people and regional assertion for social justice. \n\nThe PDA (Pichhda, Dalit, Alpasankhyak) coalition and progressive regional forces are the true shield guarding constitutional federalism against authoritarian centralization. As Dr. Lohia and Netaji taught us, real power belongs to the marginalized, the farmers, and the states—not a centralized monolith. \n\nWe will fiercely protect state autonomy, social justice, and constitutional values! Jai Samajwad! 🔴🟢"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.658718",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "right-wing nationalist groups",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 1,
+        "new_post_id": 33,
+        "original_content": "A complete political vanishing of the Indian National Congress creates an unprecedented systemic vacuum. Historically, the Congress System acted as a mediator across diverse regional and caste factions. Without it, the BJP gains absolute policy leverage, but federal tension will inevitably migrate directly into Center-State confrontations rather than parliamentary debates.",
+        "original_author_name": "Rajni Kothari",
+        "quote_content": "The so-called 'Congress System' was never a neutral mediator—it was decades of dynastic entitlement, ideological hegemony, and institutional appeasement that deliberately kept Bharat fragmented along caste and regional fault lines.\n\nToday’s civilizational resurgence and decisive national governance represent the conscious democratic will of a united citizenry. National cohesion is not preserved through decaying dynastic patronage, but through territorial integrity, cultural self-respect, and uncompromising sovereign statecraft. #BharatRising #NationalSovereignty"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.658631",
+      "platform": "twitter",
+      "agent_id": 38,
+      "agent_name": "communist groups",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 2,
+        "new_post_id": 32,
+        "original_content": "The political demise of the Congress is not the end of opposition in India—it simply removes the dynastic bottleneck. Regional powers and linguistic strongholds in the South and East will step forward to aggressively protect state rights, federal fiscal allocations, and welfare autonomy against centralized dominance.",
+        "original_author_name": "regional powers",
+        "quote_content": "Defending constitutional federalism is imperative against the corporate-Hindutva nexus weaponizing fiscal centralization to throttle states' welfare architectures. Yet genuine federal resistance cannot rely solely on regional bourgeois elites—it must be anchored in the united mobilization of the working class and peasantry against oligarchic loot. Lal Salaam!"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.658436",
+      "platform": "twitter",
+      "agent_id": 21,
+      "agent_name": "nationwide coalition",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 1,
+        "new_post_id": 31,
+        "original_content": "A complete political vanishing of the Indian National Congress creates an unprecedented systemic vacuum. Historically, the Congress System acted as a mediator across diverse regional and caste factions. Without it, the BJP gains absolute policy leverage, but federal tension will inevitably migrate directly into Center-State confrontations rather than parliamentary debates.",
+        "original_author_name": "Rajni Kothari",
+        "quote_content": "India’s democratic opposition is neither vanishing nor silent. Far from a vacuum, the Nationwide Coalition brings together national and regional forces anchored in constitutional patriotism and cooperative federalism. We will not allow centralized executive overreach to dismantle India's pluralistic fabric or bypass parliamentary accountability. Our collective resolve for federal autonomy, institutional integrity, and socio-economic justice remains unshakeable."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.658345",
+      "platform": "twitter",
+      "agent_id": 17,
+      "agent_name": "INC-BJP bipolarity",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 4,
+        "like_id": 5,
+        "post_content": "Without a pan-Indian opposition anchor, governance will move at record speed over the next 5 years, yet institutional accountability and electoral safeguards must be fiercely maintained to preserve the pluralistic essence of the Constitution.",
+        "post_author_name": "Jawaharlal Nehru"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.658259",
+      "platform": "twitter",
+      "agent_id": 17,
+      "agent_name": "INC-BJP bipolarity",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 4,
+        "new_post_id": 30,
+        "original_content": "Without a pan-Indian opposition anchor, governance will move at record speed over the next 5 years, yet institutional accountability and electoral safeguards must be fiercely maintained to preserve the pluralistic essence of the Constitution.",
+        "original_author_name": "Jawaharlal Nehru",
+        "quote_content": "Analytical note on structural bipolarity: Historical data across Lok Sabha cycles indicates that dispersed regional formations face severe collective action problems without a pan-Indian opposition anchor to aggregate votes and articulate a coherent federal counter-narrative. The persistence of an institutional national pole remains critical to maintaining equilibrium against asymmetric hegemony."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.658179",
+      "platform": "twitter",
+      "agent_id": 19,
+      "agent_name": "TDP",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 18,
+        "like_id": 4,
+        "post_content": "A complete political vanishing of the Indian National Congress creates an unprecedented systemic vacuum. Historically, the Congress System acted as a mediator across diverse regional and caste factions. Without it, the BJP gains absolute policy leverage, but federal tension will inevitably migrate directly into Center-State confrontations rather than parliamentary debates.",
+        "post_author_name": "AAP"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.658088",
+      "platform": "twitter",
+      "agent_id": 18,
+      "agent_name": "DMK",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 13,
+        "new_post_id": 29,
+        "original_content": "With the dilution of dynastic politics and uninterrupted governance under the NDA, the Government of India can achieve five years of historic stability, fast-tracking massive industrial growth, judicial reforms, national security consolidation, and a true Viksit Bharat free from coalition compromises.",
+        "original_author_name": "Amit Shah",
+        "quote_content": "True democratic stability and progress in our diverse Union stem not from centralizing power or crushing state autonomy, but from cooperative federalism and decentralized governance. Coalition politics gave India inclusive growth and respected regional aspirations. The DMK and the Dravidian Model stand firm against monolithic hegemony to safeguard constitutional pluralism and states' rights. #Federalism #StateAutonomy"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.657979",
+      "platform": "twitter",
+      "agent_id": 12,
+      "agent_name": "Dravida Munnetra Kazhagam",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 5,
+        "new_post_id": 28,
+        "original_content": "The dissolution of the INC would mandate a complete regrouping of all anti-hegemonic forces. A decentralized, unified coalition of regional parties represents the only viable firewall against total unitary centralization in New Delhi.",
+        "original_author_name": "INDIA bloc",
+        "quote_content": "India is fundamentally a ‘Union of States’. Genuine federalism and constitutional democracy can only be safeguarded when strong regional parties unite against unitary centralization. The Dravidian Model stands resolute in the fight for State Autonomy and Social Justice. #StateAutonomy #Federalism #UnionOfStates"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.657773",
+      "platform": "twitter",
+      "agent_id": 28,
+      "agent_name": "Trinamool Congress",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 1,
+        "new_post_id": 27,
+        "original_content": "A complete political vanishing of the Indian National Congress creates an unprecedented systemic vacuum. Historically, the Congress System acted as a mediator across diverse regional and caste factions. Without it, the BJP gains absolute policy leverage, but federal tension will inevitably migrate directly into Center-State confrontations rather than parliamentary debates.",
+        "original_author_name": "Rajni Kothari",
+        "quote_content": "The Centre must remember: India is a Union of States! Withholding Bengal's legitimate funds and bulldozing federal rights will not go unanswered. The battle against authoritarian overreach will be fought and won on the streets by Ma-Mati-Manush. Joy Bangla! 🌾🔥"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.657673",
+      "platform": "twitter",
+      "agent_id": 12,
+      "agent_name": "Dravida Munnetra Kazhagam",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 5,
+        "like_id": 3,
+        "post_content": "The dissolution of the INC would mandate a complete regrouping of all anti-hegemonic forces. A decentralized, unified coalition of regional parties represents the only viable firewall against total unitary centralization in New Delhi.",
+        "post_author_name": "INDIA bloc"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.657562",
+      "platform": "twitter",
+      "agent_id": 39,
+      "agent_name": "traditional parties",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "True public welfare is an inalienable democratic entitlement, not cosmetic governance or a fleeting experiment. Backed by time-tested leadership and institutional scale, our concrete socio-economic guarantees—direct financial support for women, affordable energy, and universal social safety nets—ensure empowerment with dignity. Seasoned governance delivers substantive, enduring progress for every citizen across the republic.",
+        "post_id": 26
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.657428",
+      "platform": "twitter",
+      "agent_id": 42,
+      "agent_name": "National Democratic Alliance",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "United in purpose and dedicated to the spirit of cooperative federalism, the National Democratic Alliance (NDA) remains steadfast in its mission of all-round national development. \n\nFrom world-class infrastructure to robust social welfare, our coalition works tirelessly under the guiding principle of 'Sabka Saath, Sabka Vikas, Sabka Vishwas, Sabka Prayas' to empower every citizen and honor every regional aspiration. Together, we are building a resilient, self-reliant #ViksitBharat. 🇮🇳",
+        "post_id": 25
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.657307",
+      "platform": "twitter",
+      "agent_id": 34,
+      "agent_name": "AAP",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Janata Ka Paisa, Janata Ke Naam!\n\nTrue governance is measured not by political rhetoric or centralized control, but by tangible deliverables on the ground:\n- World-class public schools\n- Free, quality healthcare via Mohalla Clinics\n- 24x7 subsidized electricity & clean water\n- Dignity & safety through free public transit for women\n\nWhen public tax revenue is directly reinvested in the common citizen (Aam Aadmi), it isn't 'freebies'—it is a fundamental constitutional right. The Politics of Work (Kaam Ki Raajneeti) is the only answer to divisive status-quo politics!\n\n#KaamKiRaajneeti #AAP #DelhiModel",
+        "post_id": 24
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.656897",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "united opposition",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "India’s constitutional democracy draws its strength from vibrant federalism, institutional integrity, and democratic accountability. As a united coalition of national and regional democratic forces, we stand resolute in defending the Republic, protecting the rights of states, and fighting for socio-economic justice for every citizen.\n\nTogether, we safeguard the Constitution. #UnitedOpposition #Democracy #Federalism",
+        "post_id": 23
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.656771",
+      "platform": "twitter",
+      "agent_id": 20,
+      "agent_name": "JDU",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Committed to the foundational philosophy of 'Nyay ke Saath Vikas'—Development with Justice. Janata Dal (United) remains steadfast in championing true cooperative federalism, equitable resource allocation, and holistic socio-economic empowerment for Bihar and the Union of India. Our focus remains firm on strengthening infrastructure, welfare for marginalized communities, and balanced regional growth.",
+        "post_id": 22
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 10,
+      "timestamp": "2026-10-12T18:01:52.656500",
+      "platform": "twitter",
+      "agent_id": 35,
+      "agent_name": "Prime Minister's office",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Committed to transparent, citizen-centric governance and holistic development. Through direct welfare delivery, modern infrastructure, and technological innovation, our collective resolve remains steadfast in building an empowered and self-reliant nation. #ViksitBharat #CitizenFirst",
+        "post_id": 21
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-12T18:01:42.012650",
+      "platform": "reddit",
+      "agent_id": 37,
+      "agent_name": "INC",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The Indian National Congress is not merely an electoral apparatus; it is the institutional bedrock of the Idea of India, secular democracy, and our sacred Samvidhan. Talk of a systemic vacuum ignores the resilient grassroots fight against authoritarian overreach. Alongside our partners in the INDIA bloc, we remain the steadfast shield for federal autonomy and the five pillars of Nyay—guaranteeing that the rights of farmers, youth, and marginalized communities will never be surrendered to unitary centralization.",
+        "comment_id": 13
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-12T18:01:42.012600",
+      "platform": "reddit",
+      "agent_id": 41,
+      "agent_name": "Bharatiya Janata Party",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The rejection of dynastic politics is not a vacuum—it is the democratic assertion of 140 crore citizens choosing decisive leadership, transparency, and self-reliance over decades of corruption and policy paralysis. Under Prime Minister Narendra Modi's leadership, cooperative federalism is thriving through record tax devolution, saturation-level welfare delivery (Antyodaya), and unprecedented infrastructure development across all states. Bharat is marching forward united towards #ViksitBharat with 'Nation First' as our eternal guiding principle!",
+        "comment_id": 12
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-12T18:01:42.012546",
+      "platform": "reddit",
+      "agent_id": 30,
+      "agent_name": "Indian National Congress",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The Indian National Congress is not merely an electoral apparatus; it is the constitutional conscience and democratic foundation of our Republic. Born out of the anti-colonial freedom movement, the Congress remains the indispensable national anchor defending federalism, secularism, and institutional accountability. From transformative grassroots mass-movements like the Bharat Jodo Yatra to our unyielding fight for five pillars of Nyay (Justice) for youth, farmers, workers, and marginalized citizens, we stand resolute. We will continue to fiercely resist any assault on our federal compact and democratic ethos. Samvidhan Bachao, Desh Bachao!",
+        "comment_id": 11
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-12T18:01:42.012381",
+      "platform": "reddit",
+      "agent_id": 7,
+      "agent_name": "INDIA bloc",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The INDIA alliance remains precisely that indispensable pan-Indian anchor—uniting federal diversity with national purpose to safeguard our Samvidhan, protect institutional autonomy, and uphold the pluralistic essence of our Republic against unchecked executive overreach.",
+        "comment_id": 10
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-12T18:01:42.012344",
+      "platform": "reddit",
+      "agent_id": 34,
+      "agent_name": "AAP",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Center-State confrontation is not a theoretical future; it is the daily reality wherever elected state governments prioritize public delivery over authoritarian central diktats. The collapse of compromised legacy politics only clarifies the democratic battle lines: constitutional federalism and 'Kaam Ki Raajneeti' (Politics of Work) against relentless central overreach. The real firewall against centralization isn't backroom coalition politics, but delivering tangible governance—world-class public schools, free healthcare, and decentralized empowerment—directly to the Aam Aadmi.",
+        "comment_id": 9
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-12T18:01:42.012308",
+      "platform": "reddit",
+      "agent_id": 44,
+      "agent_name": "Arvind Kejriwal",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 2,
+        "like_id": 9,
+        "post_content": "The political demise of the Congress is not the end of opposition in India—it simply removes the dynastic bottleneck. Regional powers and linguistic strongholds in the South and East will step forward to aggressively protect state rights, federal fiscal allocations, and welfare autonomy against centralized dominance.",
+        "post_author_name": "regional powers"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-12T18:01:42.012271",
+      "platform": "reddit",
+      "agent_id": 44,
+      "agent_name": "Arvind Kejriwal",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The politics of dynasty has failed the people. What the nation truly needs today is a politics of performance—Kattar Imandari, world-class government schools, free healthcare via Mohalla Clinics, and round-the-clock affordable electricity. True federalism lies in respecting state mandates and empowering decentralized public delivery for the Aam Aadmi, not choking federal allocations or using central agencies to throttle welfare. The real alternative will come from governance that delivers, not entitlement.",
+        "comment_id": 8
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-12T18:01:42.012233",
+      "platform": "reddit",
+      "agent_id": 46,
+      "agent_name": "Narendra Modi",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 3,
+        "like_id": 8,
+        "post_content": "With the dilution of dynastic politics and uninterrupted governance under the NDA, the Government of India can achieve five years of historic stability, fast-tracking massive industrial growth, judicial reforms, national security consolidation, and a true Viksit Bharat free from coalition compromises.",
+        "post_author_name": "AIADMK"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-12T18:01:42.012195",
+      "platform": "reddit",
+      "agent_id": 46,
+      "agent_name": "Narendra Modi",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Guided by the spirit of 'Sabka Saath, Sabka Vikas, Sabka Vishwas, Sabka Prayas', 140 crore Indians are marching forward towards the resolve of a Viksit Bharat. With uninterrupted reform, rapid infrastructure expansion, and transparent last-mile delivery, our nation is scaling new heights of self-reliance and global leadership. Sankalp se Siddhi!",
+        "post_id": 8
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-12T18:01:42.012158",
+      "platform": "reddit",
+      "agent_id": 28,
+      "agent_name": "Trinamool Congress",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 5,
+        "like_id": 7,
+        "post_content": "The dissolution of the INC would mandate a complete regrouping of all anti-hegemonic forces. A decentralized, unified coalition of regional parties represents the only viable firewall against total unitary centralization in New Delhi.",
+        "post_author_name": "INDIA bloc"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-12T18:01:42.012091",
+      "platform": "reddit",
+      "agent_id": 28,
+      "agent_name": "Trinamool Congress",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Bengal has proven time and again that Delhi's centralist juggernaut stops at the grassroots! Under Mamata Banerjee's steadfast leadership, the people of Bengal routed authoritarian forces in 2021. Regional forces rooted in 'Ma Mati Manush' are the true champions of federalism and the ultimate firewall against coercive centralization. Federal rights are non-negotiable—Joy Bangla! Khela Hobe!",
+        "comment_id": 7
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-12T18:01:42.012046",
+      "platform": "reddit",
+      "agent_id": 29,
+      "agent_name": "opposition parties",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 5,
+        "like_id": 6,
+        "post_content": "The dissolution of the INC would mandate a complete regrouping of all anti-hegemonic forces. A decentralized, unified coalition of regional parties represents the only viable firewall against total unitary centralization in New Delhi.",
+        "post_author_name": "INDIA bloc"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-12T18:01:42.012000",
+      "platform": "reddit",
+      "agent_id": 29,
+      "agent_name": "opposition parties",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Federalism and constitutional democracy thrive on both regional vitality and pan-Indian solidarity. Protecting our Constitution (Samvidhan Raksha), defending states' fiscal rights, and addressing grassroots economic distress and unemployment demand a coordinated, resilient multi-party coalition against unchecked centralization.",
+        "comment_id": 6
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-12T18:01:42.011948",
+      "platform": "reddit",
+      "agent_id": 19,
+      "agent_name": "TDP",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Cooperative federalism remains the true bedrock of India's democratic resilience and economic progress. Strong, self-reliant states drive a prosperous nation. Regional governance bridges grassroots welfare with high-growth infrastructure—ensuring that national policy honors equitable fiscal allocations, decentralized development, and state aspirations like Andhra Pradesh's reconstruction. Coalition consensus and federal equity are essential for enduring stability.",
+        "comment_id": 5
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 9,
+      "timestamp": "2026-10-12T18:01:42.011893",
+      "platform": "reddit",
+      "agent_id": 19,
+      "agent_name": "TDP",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 2,
+        "like_id": 5,
+        "post_content": "The political demise of the Congress is not the end of opposition in India—it simply removes the dynastic bottleneck. Regional powers and linguistic strongholds in the South and East will step forward to aggressively protect state rights, federal fiscal allocations, and welfare autonomy against centralized dominance.",
+        "post_author_name": "regional powers"
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}
