@@ -21,6 +21,8 @@
       </div>
 
       <div class="header-right">
+        <AutoAdvanceToggle />
+        <div class="step-divider"></div>
         <LanguageSwitcher />
         <div class="step-divider"></div>
         <div class="workflow-step">
@@ -73,6 +75,8 @@ import Step2EnvSetup from '../components/Step2EnvSetup.vue'
 import { getProject, getGraphData } from '../api/graph'
 import { getSimulation, stopSimulation, getEnvStatus, closeSimulationEnv } from '../api/simulation'
 import LanguageSwitcher from '../components/LanguageSwitcher.vue'
+import AutoAdvanceToggle from '../components/AutoAdvanceToggle.vue'
+import { setAutoAdvance } from '../store/autoAdvance'
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
@@ -142,6 +146,8 @@ const toggleMaximize = (target) => {
 }
 
 const handleGoBack = () => {
+  // 用户主动返回，暂停自动推进以避免循环跳转
+  setAutoAdvance(false)
   // 返回到 process 页面
   if (projectData.value?.project_id) {
     router.push({ name: 'Process', params: { projectId: projectData.value.project_id } })

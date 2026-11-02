@@ -21,6 +21,8 @@
       </div>
 
       <div class="header-right">
+        <AutoAdvanceToggle />
+        <div class="step-divider"></div>
         <LanguageSwitcher />
         <div class="step-divider"></div>
         <div class="workflow-step">
@@ -86,6 +88,7 @@ import Step2EnvSetup from '../components/Step2EnvSetup.vue'
 import { generateOntology, getProject, buildGraph, getTaskStatus, getGraphData } from '../api/graph'
 import { getPendingUpload, clearPendingUpload } from '../store/pendingUpload'
 import LanguageSwitcher from '../components/LanguageSwitcher.vue'
+import AutoAdvanceToggle from '../components/AutoAdvanceToggle.vue'
 
 const route = useRoute()
 const router = useRouter()

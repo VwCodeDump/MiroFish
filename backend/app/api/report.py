@@ -514,13 +514,59 @@ def list_reports():
         }), 500
 
 
+@report_bp.route('/<report_id>/pdf', methods=['GET'])
+def get_report_pdf(report_id: str):
+    """
+    下载报告（PDF格式）
+    
+    返回PDF文件
+    """
+    try:
+        report = ReportManager.get_report(report_id)
+        
+        if not report:
+            return jsonify({
+                "success": False,
+                "error": t('api.reportNotFound', id=report_id)
+            }), 404
+        
+        pdf_path = ReportManager.generate_report_pdf(report_id)
+        
+        # 生成友好的下载文件名
+        title = "Prediction_Report"
+        if report.outline and hasattr(report.outline, 'title') and report.outline.title:
+            title = "".join(c for c in report.outline.title if c.isalnum() or c in (' ', '_', '-')).strip()
+            title = title.replace(' ', '_')[:60]
+        filename = f"{title}_{report_id}.pdf"
+        
+        return send_file(
+            pdf_path,
+            as_attachment=True,
+            download_name=filename,
+            mimetype="application/pdf"
+        )
+        
+    except Exception as e:
+        logger.error(f"生成报告PDF失败: {str(e)}")
+        return jsonify({
+            "success": False,
+            "error": str(e),
+            "traceback": traceback.format_exc()
+        }), 500
+
+
 @report_bp.route('/<report_id>/download', methods=['GET'])
 def download_report(report_id: str):
     """
-    下载报告（Markdown格式）
+    下载报告（支持Markdown或PDF格式）
     
-    返回Markdown文件
+    Query参数：
+        format: 'pdf' 或 'md'（默认）
     """
+    format_type = request.args.get('format', 'md').lower()
+    if format_type == 'pdf':
+        return get_report_pdf(report_id)
+        
     try:
         report = ReportManager.get_report(report_id)
         
@@ -536,19 +582,21 @@ def download_report(report_id: str):
             # 如果MD文件不存在，生成一个临时文件
             import tempfile
             with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as f:
-                f.write(report.markdown_content)
+                f.write(report.markdown_content or "")
                 temp_path = f.name
             
             return send_file(
                 temp_path,
                 as_attachment=True,
-                download_name=f"{report_id}.md"
+                download_name=f"{report_id}.md",
+                mimetype="text/markdown"
             )
         
         return send_file(
             md_path,
             as_attachment=True,
-            download_name=f"{report_id}.md"
+            download_name=f"{report_id}.md",
+            mimetype="text/markdown"
         )
         
     except Exception as e:

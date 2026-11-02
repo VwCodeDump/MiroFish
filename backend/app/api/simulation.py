@@ -1598,7 +1598,7 @@ def start_simulation():
         force_restarted = False
         
         # 智能处理状态：如果准备工作已完成，允许重新启动
-        if state.status != SimulationStatus.READY:
+        if state.status != SimulationStatus.READY or force:
             # 检查准备工作是否已完成
             is_prepared, prepare_info = _check_simulation_prepared(simulation_id)
 
@@ -1639,14 +1639,32 @@ def start_simulation():
                             "error": str(error),
                         }), 409
                     except Exception as error:
-                        return jsonify({
-                            "success": False,
-                            "error": (
-                                "Cannot restart until the previous simulation "
-                                f"finalizes safely: {error}"
-                            ),
-                        }), 409
-                    if stopped.runner_status != RunnerStatus.STOPPED:
+                        logger.warning(
+                            f"强制模式停止旧模拟异常: {error}，尝试丢弃失效更新器并继续"
+                        )
+                        try:
+                            ZepGraphMemoryManager.discard_inactive_updater(simulation_id)
+                        except Exception:
+                            pass
+                        stopped_state = SimulationRunner.get_run_state(simulation_id)
+                        if stopped_state:
+                            stopped_state.runner_status = RunnerStatus.STOPPED
+                            stopped_state.twitter_running = False
+                            stopped_state.reddit_running = False
+                            SimulationRunner._save_run_state(stopped_state)
+                            SimulationRunner._sync_simulation_status(
+                                simulation_id, RunnerStatus.STOPPED
+                            )
+                            stopped = stopped_state
+                        else:
+                            return jsonify({
+                                "success": False,
+                                "error": (
+                                    "Cannot restart until the previous simulation "
+                                    f"finalizes safely: {error}"
+                                ),
+                            }), 409
+                    if stopped and stopped.runner_status != RunnerStatus.STOPPED:
                         return jsonify({
                             "success": False,
                             "error": "Previous simulation did not reach STOPPED",
@@ -1845,10 +1863,31 @@ def stop_simulation():
         
     except Exception as e:
         logger.error(f"停止模拟失败: {str(e)}")
-        simulation_id = (request.get_json(silent=True) or {}).get('simulation_id')
+        req_json = request.get_json(silent=True) or {}
+        simulation_id = req_json.get('simulation_id')
+        force = req_json.get('force', False)
         if simulation_id:
+            try:
+                ZepGraphMemoryManager.discard_inactive_updater(simulation_id)
+            except Exception:
+                pass
             manager = SimulationManager()
             state = manager.get_simulation(simulation_id)
+            run_state = SimulationRunner.get_run_state(simulation_id)
+            if force and state:
+                state.status = SimulationStatus.STOPPED
+                state.error = None
+                manager._save_simulation_state(state)
+                if run_state:
+                    run_state.runner_status = RunnerStatus.STOPPED
+                    run_state.twitter_running = False
+                    run_state.reddit_running = False
+                    run_state.error = None
+                    SimulationRunner._save_run_state(run_state)
+                return jsonify({
+                    "success": True,
+                    "data": run_state.to_dict() if run_state else {"simulation_id": simulation_id}
+                })
             if state:
                 state.status = SimulationStatus.FAILED
                 state.error = str(e)

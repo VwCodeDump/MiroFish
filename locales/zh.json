@@ -23,7 +23,9 @@
     "minutes": "分钟",
     "rounds": "轮",
     "items": "个",
-    "files": "个文件"
+    "files": "个文件",
+    "autoAdvancingIn": "{seconds}秒后自动进入下一阶段...",
+    "autoExportingPdf": "正在生成并导出 PDF..."
   },
   "meta": {
     "title": "MiroFish - 预测万物",
@@ -75,7 +77,12 @@
     "layoutGraph": "图谱",
     "layoutSplit": "双栏",
     "layoutWorkbench": "工作台",
-    "stepNames": ["图谱构建", "环境搭建", "开始模拟", "报告生成", "深度互动"]
+    "stepNames": ["图谱构建", "环境搭建", "开始模拟", "报告生成", "深度互动"],
+    "autoAdvance": "自动流转",
+    "autoAdvanceOn": "自动: 开",
+    "autoAdvanceOff": "自动: 关",
+    "autoAdvanceOnDesc": "自动流转已开启：当前阶段完成后将自动进入下一阶段",
+    "autoAdvanceOffDesc": "自动流转已关闭：点击开启全自动推进流程"
   },
   "step1": {
     "ontologyGeneration": "本体生成",
@@ -247,7 +254,9 @@
     "panelRelatedEdges": "相关关系",
     "panelRelatedNodes": "相关节点",
     "world1": "世界1",
-    "world2": "世界2"
+    "world2": "世界2",
+    "selectionReason": "选择理由",
+    "waitingToStart": "等待开始"
   },
   "step5": {
     "interactiveTools": "Interactive Tools",
@@ -607,9 +616,15 @@
     "sectionFileSaved": "章节已保存: {reportId}/{fileSuffix}",
     "fullReportAssembled": "完整报告已组装: {reportId}",
     "reportSaved": "报告已保存: {reportId}",
-    "reportFolderDeleted": "报告文件夹已删除: {reportId}",
     "redirectToQuickSearch": "search_graph 已重定向到 quick_search",
-    "redirectToInsightForge": "get_simulation_context 已重定向到 insight_forge"
+    "redirectToInsightForge": "get_simulation_context 已重定向到 insight_forge",
+    "saveAsPdf": "保存为 PDF",
+    "exportingPdf": "正在生成 PDF...",
+    "printPdf": "打印 / 原生 PDF",
+    "print": "打印",
+    "downloadMd": "下载 Markdown",
+    "pdfSavedSuccess": "报告已成功导出为 PDF",
+    "pdfSaveFailed": "保存 PDF 失败: {error}"
   },
   "console": {
     "zepToolsInitialized": "ZepToolsService 初始化完成",

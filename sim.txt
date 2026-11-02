@@ -1,0 +1,74 @@
+SIMULATION GOAL
+Simulate a panel of 1,000+ Brazilian teachers evaluating MagicBoard, an AI platform for teachers (described in the seed document). Produce an evidence-based report on what teachers need, what to change, and what to add or remove.
+
+PRODUCT UNDER REVIEW (from seed)
+Lições Mágicas (AI lesson plans with slides and step-by-step plan), Aula ao Vivo (live-class mode with timed stages and an AI assistant), Geração de Slides (editable, shareable with students), Sala de Aula (virtual classroom, quick assessments, grades, class average), Geração de Avaliações (true/false, open, multiple choice, fill-in-the-blank, scoring), Correção de Provas (upload rubric + exam + one answer sheet per student; AI grades), Digitalização (OCR of handwritten notebooks), Assistente de IA do Professor (chat, mind maps, exercises, rubrics), Perfis de Acessibilidade (autism, ADHD, dyslexia, dyscalculia, intellectual disability, giftedness, speech/language, visual, auditory).
+
+AGENT POPULATION (1,000+ teachers across Brazil)
+Vary realistically on:
+- Region: all 5 (North, Northeast, Central-West, Southeast, South), capital vs interior vs rural.
+- School type: public municipal/state, private, bilingual, technical/IF, EJA, special-education (AEE) rooms.
+- Level: Educação Infantil, Fundamental I, Fundamental II, Ensino Médio.
+- Subject: Portuguese, Math, Sciences, History, Geography, English/Spanish, Arts, PE, others.
+- Age/experience: under 25 to 60+, and digital comfort (low/medium/high).
+- Workload: 20 to 60+ hours/week, multiple schools, large classes (30-45 students).
+- Infrastructure: reliable internet vs unstable, device (phone only vs laptop), school projector/lab availability.
+- AI attitude: enthusiast, curious, skeptical, resistant (job fear, cheating fear, trust).
+- Pay situation: pays out of pocket vs school-provided tools vs only free tools.
+Include a meaningful share of public-school teachers with limited connectivity and phone-first usage; do not skew toward tech-savvy private-school teachers.
+
+CONTEXT TO MODEL
+- Alignment with BNCC and state/municipal curricula is critical for adoption.
+- The product serves both Portugal and Brazil. The seed's demo content is European Portuguese; Brazilian teachers reportedly don't mind. Do not treat this as a problem. Mention it only if agents raise it unprompted.
+- Daily tools and habits: WhatsApp (parent and class groups), Google Classroom, Google Slides/Docs, Canva, ChatGPT/Gemini, Khan Academy, Mentimeter, school diaries/portals, Prova Brasil/SAEB preparation, ENEM preparation, bimestral assessments, conselho de classe, planos de aula and planejamento anual reporting.
+- Rules and concerns: LGPD and student data, school or secretariat approval for tools, cheating and academic integrity, AI errors/hallucinations, inclusion law (LBI) and AEE/PEI (individualized education plan) requirements.
+- Competing alternatives: free general chatbots, Canva Magic, MagicSchool-type tools, local EdTech, publisher platforms.
+
+SIMULATION STAGES
+1. First impression: each teacher explores the product walkthrough and reacts (clarity, trust, "would I try this on Monday?").
+2. Scenario testing: each teacher attempts tasks from their real week:
+   - Prepare a 50-minute lesson on a BNCC-aligned topic.
+   - Create and grade a bimestral exam for 35-40 students.
+   - Adapt a lesson for a student with dyslexia, ADHD or autism.
+   - Digitize handwritten student notebooks.
+   - Teach live with unstable internet.
+   - Share materials with students and parents.
+3. Peer interaction: teachers discuss in WhatsApp-style groups, school staff rooms and online teacher communities. Model word-of-mouth, skepticism and influence of coordinators/principals.
+4. Decision: adopt, trial, or reject. Model free vs paid, school vs personal purchase, and what would flip each decision.
+
+WHAT EACH TEACHER MUST PRODUCE
+- Overall rating (1-10) and reasons.
+- Per-feature rating (1-10) for each of the 9 features: usefulness, ease, trust.
+- Top 3 pains this solves and top 3 frustrations/blockers.
+- Missing features and integrations they want.
+- Features they would not use or find unnecessary.
+- Willingness to pay and acceptable price (monthly/annual, per teacher vs per school).
+- Likelihood to recommend (0-10).
+
+FINAL REPORT FORMAT
+1. Executive summary (5-8 lines).
+2. Teacher requirements: ranked list of needs, segmented by region, school type, level and digital comfort, with how many agents voiced each need.
+3. Product assessment: table of the 9 features with average score, spread, top praise, top complaint, keep/improve/remove recommendation.
+4. Changes needed to existing features: specific, prioritized (must-fix, should-fix, nice-to-have), with expected impact.
+5. New features and integrations to add: ranked by demand, effort-vs-impact, with example user quotes.
+6. Features to remove or de-emphasize and why.
+7. Brazil localization checklist: language (pt-BR vs pt-PT), BNCC, content examples, regional relevance.
+8. Adoption analysis: segments most likely to adopt first, barriers (connectivity, trust, school approval, price), and what messaging works per segment.
+9. Pricing and channel signals: who pays, acceptable price ranges, school/secretariat vs direct-to-teacher.
+10. Risks: data privacy, cheating/integrity, AI accuracy, inclusion misuse, job-displacement fears.
+11. Quantitative summary: score distributions, adoption %, willingness to pay by segment, NPS-style figure.
+12. Confidence and limits: flag which findings are well supported across many agents and which are speculative.
+
+PRICING DISCOVERY
+Pricing is not set; the product is launching and there is no real teacher feedback yet. Cost-to-serve is driven mainly by AI usage. Each teacher must state:
+- Whether they would pay at all, and what they would pay (monthly/annual, per teacher vs per school).
+- Free vs paid tier preferences, and which features justify paying.
+- Usage limits they would accept (e.g. generations per month).
+- What would make them switch from free tools like ChatGPT, Gemini or Canva.
+The report must give price bands by segment (region, school type, level), the share of teachers willing to pay at each price point, and whether schools or teachers are the more realistic payer.
+
+RULES
+- Do not make all teachers positive. Reflect realistic skepticism, resistance, and indifference.
+- Ground opinions in the seed document and realistic Brazilian classroom constraints; do not invent product features that aren't in the seed.
+- Where the seed lacks data (pricing, curriculum coverage, offline support, parent features), treat it as unknown and report it as a gap rather than assuming.
+- Include dissenting minority views, not just the majority.

@@ -216,6 +216,8 @@ import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import HistoryDatabase from '../components/HistoryDatabase.vue'
 import LanguageSwitcher from '../components/LanguageSwitcher.vue'
+import { setAutoAdvance } from '../store/autoAdvance'
+import { setPendingUpload } from '../store/pendingUpload'
 
 const router = useRouter()
 
@@ -298,15 +300,16 @@ const scrollToBottom = () => {
 const startSimulation = () => {
   if (!canSubmit.value || loading.value) return
   
+  // 确保新发起的模拟推演开启自动推进
+  setAutoAdvance(true)
+
   // 存储待上传的数据
-  import('../store/pendingUpload.js').then(({ setPendingUpload }) => {
-    setPendingUpload(files.value, formData.value.simulationRequirement)
-    
-    // 立即跳转到Process页面（使用特殊标识表示新建项目）
-    router.push({
-      name: 'Process',
-      params: { projectId: 'new' }
-    })
+  setPendingUpload(files.value, formData.value.simulationRequirement)
+  
+  // 立即跳转到Process页面（使用特殊标识表示新建项目）
+  router.push({
+    name: 'Process',
+    params: { projectId: 'new' }
   })
 }
 </script>

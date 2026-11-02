@@ -164,7 +164,12 @@
             @click="handleEnterEnvSetup"
           >
             <span v-if="creatingSimulation" class="spinner-sm"></span>
-            {{ creatingSimulation ? $t('step1.creating') : $t('step1.enterEnvSetup') + ' ➝' }}
+            <span v-else-if="autoAdvanceCountdown !== null">
+              {{ $t('common.autoAdvancingIn', { seconds: autoAdvanceCountdown }) }}
+            </span>
+            <span v-else>
+              {{ creatingSimulation ? $t('step1.creating') : $t('step1.enterEnvSetup') + ' ➝' }}
+            </span>
           </button>
         </div>
       </div>
@@ -187,10 +192,11 @@
 </template>
 
 <script setup>
-import { computed, ref, watch, nextTick } from 'vue'
+import { computed, ref, watch, onUnmounted, nextTick } from 'vue'
 import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { createSimulation } from '../api/simulation'
+import { isAutoAdvance } from '../store/autoAdvance'
 
 const router = useRouter()
 const { t } = useI18n()
@@ -210,8 +216,54 @@ const selectedOntologyItem = ref(null)
 const logContent = ref(null)
 const creatingSimulation = ref(false)
 
+// 自动推进状态与倒计时
+const hasAutoAdvanced = ref(false)
+const autoAdvanceCountdown = ref(null)
+let autoAdvanceTimer = null
+
+const triggerAutoAdvance = () => {
+  if (hasAutoAdvanced.value || creatingSimulation.value) return
+  hasAutoAdvanced.value = true
+  autoAdvanceCountdown.value = 2
+
+  autoAdvanceTimer = setInterval(() => {
+    if (!isAutoAdvance.value) {
+      clearInterval(autoAdvanceTimer)
+      autoAdvanceTimer = null
+      autoAdvanceCountdown.value = null
+      hasAutoAdvanced.value = false
+      return
+    }
+
+    autoAdvanceCountdown.value--
+    if (autoAdvanceCountdown.value <= 0) {
+      clearInterval(autoAdvanceTimer)
+      autoAdvanceTimer = null
+      autoAdvanceCountdown.value = null
+      handleEnterEnvSetup()
+    }
+  }, 1000)
+}
+
+watch(
+  () => [props.currentPhase, props.projectData?.project_id, props.projectData?.graph_id, isAutoAdvance.value],
+  ([phase, projectId, graphId, auto]) => {
+    if (phase >= 2 && projectId && graphId && auto && !hasAutoAdvanced.value && !creatingSimulation.value) {
+      triggerAutoAdvance()
+    }
+  },
+  { immediate: true }
+)
+
 // 进入环境搭建 - 创建 simulation 并跳转
 const handleEnterEnvSetup = async () => {
+  if (autoAdvanceTimer) {
+    clearInterval(autoAdvanceTimer)
+    autoAdvanceTimer = null
+    autoAdvanceCountdown.value = null
+  }
+  hasAutoAdvanced.value = true
+
   if (!props.projectData?.project_id || !props.projectData?.graph_id) {
     console.error('缺少项目或图谱信息')
     return
@@ -269,6 +321,13 @@ watch(() => props.systemLogs.length, () => {
       logContent.value.scrollTop = logContent.value.scrollHeight
     }
   })
+})
+
+onUnmounted(() => {
+  if (autoAdvanceTimer) {
+    clearInterval(autoAdvanceTimer)
+    autoAdvanceTimer = null
+  }
 })
 </script>
 

@@ -21,6 +21,8 @@
       </div>
 
       <div class="header-right">
+        <AutoAdvanceToggle />
+        <div class="step-divider"></div>
         <LanguageSwitcher />
         <div class="step-divider"></div>
         <div class="workflow-step">
@@ -76,6 +78,8 @@ import Step3Simulation from '../components/Step3Simulation.vue'
 import { getProject, getGraphData } from '../api/graph'
 import { getSimulation, getSimulationConfig, stopSimulation, closeSimulationEnv, getEnvStatus } from '../api/simulation'
 import LanguageSwitcher from '../components/LanguageSwitcher.vue'
+import AutoAdvanceToggle from '../components/AutoAdvanceToggle.vue'
+import { setAutoAdvance } from '../store/autoAdvance'
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
@@ -150,6 +154,8 @@ const toggleMaximize = (target) => {
 }
 
 const handleGoBack = async () => {
+  // 用户主动返回，暂停自动推进以避免循环跳转
+  setAutoAdvance(false)
   // 在返回 Step 2 之前，先关闭正在运行的模拟
   addLog(t('log.preparingGoBack'))
   

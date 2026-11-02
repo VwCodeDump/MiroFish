@@ -521,7 +521,12 @@
               :disabled="phase < 4"
               @click="handleStartSimulation"
             >
-              {{ $t('step2.startDualWorldSim') }} ➝
+              <span v-if="autoAdvanceCountdown !== null">
+                {{ $t('common.autoAdvancingIn', { seconds: autoAdvanceCountdown }) }}
+              </span>
+              <span v-else>
+                {{ $t('step2.startDualWorldSim') }} ➝
+              </span>
             </button>
           </div>
         </div>
@@ -641,6 +646,7 @@ import {
   getSimulationConfig,
   getSimulationConfigRealtime
 } from '../api/simulation'
+import { isAutoAdvance } from '../store/autoAdvance'
 
 const { t } = useI18n()
 
@@ -665,6 +671,45 @@ const expectedTotal = ref(null)
 const simulationConfig = ref(null)
 const selectedProfile = ref(null)
 const showProfilesDetail = ref(true)
+
+// 自动推进状态与倒计时
+const hasAutoAdvanced = ref(false)
+const autoAdvanceCountdown = ref(null)
+let autoAdvanceTimer = null
+
+const triggerAutoAdvance = () => {
+  if (hasAutoAdvanced.value) return
+  hasAutoAdvanced.value = true
+  autoAdvanceCountdown.value = 2
+
+  autoAdvanceTimer = setInterval(() => {
+    if (!isAutoAdvance.value) {
+      clearInterval(autoAdvanceTimer)
+      autoAdvanceTimer = null
+      autoAdvanceCountdown.value = null
+      hasAutoAdvanced.value = false
+      return
+    }
+
+    autoAdvanceCountdown.value--
+    if (autoAdvanceCountdown.value <= 0) {
+      clearInterval(autoAdvanceTimer)
+      autoAdvanceTimer = null
+      autoAdvanceCountdown.value = null
+      handleStartSimulation()
+    }
+  }, 1000)
+}
+
+watch(
+  () => [phase.value, simulationConfig.value, isAutoAdvance.value],
+  ([p, config, auto]) => {
+    if (p >= 4 && config && auto && !hasAutoAdvanced.value) {
+      triggerAutoAdvance()
+    }
+  },
+  { immediate: true }
+)
 
 // 日志去重：记录上一次输出的关键信息
 let lastLoggedMessage = ''
@@ -750,6 +795,13 @@ const handlePrepareFailure = (message) => {
 
 // 处理开始模拟按钮点击
 const handleStartSimulation = () => {
+  if (autoAdvanceTimer) {
+    clearInterval(autoAdvanceTimer)
+    autoAdvanceTimer = null
+    autoAdvanceCountdown.value = null
+  }
+  hasAutoAdvanced.value = true
+
   // 构建传递给父组件的参数
   const params = {}
   
@@ -1095,6 +1147,10 @@ onMounted(() => {
 })
 
 onUnmounted(() => {
+  if (autoAdvanceTimer) {
+    clearInterval(autoAdvanceTimer)
+    autoAdvanceTimer = null
+  }
   stopPolling()
   stopProfilesPolling()
   stopConfigPolling()

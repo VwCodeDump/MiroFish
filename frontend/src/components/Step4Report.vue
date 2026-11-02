@@ -7,9 +7,52 @@
         <div v-if="reportOutline" class="report-content-wrapper">
           <!-- Report Header -->
           <div class="report-header-block">
-            <div class="report-meta">
-              <span class="report-tag">Prediction Report</span>
-              <span class="report-id">ID: {{ reportId || 'REF-2024-X92' }}</span>
+            <div class="report-meta-bar">
+              <div class="report-meta">
+                <span class="report-tag">Prediction Report</span>
+                <span class="report-id">ID: {{ reportId || 'REF-2024-X92' }}</span>
+              </div>
+              <div class="report-export-toolbar" v-if="reportOutline">
+                <button 
+                  class="export-btn primary-export-btn" 
+                  :disabled="isExportingPdf"
+                  @click="handleSavePdf"
+                  :title="$t('report.saveAsPdf')"
+                >
+                  <svg v-if="!isExportingPdf" class="btn-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  <span v-if="isExportingPdf" class="export-spinner"></span>
+                  <span>{{ isExportingPdf ? $t('report.exportingPdf') : $t('report.saveAsPdf') }}</span>
+                </button>
+                <button 
+                  class="export-btn secondary-export-btn" 
+                  @click="handlePrintPdf"
+                  :title="$t('report.printPdf')"
+                >
+                  <svg class="btn-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                    <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                    <rect x="6" y="14" width="12" height="8"></rect>
+                  </svg>
+                  <span>{{ $t('report.print') }}</span>
+                </button>
+                <button 
+                  class="export-btn secondary-export-btn" 
+                  @click="handleDownloadMarkdown"
+                  :title="$t('report.downloadMd')"
+                >
+                  <svg class="btn-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                  </svg>
+                  <span>MD</span>
+                </button>
+              </div>
             </div>
             <h1 class="main-title">{{ reportOutline.title }}</h1>
             <p class="sub-title">{{ reportOutline.summary }}</p>
@@ -127,14 +170,28 @@
             </div>
           </div>
 
-          <!-- Next Step Button - 在完成后显示 -->
-          <button v-if="isComplete" class="next-step-btn" @click="goToInteraction">
-            <span>{{ $t('step4.goToInteraction') }}</span>
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-              <polyline points="12 5 19 12 12 19"></polyline>
-            </svg>
-          </button>
+          <!-- Complete Actions: Save PDF + Next Step Button -->
+          <div v-if="isComplete" class="complete-action-group">
+            <button class="save-pdf-btn-complete" :disabled="isExportingPdf" @click="handleSavePdf">
+              <svg v-if="!isExportingPdf" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span v-if="isExportingPdf" class="export-spinner dark"></span>
+              <span>{{ isExportingPdf ? $t('report.exportingPdf') : $t('report.saveAsPdf') }}</span>
+            </button>
+            <button class="next-step-btn" @click="goToInteraction">
+              <span v-if="autoAdvanceCountdown !== null">
+                {{ $t('common.autoAdvancingIn', { seconds: autoAdvanceCountdown }) }}
+              </span>
+              <span v-else>{{ $t('step4.goToInteraction') }}</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
 
           <div class="workflow-divider"></div>
         </div>
@@ -393,7 +450,9 @@
 import { ref, computed, watch, onMounted, onUnmounted, nextTick, h, reactive } from 'vue'
 import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
-import { getAgentLog, getConsoleLog } from '../api/report'
+import { getReport, getAgentLog, getConsoleLog } from '../api/report'
+import { exportReportToPdf, printReport, downloadMarkdown } from '../utils/pdfExport'
+import { isAutoAdvance } from '../store/autoAdvance'
 
 const router = useRouter()
 const { t } = useI18n()
@@ -405,13 +464,6 @@ const props = defineProps({
 })
 
 const emit = defineEmits(['add-log', 'update-status'])
-
-// Navigation
-const goToInteraction = () => {
-  if (props.reportId) {
-    router.push({ name: 'Interaction', params: { reportId: props.reportId } })
-  }
-}
 
 // State
 const agentLogs = ref([])
@@ -425,11 +477,138 @@ const expandedContent = ref(new Set())
 const expandedLogs = ref(new Set())
 const collapsedSections = ref(new Set())
 const isComplete = ref(false)
+const isExportingPdf = ref(false)
 const startTime = ref(null)
 const leftPanel = ref(null)
 const rightPanel = ref(null)
 const logContent = ref(null)
 const showRawResult = reactive({})
+
+// 自动推进状态与倒计时
+const hasAutoAdvanced = ref(false)
+const autoAdvanceCountdown = ref(null)
+let autoAdvanceTimer = null
+
+// 加载完整报告元数据与章节内容（用于快速加载或刷新已完成报告）
+const loadReportInfo = async () => {
+  if (!props.reportId) return
+  try {
+    const res = await getReport(props.reportId)
+    if (res.success && res.data) {
+      const data = res.data
+      if (data.outline) {
+        reportOutline.value = data.outline
+        if (data.outline.sections && Array.isArray(data.outline.sections)) {
+          data.outline.sections.forEach((sec, idx) => {
+            if (sec.content) {
+              generatedSections.value[idx + 1] = sec.content
+            }
+          })
+        }
+      }
+      if (data.status === 'completed') {
+        isComplete.value = true
+        emit('update-status', 'completed')
+        // 如果页面加载时该报告已经是 completed 状态（例如从历史记录或直接打开），不自动跳走
+        hasAutoAdvanced.value = true
+      }
+    }
+  } catch (err) {
+    console.warn('Failed to load initial report info:', err)
+  }
+}
+
+// Navigation
+const goToInteraction = () => {
+  if (autoAdvanceTimer) {
+    clearInterval(autoAdvanceTimer)
+    autoAdvanceTimer = null
+    autoAdvanceCountdown.value = null
+  }
+  hasAutoAdvanced.value = true
+
+  if (props.reportId) {
+    router.push({ name: 'Interaction', params: { reportId: props.reportId } })
+  }
+}
+
+const triggerAutoAdvance = () => {
+  if (hasAutoAdvanced.value) return
+  hasAutoAdvanced.value = true
+  autoAdvanceCountdown.value = 2
+
+  autoAdvanceTimer = setInterval(async () => {
+    if (!isAutoAdvance.value) {
+      clearInterval(autoAdvanceTimer)
+      autoAdvanceTimer = null
+      autoAdvanceCountdown.value = null
+      hasAutoAdvanced.value = false
+      return
+    }
+
+    autoAdvanceCountdown.value--
+    if (autoAdvanceCountdown.value <= 0) {
+      clearInterval(autoAdvanceTimer)
+      autoAdvanceTimer = null
+      autoAdvanceCountdown.value = null
+
+      // 自动生成并导出 PDF 报告
+      if (reportOutline.value) {
+        try {
+          await handleSavePdf()
+        } catch (e) {
+          console.warn('Auto PDF export error:', e)
+        }
+      }
+
+      goToInteraction()
+    }
+  }, 1000)
+}
+
+watch(
+  () => [isComplete.value, isAutoAdvance.value],
+  ([comp, auto]) => {
+    if (comp && auto && !hasAutoAdvanced.value) {
+      triggerAutoAdvance()
+    }
+  }
+)
+
+const handleSavePdf = async () => {
+  if (isExportingPdf.value) return
+  isExportingPdf.value = true
+  try {
+    await exportReportToPdf({
+      reportId: props.reportId,
+      reportOutline: reportOutline.value,
+      generatedSections: generatedSections.value,
+      renderMarkdown
+    })
+  } catch (err) {
+    console.error('PDF export failed, opening print dialog:', err)
+    handlePrintPdf()
+  } finally {
+    isExportingPdf.value = false
+  }
+}
+
+const handlePrintPdf = () => {
+  printReport({
+    reportId: props.reportId,
+    reportOutline: reportOutline.value,
+    generatedSections: generatedSections.value,
+    renderMarkdown
+  })
+}
+
+const handleDownloadMarkdown = () => {
+  downloadMarkdown({
+    reportId: props.reportId,
+    reportOutline: reportOutline.value,
+    generatedSections: generatedSections.value
+  })
+}
 
 // Toggle functions
 const toggleRawResult = (timestamp, event) => {
@@ -1278,6 +1457,7 @@ const PanoramaDisplay = {
 const InterviewDisplay = {
   props: ['result', 'resultLength'],
   setup(props) {
+    const { t } = useI18n()
     // Format result size for display
     const formatSize = (length) => {
       if (!length) return ''
@@ -1471,7 +1651,7 @@ const InterviewDisplay = {
         
         // Selection Reason - 选择理由
         props.result.interviews[activeIndex.value]?.selectionReason && h('div', { class: 'selection-reason' }, [
-          h('div', { class: 'reason-label' }, '选择理由'),
+          h('div', { class: 'reason-label' }, t('step4.selectionReason') || 'Selection Reason'),
           h('div', { class: 'reason-content' }, props.result.interviews[activeIndex.value].selectionReason)
         ]),
         
@@ -1781,7 +1961,7 @@ const activeStep = computed(() => {
   if (doneSteps.length > 0) return doneSteps[doneSteps.length - 1]
   
   // 否则返回第一个步骤
-  return steps[0] || { noLabel: '--', title: '等待开始', status: 'todo', meta: '' }
+  return steps[0] || { noLabel: '--', title: t('step4.waitingToStart') || 'Waiting to start', status: 'todo', meta: '' }
 })
 
 const workflowSteps = computed(() => {
@@ -1871,7 +2051,7 @@ const truncateText = (text, maxLen) => {
   return text.substring(0, maxLen) + '...'
 }
 
-const renderMarkdown = (content) => {
+function renderMarkdown(content) {
   if (!content) return ''
   
   // 去掉开头的二级标题（## xxx），因为章节标题已在外层显示
@@ -2179,11 +2359,16 @@ const stopPolling = () => {
 onMounted(() => {
   if (props.reportId) {
     addLog(`Report Agent initialized: ${props.reportId}`)
+    loadReportInfo()
     startPolling()
   }
 })
 
 onUnmounted(() => {
+  if (autoAdvanceTimer) {
+    clearInterval(autoAdvanceTimer)
+    autoAdvanceTimer = null
+  }
   stopPolling()
 })
 
@@ -2202,6 +2387,7 @@ watch(() => props.reportId, (newId) => {
     isComplete.value = false
     startTime.value = null
     
+    loadReportInfo()
     startPolling()
   }
 }, { immediate: true })
@@ -2365,11 +2551,119 @@ watch(() => props.reportId, (newId) => {
   margin-bottom: 30px;
 }
 
+.report-meta-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
 .report-meta {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 24px;
+}
+
+.report-export-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.export-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1;
+}
+
+.export-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.primary-export-btn {
+  background: #111827;
+  color: #FFFFFF;
+  border: 1px solid #111827;
+}
+
+.primary-export-btn:hover:not(:disabled) {
+  background: #2563EB;
+  border-color: #2563EB;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.secondary-export-btn {
+  background: #F3F4F6;
+  color: #374151;
+  border: 1px solid #E5E7EB;
+}
+
+.secondary-export-btn:hover:not(:disabled) {
+  background: #E5E7EB;
+  color: #111827;
+  transform: translateY(-1px);
+}
+
+.export-spinner {
+  width: 12px;
+  height: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #FFFFFF;
+  border-radius: 50%;
+  animation: export-spin 0.8s linear infinite;
+  display: inline-block;
+}
+
+.export-spinner.dark {
+  border: 2px solid rgba(17, 24, 39, 0.2);
+  border-top-color: #111827;
+}
+
+@keyframes export-spin {
+  to { transform: rotate(360deg); }
+}
+
+.complete-action-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+
+.save-pdf-btn-complete {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #FFFFFF;
+  color: #111827;
+  border: 1px solid #D1D5DB;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.save-pdf-btn-complete:hover:not(:disabled) {
+  background: #F9FAFB;
+  border-color: #9CA3AF;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 .report-tag {

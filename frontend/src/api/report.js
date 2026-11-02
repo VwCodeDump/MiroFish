@@ -49,3 +49,20 @@ export const getReport = (reportId) => {
 export const chatWithReport = (data) => {
   return service.post('/api/report/chat', data)
 }
+
+/**
+ * 下载报告 PDF（从后端接口）
+ * @param {string} reportId
+ */
+export const downloadReportPdf = (reportId) => {
+  window.open(`/api/report/${reportId}/pdf`, '_blank')
+}
+
+/**
+ * 下载报告 Markdown（从后端接口）
+ * @param {string} reportId
+ */
+export const downloadReportMarkdown = (reportId) => {
+  window.open(`/api/report/${reportId}/download`, '_blank')
+}
+

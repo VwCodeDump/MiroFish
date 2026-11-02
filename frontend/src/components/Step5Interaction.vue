@@ -7,9 +7,52 @@
         <div v-if="reportOutline" class="report-content-wrapper">
           <!-- Report Header -->
           <div class="report-header-block">
-            <div class="report-meta">
-              <span class="report-tag">Prediction Report</span>
-              <span class="report-id">ID: {{ reportId || 'REF-2024-X92' }}</span>
+            <div class="report-meta-bar">
+              <div class="report-meta">
+                <span class="report-tag">Prediction Report</span>
+                <span class="report-id">ID: {{ reportId || 'REF-2024-X92' }}</span>
+              </div>
+              <div class="report-export-toolbar" v-if="reportOutline">
+                <button 
+                  class="export-btn primary-export-btn" 
+                  :disabled="isExportingPdf"
+                  @click="handleSavePdf"
+                  :title="$t('report.saveAsPdf')"
+                >
+                  <svg v-if="!isExportingPdf" class="btn-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  <span v-if="isExportingPdf" class="export-spinner"></span>
+                  <span>{{ isExportingPdf ? $t('report.exportingPdf') : $t('report.saveAsPdf') }}</span>
+                </button>
+                <button 
+                  class="export-btn secondary-export-btn" 
+                  @click="handlePrintPdf"
+                  :title="$t('report.printPdf')"
+                >
+                  <svg class="btn-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                    <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                    <rect x="6" y="14" width="12" height="8"></rect>
+                  </svg>
+                  <span>{{ $t('report.print') }}</span>
+                </button>
+                <button 
+                  class="export-btn secondary-export-btn" 
+                  @click="handleDownloadMarkdown"
+                  :title="$t('report.downloadMd')"
+                >
+                  <svg class="btn-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                  </svg>
+                  <span>MD</span>
+                </button>
+              </div>
             </div>
             <h1 class="main-title">{{ reportOutline.title }}</h1>
             <p class="sub-title">{{ reportOutline.summary }}</p>
@@ -415,6 +458,7 @@ import { ref, computed, watch, onMounted, onUnmounted, nextTick } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { chatWithReport, getReport, getAgentLog } from '../api/report'
 import { interviewAgents, getSimulationProfilesRealtime } from '../api/simulation'
+import { exportReportToPdf, printReport, downloadMarkdown } from '../utils/pdfExport'
 
 const { t } = useI18n()
 
@@ -424,6 +468,44 @@ const props = defineProps({
 })
 
 const emit = defineEmits(['add-log', 'update-status'])
+
+// PDF Export State & Handlers
+const isExportingPdf = ref(false)
+
+const handleSavePdf = async () => {
+  if (isExportingPdf.value) return
+  isExportingPdf.value = true
+  try {
+    await exportReportToPdf({
+      reportId: props.reportId,
+      reportOutline: reportOutline.value,
+      generatedSections: generatedSections.value,
+      renderMarkdown
+    })
+  } catch (err) {
+    console.error('PDF export failed, opening print dialog:', err)
+    handlePrintPdf()
+  } finally {
+    isExportingPdf.value = false
+  }
+}
+
+const handlePrintPdf = () => {
+  printReport({
+    reportId: props.reportId,
+    reportOutline: reportOutline.value,
+    generatedSections: generatedSections.value,
+    renderMarkdown
+  })
+}
+
+const handleDownloadMarkdown = () => {
+  downloadMarkdown({
+    reportId: props.reportId,
+    reportOutline: reportOutline.value,
+    generatedSections: generatedSections.value
+  })
+}
 
 // State
 const activeTab = ref('chat')
@@ -1028,11 +1110,88 @@ watch(() => props.simulationId, (newId) => {
   margin-bottom: 30px;
 }
 
+.report-meta-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
 .report-meta {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 24px;
+}
+
+.report-export-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.export-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1;
+}
+
+.export-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.primary-export-btn {
+  background: #111827;
+  color: #FFFFFF;
+  border: 1px solid #111827;
+}
+
+.primary-export-btn:hover:not(:disabled) {
+  background: #2563EB;
+  border-color: #2563EB;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.secondary-export-btn {
+  background: #F3F4F6;
+  color: #374151;
+  border: 1px solid #E5E7EB;
+}
+
+.secondary-export-btn:hover:not(:disabled) {
+  background: #E5E7EB;
+  color: #111827;
+  transform: translateY(-1px);
+}
+
+.export-spinner {
+  width: 12px;
+  height: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #FFFFFF;
+  border-radius: 50%;
+  animation: export-spin 0.8s linear infinite;
+  display: inline-block;
+}
+
+.export-spinner.dark {
+  border: 2px solid rgba(17, 24, 39, 0.2);
+  border-top-color: #111827;
+}
+
+@keyframes export-spin {
+  to { transform: rotate(360deg); }
 }
 
 .report-tag {

@@ -178,6 +178,17 @@
                 <span class="btn-icon">◆</span>
                 <span class="btn-text">{{ $t('history.step4Button') }}</span>
               </button>
+              <button 
+                v-if="selectedProject.report_id"
+                class="modal-btn btn-pdf" 
+                :disabled="isDownloadingPdf"
+                @click="downloadProjectPdf"
+                :title="$t('report.saveAsPdf')"
+              >
+                <span class="btn-step">PDF</span>
+                <span class="btn-icon">⬇</span>
+                <span class="btn-text">{{ isDownloadingPdf ? $t('report.exportingPdf') : $t('report.saveAsPdf') }}</span>
+              </button>
             </div>
             <!-- 不可回放提示 -->
             <div class="modal-playback-hint">
@@ -195,6 +206,8 @@ import { ref, computed, onMounted, onUnmounted, onActivated, watch, nextTick } f
 import { useRouter, useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { getSimulationHistory } from '../api/simulation'
+import { getReport } from '../api/report'
+import { exportReportToPdf } from '../utils/pdfExport'
 
 const router = useRouter()
 const route = useRoute()
@@ -207,6 +220,7 @@ const isExpanded = ref(false)
 const hoveringCard = ref(null)
 const historyContainer = ref(null)
 const selectedProject = ref(null)  // 当前选中的项目（用于弹窗）
+const isDownloadingPdf = ref(false)
 let observer = null
 let isAnimating = false  // 动画锁，防止闪烁
 let expandDebounceTimer = null  // 防抖定时器
@@ -439,6 +453,50 @@ const goToReport = () => {
       params: { reportId: selectedProject.value.report_id }
     })
     closeModal()
+  }
+}
+
+// 直接下载项目分析报告 PDF
+const downloadProjectPdf = async () => {
+  const reportId = selectedProject.value?.report_id
+  if (!reportId || isDownloadingPdf.value) return
+  isDownloadingPdf.value = true
+  try {
+    const res = await getReport(reportId)
+    if (res.success && res.data) {
+      const reportData = res.data
+      let reportOutline = reportData.outline
+      const generatedSections = {}
+
+      if (reportOutline && reportOutline.sections) {
+        reportOutline.sections.forEach((sec, idx) => {
+          if (sec.content) {
+            generatedSections[idx + 1] = sec.content
+          }
+        })
+      } else if (reportData.markdown_content) {
+        reportOutline = {
+          title: selectedProject.value.simulation_requirement || 'Prediction Report',
+          summary: '',
+          sections: [{ title: 'Report Content', content: reportData.markdown_content }]
+        }
+      }
+
+      await exportReportToPdf({
+        reportId,
+        reportOutline,
+        generatedSections
+      })
+    } else {
+      window.open(`/api/report/${reportId}/pdf`, '_blank')
+    }
+  } catch (err) {
+    console.error('Failed to export PDF from history:', err)
+    if (reportId) {
+      goToReport()
+    }
+  } finally {
+    isDownloadingPdf.value = false
   }
 }
 
@@ -1323,6 +1381,7 @@ onUnmounted(() => {
 .modal-btn.btn-project .btn-icon { color: #3B82F6; }
 .modal-btn.btn-simulation .btn-icon { color: #F59E0B; }
 .modal-btn.btn-report .btn-icon { color: #10B981; }
+.modal-btn.btn-pdf .btn-icon { color: #EF4444; }
 
 .modal-btn:hover:not(:disabled) .btn-text {
   color: #111827;

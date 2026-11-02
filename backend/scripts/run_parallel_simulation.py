@@ -1028,6 +1028,7 @@ def create_model(config: Dict[str, Any], use_boost: bool = False):
     
     if llm_base_url:
         os.environ["OPENAI_API_BASE_URL"] = llm_base_url
+        os.environ["OPENAI_BASE_URL"] = llm_base_url
     
     print(f"{config_label} model={llm_model}, base_url={llm_base_url[:40] if llm_base_url else '默认'}...")
     

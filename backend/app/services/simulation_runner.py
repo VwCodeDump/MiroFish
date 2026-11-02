@@ -234,15 +234,15 @@ class SimulationRunner:
     
     # 图谱记忆更新配置
     _graph_memory_enabled: Dict[str, bool] = {}  # simulation_id -> enabled
-    _finalization_locks: Dict[str, threading.Lock] = {}
+    _finalization_locks: Dict[str, threading.RLock] = {}
     _finalization_locks_guard = threading.Lock()
     _manual_stop_requests: set[str] = set()
 
     @classmethod
-    def _finalization_lock(cls, simulation_id: str) -> threading.Lock:
+    def _finalization_lock(cls, simulation_id: str) -> threading.RLock:
         with cls._finalization_locks_guard:
             return cls._finalization_locks.setdefault(
-                simulation_id, threading.Lock()
+                simulation_id, threading.RLock()
             )
 
     @classmethod
@@ -286,16 +286,107 @@ class SimulationRunner:
             )
     
     @classmethod
+    def _is_pid_alive(cls, pid: Optional[int]) -> bool:
+        """Check if an OS process ID is still alive."""
+        if not pid or pid <= 0:
+            return False
+        try:
+            os.kill(pid, 0)
+            return True
+        except ProcessLookupError:
+            return False
+        except PermissionError:
+            return True
+        except OSError:
+            return False
+
+    @classmethod
+    def _reconcile_orphaned_state(
+        cls, state: Optional[SimulationRunState]
+    ) -> Optional[SimulationRunState]:
+        """
+        Reconcile simulations left in an active runner status (STARTING, RUNNING,
+        PAUSED, STOPPING) after an unexpected process termination, crash, or restart.
+        If neither an in-memory process, an OS PID, nor a Zep memory updater is alive,
+        automatically heal the status to a terminal status (STOPPED / COMPLETED).
+        """
+        if state is None:
+            return None
+
+        active_statuses = {
+            RunnerStatus.STARTING,
+            RunnerStatus.RUNNING,
+            RunnerStatus.PAUSED,
+            RunnerStatus.STOPPING,
+        }
+        if state.runner_status not in active_statuses:
+            return state
+
+        managed_proc = cls._processes.get(state.simulation_id)
+        if managed_proc is not None and managed_proc.poll() is None:
+            return state
+
+        monitor = cls._monitor_threads.get(state.simulation_id)
+        if monitor is not None and monitor.is_alive():
+            return state
+
+        try:
+            if ZepGraphMemoryManager.get_updater(state.simulation_id) is not None:
+                return state
+        except Exception:
+            pass
+
+        if cls._is_pid_alive(state.process_pid):
+            return state
+
+        logger.warning(
+            "检测到孤立模拟状态（进程已退出且无活跃写入器）: "
+            "simulation_id=%s, 原状态=%s, pid=%s. 自动重置为终态.",
+            state.simulation_id,
+            state.runner_status.value,
+            state.process_pid,
+        )
+        state.twitter_running = False
+        state.reddit_running = False
+        state.completed_at = state.completed_at or datetime.now().isoformat()
+
+        if (
+            state.total_rounds > 0
+            and state.current_round >= state.total_rounds
+        ) or (state.twitter_completed and state.reddit_completed):
+            target_status = RunnerStatus.COMPLETED
+        else:
+            target_status = RunnerStatus.STOPPED
+            if not state.error and state.runner_status == RunnerStatus.RUNNING:
+                state.error = "模拟进程已结束"
+
+        state.runner_status = target_status
+        cls._save_run_state(state)
+        cls._sync_simulation_status(
+            state.simulation_id,
+            target_status,
+            state.error,
+        )
+        return state
+
+    @classmethod
     def get_run_state(cls, simulation_id: str) -> Optional[SimulationRunState]:
         """获取运行状态"""
+        process = cls._processes.get(simulation_id)
+        if process is None or process.poll() is not None:
+            disk_state = cls._load_run_state(simulation_id)
+            if disk_state:
+                cls._run_states[simulation_id] = disk_state
+                return cls._reconcile_orphaned_state(disk_state)
+
         if simulation_id in cls._run_states:
-            return cls._run_states[simulation_id]
+            return cls._reconcile_orphaned_state(cls._run_states[simulation_id])
         
         # 尝试从文件加载
         state = cls._load_run_state(simulation_id)
         if state:
             cls._run_states[simulation_id] = state
-        return state
+        return cls._reconcile_orphaned_state(state)
     
     @classmethod
     def _load_run_state(cls, simulation_id: str) -> Optional[SimulationRunState]:
@@ -362,8 +453,11 @@ class SimulationRunner:
         
         data = state.to_detail_dict()
         
-        with open(state_file, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+        try:
+            with open(state_file, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+        except OSError as e:
+            logger.error(f"保存运行状态到文件失败: {state_file}, error={e}")
         
         cls._run_states[state.simulation_id] = state
     
@@ -1048,6 +1142,7 @@ class SimulationRunner:
                         ZepGraphMemoryManager.stop_updater(simulation_id)
                         cls._graph_memory_enabled.pop(simulation_id, None)
                     except Exception as error:
+                        ZepGraphMemoryManager.discard_inactive_updater(simulation_id)
                         state.runner_status = RunnerStatus.FAILED
                         state.twitter_running = False
                         state.reddit_running = False

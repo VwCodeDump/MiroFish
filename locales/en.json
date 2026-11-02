@@ -23,7 +23,9 @@
     "minutes": "minutes",
     "rounds": "rounds",
     "items": "items",
-    "files": "files"
+    "files": "files",
+    "autoAdvancingIn": "Auto-advancing in {seconds}s...",
+    "autoExportingPdf": "Generating PDF..."
   },
   "meta": {
     "title": "MiroFish - Predict Everything",
@@ -75,7 +77,12 @@
     "layoutGraph": "Graph",
     "layoutSplit": "Split",
     "layoutWorkbench": "Workbench",
-    "stepNames": ["Graph Build", "Env Setup", "Run Simulation", "Report Generation", "Deep Interaction"]
+    "stepNames": ["Graph Build", "Env Setup", "Run Simulation", "Report Generation", "Deep Interaction"],
+    "autoAdvance": "Auto Advance",
+    "autoAdvanceOn": "Auto: ON",
+    "autoAdvanceOff": "Auto: OFF",
+    "autoAdvanceOnDesc": "Auto-advance is ON: Stages automatically proceed when complete",
+    "autoAdvanceOffDesc": "Auto-advance is OFF: Click to enable automatic stage progression"
   },
   "step1": {
     "ontologyGeneration": "Ontology Generation",
@@ -247,7 +254,9 @@
     "panelRelatedEdges": "Related Edges",
     "panelRelatedNodes": "Related Nodes",
     "world1": "World 1",
-    "world2": "World 2"
+    "world2": "World 2",
+    "selectionReason": "Selection Reason",
+    "waitingToStart": "Waiting to start"
   },
   "step5": {
     "interactiveTools": "Interactive Tools",
@@ -607,9 +616,15 @@
     "sectionFileSaved": "Section saved: {reportId}/{fileSuffix}",
     "fullReportAssembled": "Full report assembled: {reportId}",
     "reportSaved": "Report saved: {reportId}",
-    "reportFolderDeleted": "Report folder deleted: {reportId}",
     "redirectToQuickSearch": "search_graph redirected to quick_search",
-    "redirectToInsightForge": "get_simulation_context redirected to insight_forge"
+    "redirectToInsightForge": "get_simulation_context redirected to insight_forge",
+    "saveAsPdf": "Save as PDF",
+    "exportingPdf": "Generating PDF...",
+    "printPdf": "Print / Native PDF",
+    "print": "Print",
+    "downloadMd": "Markdown",
+    "pdfSavedSuccess": "Report PDF saved successfully",
+    "pdfSaveFailed": "Failed to save PDF: {error}"
   },
   "console": {
     "zepToolsInitialized": "ZepToolsService initialized",

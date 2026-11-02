@@ -97,8 +97,13 @@
           @click="handleNextStep"
         >
           <span v-if="isGeneratingReport" class="loading-spinner-small"></span>
-          {{ isGeneratingReport ? $t('step3.generatingReportBtn') : $t('step3.startGenerateReportBtn') }}
-          <span v-if="!isGeneratingReport" class="arrow-icon">→</span>
+          <span v-else-if="autoAdvanceCountdown !== null">
+            {{ $t('common.autoAdvancingIn', { seconds: autoAdvanceCountdown }) }}
+          </span>
+          <span v-else>
+            {{ isGeneratingReport ? $t('step3.generatingReportBtn') : $t('step3.startGenerateReportBtn') }}
+          </span>
+          <span v-if="!isGeneratingReport && autoAdvanceCountdown === null" class="arrow-icon">→</span>
         </button>
       </div>
     </div>
@@ -296,6 +301,7 @@ import {
   getRunStatusDetail
 } from '../api/simulation'
 import { generateReport } from '../api/report'
+import { isAutoAdvance } from '../store/autoAdvance'
 
 const { t } = useI18n()
 
@@ -325,6 +331,46 @@ const runStatus = ref({})
 const allActions = ref([]) // 所有动作（增量累积）
 const actionIds = ref(new Set()) // 用于去重的动作ID集合
 const scrollContainer = ref(null)
+
+// 自动推进状态与倒计时
+const isSuccessCompleted = ref(false)
+const hasAutoAdvanced = ref(false)
+const autoAdvanceCountdown = ref(null)
+let autoAdvanceTimer = null
+
+const triggerAutoAdvance = () => {
+  if (hasAutoAdvanced.value || isGeneratingReport.value) return
+  hasAutoAdvanced.value = true
+  autoAdvanceCountdown.value = 2
+
+  autoAdvanceTimer = setInterval(() => {
+    if (!isAutoAdvance.value) {
+      clearInterval(autoAdvanceTimer)
+      autoAdvanceTimer = null
+      autoAdvanceCountdown.value = null
+      hasAutoAdvanced.value = false
+      return
+    }
+
+    autoAdvanceCountdown.value--
+    if (autoAdvanceCountdown.value <= 0) {
+      clearInterval(autoAdvanceTimer)
+      autoAdvanceTimer = null
+      autoAdvanceCountdown.value = null
+      handleNextStep()
+    }
+  }, 1000)
+}
+
+watch(
+  () => [phase.value, isSuccessCompleted.value, isAutoAdvance.value],
+  ([p, comp, auto]) => {
+    if (p === 2 && comp && auto && !hasAutoAdvanced.value && !isGeneratingReport.value) {
+      triggerAutoAdvance()
+    }
+  },
+  { immediate: true }
+)
 
 // Computed
 // 按时间顺序显示动作（最新的在最后面，即底部）
@@ -449,6 +495,7 @@ const handleStopSimulation = async () => {
     
     if (res.success) {
       addLog(t('log.simStoppedSuccess'))
+      isSuccessCompleted.value = true
       phase.value = 2
       stopPolling()
       emit('update-status', 'completed')
@@ -524,6 +571,7 @@ const fetchRunStatus = async () => {
         emit('update-status', 'error')
       } else if (isCompleted) {
         addLog(t('log.simCompleted'))
+        isSuccessCompleted.value = true
         phase.value = 2
         stopPolling()
         emit('update-status', 'completed')
@@ -643,6 +691,13 @@ const formatActionTime = (timestamp) => {
 }
 
 const handleNextStep = async () => {
+  if (autoAdvanceTimer) {
+    clearInterval(autoAdvanceTimer)
+    autoAdvanceTimer = null
+    autoAdvanceCountdown.value = null
+  }
+  hasAutoAdvanced.value = true
+
   if (!props.simulationId) {
     addLog(t('log.errorMissingSimId'))
     return
@@ -696,6 +751,10 @@ onMounted(() => {
 })
 
 onUnmounted(() => {
+  if (autoAdvanceTimer) {
+    clearInterval(autoAdvanceTimer)
+    autoAdvanceTimer = null
+  }
   stopPolling()
 })
 </script>
